@@ -167,5 +167,5 @@ These properties mean **fair, efficient, and trustworthy** markets.
 Experience the difference yourself.
 
 <Note>
-**Your first continuous prediction:** [Launch Skepsis →](https://beta.skepsis.live)
+**Your first continuous prediction:** [Launch Skepsis →](https://beta.skepsis.live/markets)
 </Note>

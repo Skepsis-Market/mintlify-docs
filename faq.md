@@ -210,5 +210,5 @@ Can't find your answer? Ask in our [Telegram](https://t.me/skepsis_market) — t
 ## Start Predicting
 
 <Note>
-**Ready to try it?** [Launch Skepsis →](https://beta.skepsis.live)
+**Ready to try it?** [Launch Skepsis →](https://beta.skepsis.live/markets)
 </Note>

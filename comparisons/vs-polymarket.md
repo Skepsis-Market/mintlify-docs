@@ -299,5 +299,5 @@ Absolutely! They serve different needs:
 Experience the difference between binary and continuous markets.
 
 <Note>
-**Make a continuous prediction:** [Launch Skepsis →](https://beta.skepsis.live)
+**Make a continuous prediction:** [Launch Skepsis →](https://beta.skepsis.live/markets)
 </Note>

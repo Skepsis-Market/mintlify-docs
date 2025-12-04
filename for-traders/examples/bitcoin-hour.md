@@ -146,7 +146,7 @@ The beauty of continuous markets: **there's no single "right" answer—just diff
 Bitcoin markets run continuously on Skepsis. Every hour is a new opportunity.
 
 <Note>
-**Place your BTC prediction:** [Launch Skepsis →](https://beta.skepsis.live)
+**Place your BTC prediction:** [Launch Skepsis →](https://beta.skepsis.live/markets)
 </Note>
 
 ---

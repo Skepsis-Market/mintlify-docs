@@ -280,5 +280,5 @@ Users bear their own regulatory risk
 Experience continuous prediction markets without KYC or geographic restrictions.
 
 <Note>
-**Make a prediction:** [Launch Skepsis →](https://beta.skepsis.live)
+**Make a prediction:** [Launch Skepsis →](https://beta.skepsis.live/markets)
 </Note>

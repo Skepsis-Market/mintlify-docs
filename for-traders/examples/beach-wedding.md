@@ -163,7 +163,7 @@ Weather markets let you:
 - Speculate on forecaster accuracy
 
 <Note>
-**Check weather markets:** [Launch Skepsis →](https://beta.skepsis.live)
+**Check weather markets:** [Launch Skepsis →](https://beta.skepsis.live/markets)
 </Note>
 
 ---

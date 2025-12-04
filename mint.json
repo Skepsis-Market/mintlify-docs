@@ -19,12 +19,12 @@
   "topbarLinks": [
     {
       "name": "Launch App",
-      "url": "https://beta.skepsis.live"
+      "url": "https://beta.skepsis.live/markets"
     }
   ],
   "topbarCtaButton": {
     "name": "Start Trading",
-    "url": "https://beta.skepsis.live"
+    "url": "https://beta.skepsis.live/markets"
   },
   "tabs": [
     {
