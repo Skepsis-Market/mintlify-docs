@@ -20,7 +20,7 @@ Before you start, you'll need:
 
 <Info>
 **New to Sui?** Get started at [sui.io](https://sui.io) — wallet setup takes about 2 minutes.
-</Note>
+</Info>
 
 ---
 
@@ -68,7 +68,7 @@ $98,000 - $99,000  →  8x odds (12% probability)
 
 <Note>
 **Pro tip:** Higher odds = lower probability but bigger payout. Find ranges where you disagree with the crowd!
-</Note>
+</Info>
 
 ---
 
