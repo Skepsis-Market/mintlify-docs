@@ -43,7 +43,7 @@ Each market card shows:
 
 <Info>
 **Start with short-duration markets** — You'll see results faster and learn the mechanics quickly.
-</Note>
+</Info>
 
 ---
 
@@ -160,7 +160,7 @@ You can sell your position before resolution:
 
 <Warning>
 **Selling early** gives you less than waiting for resolution if you win, but it lets you lock in partial profit or cut losses.
-</Note>
+</Warning>
 
 ### Claiming Winnings
 

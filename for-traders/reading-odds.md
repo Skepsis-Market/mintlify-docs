@@ -191,7 +191,7 @@ Range $96K-$97K:
 
 <Warning>
 **Low liquidity = wider spreads.** You pay more to enter and get less when exiting. Prefer high-liquidity markets when possible.
-</Note>
+</Warning>
 
 ---
 

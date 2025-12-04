@@ -172,7 +172,7 @@ Right tail: $102,000 - $105,000
 
 <Info>
 **Tail bets** are high-risk, high-reward. They're like buying lottery tickets—fun money only!
-</Note>
+</Info>
 
 ---
 
