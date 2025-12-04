@@ -281,7 +281,7 @@ For the mathematically curious:
 <table data-card-size="large" data-view="cards">
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
-<tr><td><strong>Continuous vs Binary</strong></td><td>Why distributions beat yes/no</td><td><a href="continuous-vs-binary.md">continuous-vs-binary.md</a></td></tr>
-<tr><td><strong>Economics</strong></td><td>Where does the money come from?</td><td><a href="economics.md">economics.md</a></td></tr>
+<tr><td><strong>Continuous vs Binary</strong></td><td>Why distributions beat yes/no</td><td><a href="/how-it-works/continuous-vs-binary">continuous-vs-binary.md</a></td></tr>
+<tr><td><strong>Economics</strong></td><td>Where does the money come from?</td><td><a href="/how-it-works/economics">economics.md</a></td></tr>
 </tbody>
 </table>

@@ -258,7 +258,7 @@ This creates **asymmetric payoffs** where your most likely outcome pays the most
 <table data-card-size="large" data-view="cards">
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
-<tr><td><strong>Reading Odds</strong></td><td>How odds are calculated from probabilities</td><td><a href="reading-odds.md">reading-odds.md</a></td></tr>
-<tr><td><strong>Strategies</strong></td><td>Advanced betting strategies</td><td><a href="strategies.md">strategies.md</a></td></tr>
+<tr><td><strong>Reading Odds</strong></td><td>How odds are calculated from probabilities</td><td><a href="/for-traders/reading-odds">reading-odds.md</a></td></tr>
+<tr><td><strong>Strategies</strong></td><td>Advanced betting strategies</td><td><a href="/for-traders/strategies">strategies.md</a></td></tr>
 </tbody>
 </table>

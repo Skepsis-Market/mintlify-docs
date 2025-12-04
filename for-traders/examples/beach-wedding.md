@@ -170,5 +170,5 @@ Weather markets let you:
 
 ## More Examples
 
-- [📈 The Bitcoin Hour](bitcoin-hour.md) — Price prediction market
-- [📅 GPT-5 Launch](gpt5-launch.md) — Date prediction market
+- [📈 The Bitcoin Hour](/for-traders/examples/bitcoin-hour) — Price prediction market
+- [📅 GPT-5 Launch](/for-traders/examples/gpt5-launch) — Date prediction market

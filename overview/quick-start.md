@@ -122,9 +122,9 @@ You've placed your first continuous outcome prediction. You're now part of a new
 <table data-card-size="large" data-view="cards">
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
-<tr><td><strong>📖 Understanding Ranges</strong></td><td>Learn how range selection affects your odds</td><td><a href="../for-traders/understanding-ranges.md">understanding-ranges.md</a></td></tr>
-<tr><td><strong>💡 Strategies</strong></td><td>Tips from experienced predictors</td><td><a href="../for-traders/strategies.md">strategies.md</a></td></tr>
-<tr><td><strong>📈 Example: Bitcoin Hour</strong></td><td>See a full market walkthrough</td><td><a href="../for-traders/examples/bitcoin-hour.md">bitcoin-hour.md</a></td></tr>
+<tr><td><strong>📖 Understanding Ranges</strong></td><td>Learn how range selection affects your odds</td><td><a href="/for-traders/understanding-ranges">understanding-ranges.md</a></td></tr>
+<tr><td><strong>💡 Strategies</strong></td><td>Tips from experienced predictors</td><td><a href="/for-traders/strategies">strategies.md</a></td></tr>
+<tr><td><strong>📈 Example: Bitcoin Hour</strong></td><td>See a full market walkthrough</td><td><a href="/for-traders/examples/bitcoin-hour">bitcoin-hour.md</a></td></tr>
 </tbody>
 </table>
 
@@ -134,4 +134,4 @@ You've placed your first continuous outcome prediction. You're now part of a new
 
 - **Discord:** [Join our community](https://t.me/skepsis_market)
 - **Twitter:** [@SkepsisMarket](https://x.com/skepsis_market)
-- **FAQ:** [Common questions answered](../faq.md)
+- **FAQ:** [Common questions answered](/faq)

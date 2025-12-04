@@ -18,7 +18,7 @@ Skepsis is a **continuous outcome prediction market** built on Sui blockchain. I
 
 Polymarket uses binary (yes/no) markets. Skepsis uses continuous markets where you select ranges. This lets you express more nuanced predictions and see full probability distributions.
 
-[Learn more: Skepsis vs Polymarket →](comparisons/vs-polymarket.md)
+[Learn more: Skepsis vs Polymarket →](/comparisons/vs-polymarket)
 
 ### What do I need to get started?
 
@@ -26,7 +26,7 @@ Polymarket uses binary (yes/no) markets. Skepsis uses continuous markets where y
 2. Some USDC on Sui network
 3. A small amount of SUI for gas fees
 
-[Full guide: Quick Start →](overview/quick-start.md)
+[Full guide: Quick Start →](/overview/quick-start)
 
 ---
 
@@ -40,7 +40,7 @@ Polymarket uses binary (yes/no) markets. Skepsis uses continuous markets where y
 4. Review your quote (see exact payout)
 5. Confirm the transaction
 
-[Detailed guide: How to Place a Bet →](for-traders/how-to-place-a-bet.md)
+[Detailed guide: How to Place a Bet →](/for-traders/how-to-place-a-bet)
 
 ### What happens to my money when I bet?
 
@@ -65,7 +65,7 @@ Odds are determined by the **LMSR algorithm** based on current betting activity:
 - More bets on a range → Higher probability → Lower odds
 - Fewer bets on a range → Lower probability → Higher odds
 
-[Learn more: LMSR Explained →](how-it-works/lmsr-for-humans.md)
+[Learn more: LMSR Explained →](/how-it-works/lmsr-for-humans)
 
 ### What does "3.5x odds" mean?
 
@@ -79,7 +79,7 @@ The multiplier tells you your payout relative to your bet.
 
 **Yes!** This is called "deterministic payouts." The moment you place your bet, your potential payout is locked in. Future bets by others don't change your payout.
 
-[Learn more: Deterministic Payouts →](for-traders/deterministic-payouts.md)
+[Learn more: Deterministic Payouts →](/for-traders/deterministic-payouts)
 
 ### What if the outcome is exactly on my range boundary?
 
@@ -99,7 +99,7 @@ Boundaries are **lower-inclusive, upper-exclusive**:
 - **Date markets:** Product launches, event dates
 - **Measurement markets:** Weather, economic indicators
 
-[Learn more: Market Types →](for-traders/market-types.md)
+[Learn more: Market Types →](/for-traders/market-types)
 
 ### Who creates markets?
 
@@ -112,7 +112,7 @@ Currently, markets are created by the Skepsis team and approved creators. Permis
 - Weather markets → NOAA official data
 - Event markets → Official announcements
 
-[Learn more: Trust & Resolution →](how-it-works/trust-and-resolution.md)
+[Learn more: Trust & Resolution →](/how-it-works/trust-and-resolution)
 
 ### What if the oracle is wrong?
 

@@ -189,5 +189,5 @@ Skepsis markets you might find interesting:
 
 ## More Examples
 
-- [📈 The Bitcoin Hour](bitcoin-hour.md) — Price prediction market
-- [🌡️ Beach Wedding](beach-wedding.md) — Weather prediction market
+- [📈 The Bitcoin Hour](/for-traders/examples/bitcoin-hour) — Price prediction market
+- [🌡️ Beach Wedding](/for-traders/examples/beach-wedding) — Weather prediction market

@@ -153,5 +153,5 @@ Bitcoin markets run continuously on Skepsis. Every hour is a new opportunity.
 
 ## More Examples
 
-- [🌡️ Beach Wedding](beach-wedding.md) — Weather prediction market
-- [📅 GPT-5 Launch](gpt5-launch.md) — Date prediction market
+- [🌡️ Beach Wedding](/for-traders/examples/beach-wedding) — Weather prediction market
+- [📅 GPT-5 Launch](/for-traders/examples/gpt5-launch) — Date prediction market
