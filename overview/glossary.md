@@ -147,5 +147,5 @@ Self-executing code on the blockchain that manages markets, positions, and payou
 ## Still Confused?
 
 - Check our [FAQ](/faq) for common questions
-- Join [Discord](https://t.me/skepsis_market) to ask the community
-- Follow [@SkepsisMarket](https://x.com/skepsis_market) for updates
+- Join [Telegram](https://t.me/skepsis_market) to ask the community
+- Follow [@skepsis_market](https://x.com/skepsis_market) for updates

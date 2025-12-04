@@ -182,7 +182,7 @@ Common causes:
 - Market already closed
 - Network congestion
 
-Check your wallet and try again. If issues persist, reach out on Discord.
+Check your wallet and try again. If issues persist, reach out on Telegram.
 
 ### I won but can't claim. What do I do?
 
@@ -191,19 +191,19 @@ Check your wallet and try again. If issues persist, reach out on Discord.
 3. Ensure you have SUI for gas
 4. Try refreshing and reconnecting wallet
 
-If still stuck, contact support on Discord.
+If still stuck, contact support on Telegram.
 
 ### Where can I get help?
 
-- **Discord:** [Join our server](https://t.me/skepsis_market)
-- **Twitter:** [@SkepsisMarket](https://x.com/skepsis_market)
-- **Email:** support@skepsis.market
+- **Telegram:** [Join our server](https://t.me/skepsis_market)
+- **@X:** [@skepsis_market](https://x.com/skepsis_market)
+- **Email:** team@skepsis.live
 
 ---
 
 ## More Questions?
 
-Can't find your answer? Ask in our [Discord](https://t.me/skepsis_market) — the community is helpful!
+Can't find your answer? Ask in our [Telegram](https://t.me/skepsis_market) — the community is helpful!
 
 ---
 
