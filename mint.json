@@ -1,9 +1,10 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Skepsis Docs",
+  "name": "Skepsis",
   "logo": {
     "dark": "/logo/skepsis-dark.png",
-    "light": "/logo/skepsis-light.png"
+    "light": "/logo/skepsis-light.png",
+    "href": "https://skepsis.market"
   },
   "favicon": "/favicon.png",
   "colors": {
