@@ -17,8 +17,8 @@ But real predictions are rarely binary.
 
 ## A Tale of Two Predictions
 
-<Frame caption="Visual: A timeline showing how a price of \$99.9k results in a loss on a binary market (threshold \$100k) but a win on Skepsis (range \$95k-\$105k).">
-  <img src="/images/outcome-ui.svg" alt="Outcome Resolution Visual" />
+<Frame caption="Visual: A timeline showing how a price of $99.8k results in a loss on a binary market (threshold $100k) but a win on Skepsis (range $95k-$105k).">
+  <img src="/images/binary-vs-continuous.svg" alt="Binary vs Continuous Outcome Resolution" />
 </Frame>
 
 ### The Binary Way (Frustrating)
@@ -53,7 +53,7 @@ But real predictions are rarely binary.
 A binary market tells you one thing: the probability of crossing a threshold.
 
 ```
-"BTC > \$100K by Dec 31" = 45% Yes
+"BTC > $100K by Dec 31" = 45% Yes
 ```
 
 That's it. You don't know if traders think it'll be \$101K or \$200K if it passes.
@@ -62,13 +62,13 @@ That's it. You don't know if traders think it'll be \$101K or \$200K if it passe
 A Skepsis market shows you the entire probability landscape:
 
 ```
-\$80K - \$90K:   5%   ░░
-\$90K - \$95K:   15%  ░░░░
-\$95K - \$100K:  25%  ░░░░░░░░
-\$100K - \$105K: 30%  ░░░░░░░░░░  ← Most likely
-\$105K - \$110K: 15%  ░░░░
-\$110K - \$120K: 8%   ░░░
-\$120K+:        2%   ░
+$80K - $90K:   5%   ░░
+$90K - $95K:   15%  ░░░░
+$95K - $100K:  25%  ░░░░░░░░
+$100K - $105K: 30%  ░░░░░░░░░░  ← Most likely
+$105K - $110K: 15%  ░░░░
+$110K - $120K: 8%   ░░░
+$120K+:        2%   ░
 ```
 
 **You see:**
