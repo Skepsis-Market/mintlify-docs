@@ -204,7 +204,7 @@ Each market type offers different opportunities. Find one that matches your know
 <table data-card-size="large" data-view="cards">
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
-<tr><td><strong>Strategies</strong></td><td>Different strategies for different market types</td><td><a href="/for-traders/strategies">strategies.md</a></td></tr>
+<tr><td><strong>Strategies</strong></td><td>Different strategies for different market types</td><td><a href="/for-traders/strategies">Strategies</a></td></tr>
 <tr><td><strong>Example Markets</strong></td><td>See each market type in action</td><td><a href="examples/">examples</a></td></tr>
 </tbody>
 </table>

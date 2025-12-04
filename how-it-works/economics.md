@@ -341,7 +341,7 @@ No external token subsidies needed.
 <table data-card-size="large" data-view="cards">
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
-<tr><td><strong>Trust & Resolution</strong></td><td>How outcomes are determined fairly</td><td><a href="/how-it-works/trust-and-resolution">trust-and-resolution.md</a></td></tr>
-<tr><td><strong>LMSR Explained</strong></td><td>The math behind solvency</td><td><a href="/how-it-works/lmsr-for-humans">lmsr-for-humans.md</a></td></tr>
+<tr><td><strong>Trust & Resolution</strong></td><td>How outcomes are determined fairly</td><td><a href="/how-it-works/trust-and-resolution">Trust & Resolution</a></td></tr>
+<tr><td><strong>LMSR Explained</strong></td><td>The math behind solvency</td><td><a href="/how-it-works/lmsr-for-humans">LMSR Explained</a></td></tr>
 </tbody>
 </table>

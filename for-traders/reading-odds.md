@@ -264,7 +264,7 @@ Your payout: Still 5x (locked in!)
 <table data-card-size="large" data-view="cards">
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
-<tr><td><strong>Deterministic Payouts</strong></td><td>Deep dive into payout mechanics</td><td><a href="/for-traders/deterministic-payouts">deterministic-payouts.md</a></td></tr>
-<tr><td><strong>Strategies</strong></td><td>Put your odds knowledge to work</td><td><a href="/for-traders/strategies">strategies.md</a></td></tr>
+<tr><td><strong>Deterministic Payouts</strong></td><td>Deep dive into payout mechanics</td><td><a href="/for-traders/deterministic-payouts">Deterministic Payouts</a></td></tr>
+<tr><td><strong>Strategies</strong></td><td>Put your odds knowledge to work</td><td><a href="/for-traders/strategies">Strategies</a></td></tr>
 </tbody>
 </table>

@@ -253,7 +253,7 @@ Your shares are yours. They can even be transferred or traded.
 <table data-card-size="large" data-view="cards">
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
-<tr><td><strong>Market Types</strong></td><td>Different markets, same deterministic payouts</td><td><a href="/for-traders/market-types">market-types.md</a></td></tr>
-<tr><td><strong>Strategies</strong></td><td>Use deterministic payouts to your advantage</td><td><a href="/for-traders/strategies">strategies.md</a></td></tr>
+<tr><td><strong>Market Types</strong></td><td>Different markets, same deterministic payouts</td><td><a href="/for-traders/market-types">Market Types</a></td></tr>
+<tr><td><strong>Strategies</strong></td><td>Use deterministic payouts to your advantage</td><td><a href="/for-traders/strategies">Strategies</a></td></tr>
 </tbody>
 </table>

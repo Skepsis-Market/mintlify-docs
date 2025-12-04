@@ -344,6 +344,6 @@ Didn't work? Iterate.
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
 <tr><td><strong>Example Markets</strong></td><td>See strategies in action</td><td><a href="examples/">examples</a></td></tr>
-<tr><td><strong>LMSR Explained</strong></td><td>Understand the pricing math</td><td><a href="/how-it-works/lmsr-for-humans">lmsr-for-humans.md</a></td></tr>
+<tr><td><strong>LMSR Explained</strong></td><td>Understand the pricing math</td><td><a href="/how-it-works/lmsr-for-humans">LMSR Explained</a></td></tr>
 </tbody>
 </table>

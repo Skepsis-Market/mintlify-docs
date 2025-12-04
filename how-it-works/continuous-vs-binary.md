@@ -298,7 +298,7 @@ Experience continuous markets yourself:
 <table data-card-size="large" data-view="cards">
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
-<tr><td><strong>Economics</strong></td><td>How the money flows in continuous markets</td><td><a href="/how-it-works/economics">economics.md</a></td></tr>
-<tr><td><strong>vs Polymarket</strong></td><td>Direct comparison with the leading binary platform</td><td><a href="/comparisons/vs-polymarket">vs-polymarket.md</a></td></tr>
+<tr><td><strong>Economics</strong></td><td>How the money flows in continuous markets</td><td><a href="/how-it-works/economics">Economics</a></td></tr>
+<tr><td><strong>vs Polymarket</strong></td><td>Direct comparison with the leading binary platform</td><td><a href="/comparisons/vs-polymarket">vs Polymarket</a></td></tr>
 </tbody>
 </table>

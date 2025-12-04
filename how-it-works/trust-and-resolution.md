@@ -313,7 +313,7 @@ We use decentralized oracle networks (Pyth, Chainlink) that aggregate multiple d
 <table data-card-size="large" data-view="cards">
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
-<tr><td><strong>FAQ</strong></td><td>Common questions answered</td><td><a href="/faq">faq.md</a></td></tr>
-<tr><td><strong>Quick Start</strong></td><td>Ready to make a prediction?</td><td><a href="/overview/quick-start">quick-start.md</a></td></tr>
+<tr><td><strong>FAQ</strong></td><td>Common questions answered</td><td><a href="/faq">FAQ</a></td></tr>
+<tr><td><strong>Quick Start</strong></td><td>Ready to make a prediction?</td><td><a href="/overview/quick-start">Quick Start</a></td></tr>
 </tbody>
 </table>
