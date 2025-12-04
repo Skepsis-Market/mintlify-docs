@@ -71,7 +71,7 @@ $98,000 - $99,000  →  8x odds (12% probability)
 
 <Note>
 **Pro tip:** Higher odds = lower probability but bigger payout. Find ranges where you disagree with the crowd!
-</Info>
+</Note>
 
 ---
 
