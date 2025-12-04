@@ -14,7 +14,7 @@ Go from zero to your first prediction in five simple steps.
 Before you start, you'll need:
 
 - [ ] A Sui-compatible wallet ([Sui Wallet](https://chrome.google.com/webstore/detail/sui-wallet/opcgpfmipidbgpenhmajoajpbobppdil) or [Suiet](https://suiet.app/))
-- [ ] Some USDC on Sui network (minimum $10 recommended to start)
+- [ ] Some USDC on Sui network (minimum \$10 recommended to start)
 - [ ] 5 minutes of your time
 
 <Info>
@@ -61,11 +61,11 @@ A chart showing where the crowd thinks the outcome will land. Peaks = high proba
 ### Current Range Odds
 Example for a BTC market:
 ```
-$94,000 - $95,000  →  12x odds (8% probability)
-$95,000 - $96,000  →  6x odds (17% probability)  
-$96,000 - $97,000  →  4x odds (25% probability)  ← Most popular
-$97,000 - $98,000  →  5x odds (20% probability)
-$98,000 - $99,000  →  8x odds (12% probability)
+\$94,000 - \$95,000  →  12x odds (8% probability)
+\$95,000 - \$96,000  →  6x odds (17% probability)  
+\$96,000 - \$97,000  →  4x odds (25% probability)  ← Most popular
+\$97,000 - \$98,000  →  5x odds (20% probability)
+\$98,000 - \$99,000  →  8x odds (12% probability)
 ```
 
 <Note>
@@ -93,11 +93,11 @@ $98,000 - $99,000  →  8x odds (12% probability)
 ### Example Bet
 
 > **Market:** BTC 1-hour price  
-> **Your range:** $96,500 - $97,000  
-> **Your bet:** $50 USDC  
+> **Your range:** \$96,500 - \$97,000  
+> **Your bet:** \$50 USDC  
 > **Your odds:** 4.2x  
-> **If you win:** $210 USDC (guaranteed)  
-> **If you lose:** $0 (you lose your $50)
+> **If you win:** \$210 USDC (guaranteed)  
+> **If you lose:** \$0 (you lose your \$50)
 
 ---
 

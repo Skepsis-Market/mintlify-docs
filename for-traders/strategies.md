@@ -60,8 +60,8 @@ You bet on recovery (mean reversion)
 
 **Example:**
 ```
-BTC at $97,000
-You bet on $94,000 - $100,000 (huge range)
+BTC at \$97,000
+You bet on \$94,000 - \$100,000 (huge range)
 Odds: 1.3x
 Win rate: ~85%
 Small but consistent profit
@@ -83,7 +83,7 @@ Small but consistent profit
 **Example:**
 ```
 Apple earnings after hours
-You calculate likely price impact: +$3-5
+You calculate likely price impact: +\$3-5
 You bet on very narrow post-earnings range
 Odds: 15x
 Either big win or total loss
@@ -106,7 +106,7 @@ Either big win or total loss
 ```
 You're getting married outdoors Saturday
 Good weather = great wedding, no bet payout
-Bad weather = rough wedding, BUT you win $500
+Bad weather = rough wedding, BUT you win \$500
 
 Outcome: You're happy either way
 ```
@@ -122,19 +122,19 @@ Outcome: You're happy either way
 Split your capital between safe bets and long shots.
 
 ```
-Total budget: $100
+Total budget: \$100
 
 70%: Safe bet (1.5x odds, ~65% prob)
-     $70 → potential $105
+     \$70 → potential \$105
 
 30%: Long shot (8x odds, ~12% prob)
-     $30 → potential $240
+     \$30 → potential \$240
 
 Outcomes:
-- Safe wins: +$35 (net profit)
-- Long shot wins: +$170 (big win!)
-- Both win: +$205 (jackpot!)
-- Both lose: -$100 (max loss)
+- Safe wins: +\$35 (net profit)
+- Long shot wins: +\$170 (big win!)
+- Both win: +\$205 (jackpot!)
+- Both lose: -\$100 (max loss)
 ```
 
 **Why it works:** Most of the time you grind small profits. Occasionally you hit big.

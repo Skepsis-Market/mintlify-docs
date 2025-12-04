@@ -27,11 +27,11 @@ Think of it as the **automated market maker** that runs every Skepsis market.
 Imagine a market with 5 possible outcome ranges:
 
 ```
-A: $94K-$95K
-B: $95K-$96K  
-C: $96K-$97K  ← Current price is here
-D: $97K-$98K
-E: $98K-$99K
+A: \$94K-\$95K
+B: \$95K-\$96K  
+C: \$96K-\$97K  ← Current price is here
+D: \$97K-\$98K
+E: \$98K-\$99K
 ```
 
 LMSR assigns each range a **probability** based on how many people have bet on it:
@@ -69,7 +69,7 @@ Range D: 20% (5x odds)  ████
 Range E: 20% (5x odds)  ████
 ```
 
-### After Alice Bets $100 on Range C
+### After Alice Bets \$100 on Range C
 
 ```
 Range A: 17% (5.9x odds)  ███
@@ -84,7 +84,7 @@ Range E: 17% (5.9x odds)  ███
 - Range C odds decreased (worse deal now)
 - Other ranges' odds improved (less demand)
 
-### After Bob Bets $200 on Range C
+### After Bob Bets \$200 on Range C
 
 ```
 Range A: 14% (7.1x odds)  ██

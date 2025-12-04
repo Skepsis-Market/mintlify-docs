@@ -17,7 +17,7 @@ But real predictions are rarely binary.
 
 ## A Tale of Two Predictions
 
-<Frame caption="Visual: A timeline showing how a price of $99.9k results in a loss on a binary market (threshold $100k) but a win on Skepsis (range $95k-$105k).">
+<Frame caption="Visual: A timeline showing how a price of \$99.9k results in a loss on a binary market (threshold \$100k) but a win on Skepsis (range \$95k-\$105k).">
   <img src="/images/outcome-ui.svg" alt="Outcome Resolution Visual" />
 </Frame>
 
@@ -53,22 +53,22 @@ But real predictions are rarely binary.
 A binary market tells you one thing: the probability of crossing a threshold.
 
 ```
-"BTC > $100K by Dec 31" = 45% Yes
+"BTC > \$100K by Dec 31" = 45% Yes
 ```
 
-That's it. You don't know if traders think it'll be $101K or $200K if it passes.
+That's it. You don't know if traders think it'll be \$101K or \$200K if it passes.
 
 ### Continuous Markets: Full Distribution
 A Skepsis market shows you the entire probability landscape:
 
 ```
-$80K - $90K:   5%   ░░
-$90K - $95K:   15%  ░░░░
-$95K - $100K:  25%  ░░░░░░░░
-$100K - $105K: 30%  ░░░░░░░░░░  ← Most likely
-$105K - $110K: 15%  ░░░░
-$110K - $120K: 8%   ░░░
-$120K+:        2%   ░
+\$80K - \$90K:   5%   ░░
+\$90K - \$95K:   15%  ░░░░
+\$95K - \$100K:  25%  ░░░░░░░░
+\$100K - \$105K: 30%  ░░░░░░░░░░  ← Most likely
+\$105K - \$110K: 15%  ░░░░
+\$110K - \$120K: 8%   ░░░
+\$120K+:        2%   ░
 ```
 
 **You see:**
@@ -82,9 +82,9 @@ $120K+:        2%   ░
 
 ### Binary: Need Many Markets
 
-To express "BTC will be between $95K-$105K," you'd need to:
-1. Buy "Yes" on "BTC > $95K" 
-2. Buy "No" on "BTC > $105K"
+To express "BTC will be between \$95K-\$105K," you'd need to:
+1. Buy "Yes" on "BTC > \$95K" 
+2. Buy "No" on "BTC > \$105K"
 3. Hope both markets have liquidity
 4. Pay fees on multiple trades
 5. Track multiple positions
@@ -92,7 +92,7 @@ To express "BTC will be between $95K-$105K," you'd need to:
 ### Continuous: One Market, Full Expression
 
 On Skepsis:
-1. Select the $95K-$105K range
+1. Select the \$95K-\$105K range
 2. Place one bet
 3. Done.
 

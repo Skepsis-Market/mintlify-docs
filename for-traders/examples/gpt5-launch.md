@@ -15,7 +15,7 @@ It's early 2025. The AI world is buzzing with GPT-5 speculation. Skepsis has a m
 > 
 > Range: January 2025 - December 2026  
 > Resolution: Official OpenAI announcement of public availability  
-> Current Liquidity: $25,000 USDC
+> Current Liquidity: \$25,000 USDC
 
 The probability distribution reflects current speculation:
 
@@ -43,9 +43,9 @@ Dr. Chen follows AI papers closely. She's noticed a pattern: OpenAI's release cy
 
 **Her bet:**
 - **Range:** June - September 2025
-- **Investment:** $500 USDC
+- **Investment:** \$500 USDC
 - **Odds received:** 2.8x
-- **Potential payout:** $1,400 if mid-2025 release
+- **Potential payout:** \$1,400 if mid-2025 release
 
 ---
 
@@ -57,9 +57,9 @@ Alex reads every AI newsletter and follows all the insiders on Twitter. He's see
 
 **His bet:**
 - **Range:** October - December 2025
-- **Investment:** $300 USDC
+- **Investment:** \$300 USDC
 - **Odds received:** 3.3x
-- **Potential payout:** $990 if Q4 2025 release
+- **Potential payout:** \$990 if Q4 2025 release
 
 ---
 
@@ -71,9 +71,9 @@ Sarah works at a competing AI lab. She knows how hard scaling is.
 
 **Her bet:**
 - **Range:** January - June 2026
-- **Investment:** $400 USDC
+- **Investment:** \$400 USDC
 - **Odds received:** 5.5x
-- **Potential payout:** $2,200 if delayed to 2026
+- **Potential payout:** \$2,200 if delayed to 2026
 
 ---
 
@@ -85,9 +85,9 @@ Marcus follows Sam Altman's every tweet. He interprets recent cryptic posts as h
 
 **His bet:**
 - **Range:** January - March 2025
-- **Investment:** $100 USDC
+- **Investment:** \$100 USDC
 - **Odds received:** 20x
-- **Potential payout:** $2,000 if surprise early release
+- **Potential payout:** \$2,000 if surprise early release
 
 ---
 
@@ -128,7 +128,7 @@ Official release date: **November 15, 2025**
 | Sarah | Jan-Jun 2026 | ❌ LOSE | Too pessimistic |
 | Marcus | Jan-Mar 2025 | ❌ LOSE | Way too optimistic |
 
-**Alex wins $990!** His news sources and insider knowledge paid off.
+**Alex wins \$990!** His news sources and insider knowledge paid off.
 
 ---
 
