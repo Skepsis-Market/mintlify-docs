@@ -17,6 +17,10 @@ But real predictions are rarely binary.
 
 ## A Tale of Two Predictions
 
+<Frame caption="Visual: Left side shows a cliff edge where $99,999 falls off (Binary). Right side shows a wide landing zone capturing $95k-$105k (Skepsis).">
+  <img src="/images/cliff-vs-landing-zone-placeholder.png" alt="Cliff vs Landing Zone Visual" />
+</Frame>
+
 ### The Binary Way (Frustrating)
 
 **Question:** "Will Bitcoin hit $100,000 by December 31st?"

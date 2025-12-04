@@ -1,6 +1,6 @@
 ---
-title: "What is Skepsis?"
-description: "Predict the Range, Not Just the Outcome - A continuous outcome prediction market built on Sui"
+title: "Introduction"
+description: "Stop betting on coin flips. Predict exactly where the price will land."
 ---
 
 <img
@@ -10,99 +10,104 @@ description: "Predict the Range, Not Just the Outcome - A continuous outcome pre
   width="200"
 />
 
-## The Problem with Traditional Prediction Markets
+## Precision Pays
 
-You're confident Bitcoin will be around $97,000 next week. You head to a prediction market and find:
+The world isn't black and white. Why are your bets?
 
-> "Will Bitcoin hit $100,000 by Friday?"
+Most prediction markets (like Polymarket) force you into binary **Yes/No** boxes. They are blunt instruments. If you have a specific, high-conviction thesis, you leave money on the table every time you use them.
 
-You vote **No**. Bitcoin closes at $97,500. You were *right* about the price... but you still **lose** because the question was wrong for your belief.
+**Skepsis is different.** We are a **continuous outcome market**. We let you bet on the exact range where an outcome will land.
 
-**This is the problem with binary markets.** They force nuanced predictions into oversimplified yes/no boxes.
+### The "Precision Premium" Example
 
----
+<Frame caption="Visual: A side-by-side comparison. Left: A coin flip icon labeled 'Binary Market' with '2x Payout'. Right: A sniper scope target on a specific price range labeled 'Skepsis' with '10x Payout'.">
+  <img src="/images/precision-premium-placeholder.png" alt="Precision Premium Visual" />
+</Frame>
 
-## Skepsis: Bet on Where, Not Just If
+Imagine Bitcoin is at **$95,000**. You've done the analysis, and you are confident it will end the week between **$98,000 and $99,000**.
 
-Skepsis is a **continuous outcome prediction market**. Instead of binary yes/no questions, you bet on **ranges**.
+Here is the difference between a binary bet and a Skepsis bet:
 
-| Traditional Market | Skepsis Market |
-|--------------------|----------------|
-| "Will BTC hit $100K?" → Yes/No | "Where will BTC be?" → $95K-$98K |
-| "Will it rain Saturday?" → Yes/No | "How much rain?" → 0.5-1.0 inches |
-| "Will GPT-5 launch in 2025?" → Yes/No | "When will GPT-5 launch?" → March-June 2025 |
+| | Binary Market (Polymarket) | Skepsis |
+|---|---|---|
+| **The Question** | "Will BTC > $97k?" | "Price of BTC?" |
+| **Your Bet** | YES | Range: $98k - $99k |
+| **The Crowd** | 50/50 split | Spread across $90k-$110k |
+| **The Odds** | ~2.0x (Double your money) | **~10.0x (Ten times your money)** |
+| **The Result** | BTC hits $98.5k. You win. | BTC hits $98.5k. You win. |
 
-**Your prediction can finally match your actual belief.**
+**Same outcome. 5x more profit.**
 
----
-
-## How It Works (30-Second Version)
-
-<Steps>
-  <Step title="Pick a market">
-    BTC price, weather, release dates, anything with a numerical outcome
-  </Step>
-  <Step title="Select your range">
-    The span where you think the actual value will land
-  </Step>
-  <Step title="See your odds">
-    Instant quote showing your potential payout
-  </Step>
-  <Step title="Place your bet">
-    Pay USDC, receive position tokens
-  </Step>
-  <Step title="Wait for resolution">
-    Oracle reports the actual outcome
-  </Step>
-  <Step title="Win or lose">
-    If the outcome lands in your range, you win. Simple.
-  </Step>
-</Steps>
+Why? Because on the binary market, your specific insight ("It will stop at $99k") was priced the same as the generic "It will go up" view. On Skepsis, you were paid for your **precision**.
 
 ---
 
-## Why Traders Love Skepsis
+## The Sniper vs. The Shotgun
+
+<Frame caption="Visual: Left side shows a shotgun blast hitting a wide area (Binary). Right side shows a laser beam hitting a bullseye (Skepsis).">
+  <img src="/images/sniper-vs-shotgun-placeholder.png" alt="Sniper vs Shotgun Visual" />
+</Frame>
+
+*   **Binary Markets are Shotguns:** Good for hitting broad targets ("Up", "Down", "Yes", "No"). Low risk of missing, but low reward for accuracy.
+*   **Skepsis is a Sniper Rifle:** Built for traders who know their target. Higher difficulty, but massive rewards for hitting the bullseye.
+
+---
+
+## Why Traders Choose Skepsis
 
 <CardGroup cols={2}>
-  <Card title="🎯 Express Nuanced Beliefs" icon="bullseye">
-    Don't just say "yes" or "no" — define exactly where you think the outcome will be.
+  <Card title="Don't Leave Money on the Table" icon="money-bill-trend-up">
+    If you know *exactly* what will happen, why settle for 1:1 odds? Get paid for the quality of your prediction.
   </Card>
-  <Card title="💰 Deterministic Payouts" icon="money-bill">
-    Before you bet, you know **exactly** what you'll win. No surprises, no slippage, no splitting with other winners.
+  <Card title="Express True Beliefs" icon="brain">
+    Real life happens in bell curves, not coin flips. Bet on "stable", "extreme volatility", or "slow bleed" — not just "up/down".
   </Card>
-  <Card title="📊 Better Odds for Contrarians" icon="chart-line">
-    See an unlikely range that everyone's ignoring? You'll get much better odds than the crowd betting on obvious outcomes.
+  <Card title="Deterministic Payouts" icon="calculator">
+    Know your exact payout the moment you bet. No parimutuel pools where odds change later. You lock it in.
   </Card>
-  <Card title="⚡ Built on Sui" icon="bolt">
-    Fast transactions, low fees, real-time odds updates. No waiting, no gas wars.
+  <Card title="Built on Sui" icon="bolt">
+    Markets that move as fast as the price. Sub-second finality means you can trade news in real-time.
   </Card>
 </CardGroup>
 
 ---
 
-## Your First Prediction Awaits
+## Start Your Strategy
 
-Ready to make a prediction that actually matches what you believe?
+<Steps>
+  <Step title="Pick Your Target">
+    Choose a market (Price, Date, or Data).
+  </Step>
+  <Step title="Define Your Range">
+    Select the specific bounds (e.g., "$98k - $99k").
+  </Step>
+  <Step title="Lock In Odds">
+    See your multiplier immediately.
+  </Step>
+  <Step title="Fire">
+    Place your bet in USDC.
+  </Step>
+</Steps>
 
 <Note>
-**Start Now:** [Launch the Skepsis App →](https://beta.skepsis.live/markets)
+**Ready to aim?** [Launch Skepsis App →](https://beta.skepsis.live/markets)
 </Note>
 
 ---
 
-## Quick Links
+## Explore the Docs
 
 <CardGroup cols={2}>
   <Card title="🚀 Quick Start" icon="rocket" href="/overview/quick-start">
     Place your first bet in 5 minutes
   </Card>
-  <Card title="🎲 Example Markets" icon="dice" href="/for-traders/examples/bitcoin-hour">
-    See Skepsis in action with real stories
+  <Card title="� Understanding Ranges" icon="bullseye" href="/for-traders/understanding-ranges">
+    Master the art of range betting
   </Card>
-  <Card title="🔬 How It Works" icon="flask" href="/how-it-works/lmsr-for-humans">
-    Understand the math (simplified!)
+  <Card title="⚖️ Skepsis vs. Polymarket" icon="scale-balanced" href="/comparisons/vs-polymarket">
+    See the math side-by-side
   </Card>
-  <Card title="⚖️ vs Polymarket" icon="scale-balanced" href="/comparisons/vs-polymarket">
-    See how we compare
+  <Card title="🧠 LMSR Explained" icon="flask" href="/how-it-works/lmsr-for-humans">
+    The algorithm behind the liquidity
   </Card>
 </CardGroup>
