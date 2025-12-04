@@ -4,7 +4,7 @@
   "logo": {
     "dark": "/logo/skepsis-dark.png",
     "light": "/logo/skepsis-light.png",
-    "href": "https://skepsis.market"
+    "href": "https://skepsis.live"
   },
   "favicon": "/favicon.png",
   "colors": {
@@ -19,12 +19,12 @@
   "topbarLinks": [
     {
       "name": "Launch App",
-      "url": "https://app.skepsis.market"
+      "url": "https://beta.skepsis.live"
     }
   ],
   "topbarCtaButton": {
     "name": "Start Trading",
-    "url": "https://app.skepsis.market"
+    "url": "https://beta.skepsis.live"
   },
   "tabs": [
     {
@@ -34,14 +34,14 @@
   ],
   "anchors": [
     {
-      "name": "Twitter",
-      "icon": "twitter",
-      "url": "https://twitter.com/skepsismarket"
+      "name": "X",
+      "icon": "x-twitter",
+      "url": "https://x.com/skepsis_market"
     },
     {
-      "name": "Discord",
-      "icon": "discord",
-      "url": "https://discord.gg/skepsis"
+      "name": "Telegram",
+      "icon": "telegram",
+      "url": "https://t.me/skepsis_market"
     }
   ],
   "navigation": [
@@ -57,25 +57,20 @@
     {
       "group": "For Traders",
       "pages": [
-        {
-          "group": "How to Place a Bet",
-          "pages": [
-            "for-traders/how-to-place-a-bet",
-            "for-traders/understanding-ranges",
-            "for-traders/reading-odds",
-            "for-traders/deterministic-payouts"
-          ]
-        },
+        "for-traders/how-to-place-a-bet",
+        "for-traders/understanding-ranges",
+        "for-traders/reading-odds",
+        "for-traders/deterministic-payouts",
         "for-traders/market-types",
-        "for-traders/strategies",
-        {
-          "group": "Example Markets",
-          "pages": [
-            "for-traders/examples/bitcoin-hour",
-            "for-traders/examples/beach-wedding",
-            "for-traders/examples/gpt5-launch"
-          ]
-        }
+        "for-traders/strategies"
+      ]
+    },
+    {
+      "group": "Example Markets",
+      "pages": [
+        "for-traders/examples/bitcoin-hour",
+        "for-traders/examples/beach-wedding",
+        "for-traders/examples/gpt5-launch"
       ]
     },
     {
@@ -103,7 +98,7 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/skepsismarket",
-    "discord": "https://discord.gg/skepsis"
+    "x": "https://x.com/skepsis_market",
+    "telegram": "https://t.me/skepsis_market"
   }
 }

@@ -288,7 +288,7 @@ Derived binaries (from same underlying):
 Experience continuous markets yourself:
 
 <Note>
-**Make a continuous prediction:** [Launch Skepsis →](https://app.skepsis.market)
+**Make a continuous prediction:** [Launch Skepsis →](https://beta.skepsis.live)
 </Note>
 
 ---

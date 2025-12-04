@@ -195,20 +195,20 @@ If still stuck, contact support on Discord.
 
 ### Where can I get help?
 
-- **Discord:** [Join our server](https://discord.gg/skepsis)
-- **Twitter:** [@SkepsisMarket](https://twitter.com/SkepsisMarket)
+- **Discord:** [Join our server](https://t.me/skepsis_market)
+- **Twitter:** [@SkepsisMarket](https://x.com/skepsis_market)
 - **Email:** support@skepsis.market
 
 ---
 
 ## More Questions?
 
-Can't find your answer? Ask in our [Discord](https://discord.gg/skepsis) — the community is helpful!
+Can't find your answer? Ask in our [Discord](https://t.me/skepsis_market) — the community is helpful!
 
 ---
 
 ## Start Predicting
 
 <Note>
-**Ready to try it?** [Launch Skepsis →](https://app.skepsis.market)
+**Ready to try it?** [Launch Skepsis →](https://beta.skepsis.live)
 </Note>

@@ -23,7 +23,7 @@ Let's walk through each step.
 
 ## Step 1: Choose a Market
 
-Browse available markets on the [Skepsis app](https://app.skepsis.market).
+Browse available markets on the [Skepsis app](https://beta.skepsis.live).
 
 ### What You'll See
 

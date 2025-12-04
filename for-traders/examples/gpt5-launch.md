@@ -182,7 +182,7 @@ Skepsis markets you might find interesting:
 - 🔬 Next major model from Anthropic, Google, Meta
 
 <Note>
-**Find date prediction markets:** [Launch Skepsis →](https://app.skepsis.market)
+**Find date prediction markets:** [Launch Skepsis →](https://beta.skepsis.live)
 </Note>
 
 ---

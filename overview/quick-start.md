@@ -26,7 +26,7 @@ Before you start, you'll need:
 
 ## Step 1: Connect Your Wallet
 
-1. Go to [app.skepsis.market](https://app.skepsis.market)
+1. Go to [app.skepsis.market](https://beta.skepsis.live)
 2. Click **"Connect Wallet"** in the top right
 3. Select your wallet (Sui Wallet, Suiet, etc.)
 4. Approve the connection
@@ -132,6 +132,6 @@ You've placed your first continuous outcome prediction. You're now part of a new
 
 ## Need Help?
 
-- **Discord:** [Join our community](https://discord.gg/skepsis)
-- **Twitter:** [@SkepsisMarket](https://twitter.com/SkepsisMarket)
+- **Discord:** [Join our community](https://t.me/skepsis_market)
+- **Twitter:** [@SkepsisMarket](https://x.com/skepsis_market)
 - **FAQ:** [Common questions answered](../faq.md)

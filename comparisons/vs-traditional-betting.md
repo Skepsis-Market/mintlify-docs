@@ -328,5 +328,5 @@ Both involve risk of loss. But Skepsis isn't designed to exploit you.
 Experience prediction markets without the house edge.
 
 <Note>
-**Make your first prediction:** [Launch Skepsis →](https://app.skepsis.market)
+**Make your first prediction:** [Launch Skepsis →](https://beta.skepsis.live)
 </Note>
