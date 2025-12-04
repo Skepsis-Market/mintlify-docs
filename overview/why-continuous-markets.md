@@ -17,21 +17,21 @@ But real predictions are rarely binary.
 
 ## A Tale of Two Predictions
 
-<Frame caption="Visual: Left side shows a cliff edge where $99,999 falls off (Binary). Right side shows a wide landing zone capturing $95k-$105k (Skepsis).">
-  <img src="/images/cliff-vs-landing-zone-placeholder.png" alt="Cliff vs Landing Zone Visual" />
+<Frame caption="Visual: A timeline showing how a price of $99.9k results in a loss on a binary market (threshold $100k) but a win on Skepsis (range $95k-$105k).">
+  <img src="/images/outcome-ui.svg" alt="Outcome Resolution Visual" />
 </Frame>
 
 ### The Binary Way (Frustrating)
 
-**Question:** "Will Bitcoin hit $100,000 by December 31st?"
+**Question:** "Will Bitcoin hit \$100,000 by December 31st?"
 
 | Scenario | Actual BTC Price | Your Bet | Result |
 |----------|------------------|----------|--------|
-| A | $99,800 | Yes | ❌ LOSE |
-| B | $100,001 | Yes | ✅ WIN |
-| C | $150,000 | Yes | ✅ WIN |
+| A | \$99,800 | Yes | ❌ LOSE |
+| B | \$100,001 | Yes | ✅ WIN |
+| C | \$150,000 | Yes | ✅ WIN |
 
-**The problem:** Scenario A and B are almost identical prices, but completely opposite outcomes. Your prediction of "around $100K" was essentially correct, but the binary framing punished you.
+**The problem:** Scenario A and B are almost identical prices, but completely opposite outcomes. Your prediction of "around \$100K" was essentially correct, but the binary framing punished you.
 
 ### The Skepsis Way (Intuitive)
 
@@ -39,11 +39,11 @@ But real predictions are rarely binary.
 
 | Your Range | Actual BTC Price | Result |
 |------------|------------------|--------|
-| $95K - $105K | $99,800 | ✅ WIN |
-| $95K - $105K | $100,001 | ✅ WIN |
-| $95K - $105K | $150,000 | ❌ LOSE |
+| \$95K - \$105K | \$99,800 | ✅ WIN |
+| \$95K - \$105K | \$100,001 | ✅ WIN |
+| \$95K - \$105K | \$150,000 | ❌ LOSE |
 
-**The solution:** You bet on what you actually believed — "Bitcoin will be around $100K" — and you were rewarded for being right.
+**The solution:** You bet on what you actually believed — "Bitcoin will be around \$100K" — and you were rewarded for being right.
 
 ---
 

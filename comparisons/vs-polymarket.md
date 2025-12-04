@@ -22,8 +22,8 @@ How Skepsis compares to the leading prediction market platform.
 
 ## Market Type: The Core Difference
 
-<Frame caption="Visual: Top graph shows a single vertical line threshold (Binary). Bottom graph shows a full bell curve distribution (Continuous/Skepsis).">
-  <img src="/images/binary-vs-continuous-distribution-placeholder.png" alt="Binary vs Continuous Distribution" />
+<Frame caption="Visual: Top: A binary market view showing a single probability bar. Bottom: A Skepsis market view showing a full histogram of price buckets.">
+  <img src="/images/distribution-ui.svg" alt="Binary vs Continuous Distribution UI" />
 </Frame>
 
 ### Polymarket: Binary
