@@ -2,7 +2,6 @@
 title: "Quick Start Guide"
 ---
 
-# Quick Start Guide
 
 **Time needed: 5 minutes** ⏱️
 

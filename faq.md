@@ -2,7 +2,6 @@
 title: "Frequently Asked Questions"
 ---
 
-# Frequently Asked Questions
 
 Quick answers to common questions about Skepsis.
 

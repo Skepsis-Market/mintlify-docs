@@ -2,7 +2,6 @@
 title: "Skepsis vs Traditional Betting"
 ---
 
-# Skepsis vs Traditional Betting
 
 How prediction markets compare to sports betting and casino gambling.
 

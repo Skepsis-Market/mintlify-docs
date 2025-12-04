@@ -2,7 +2,6 @@
 title: "Skepsis vs Polymarket"
 ---
 
-# Skepsis vs Polymarket
 
 How Skepsis compares to the leading prediction market platform.
 

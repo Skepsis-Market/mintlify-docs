@@ -2,7 +2,6 @@
 title: "📈 The Bitcoin Hour"
 ---
 
-# 📈 The Bitcoin Hour
 
 *A story of how Sarah, Marcus, and Charlie predicted Bitcoin's next move.*
 

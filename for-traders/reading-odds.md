@@ -2,7 +2,6 @@
 title: "Reading Odds & Probabilities"
 ---
 
-# Reading Odds & Probabilities
 
 Understanding how Skepsis calculates odds will help you spot value and make better predictions.
 

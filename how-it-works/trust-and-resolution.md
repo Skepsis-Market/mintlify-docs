@@ -2,7 +2,6 @@
 title: "Trust & Resolution"
 ---
 
-# Trust & Resolution
 
 How Skepsis determines outcomes fairly and pays winners.
 

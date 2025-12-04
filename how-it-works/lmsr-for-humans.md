@@ -2,7 +2,6 @@
 title: "LMSR Explained (For Humans)"
 ---
 
-# LMSR Explained (For Humans)
 
 The math behind Skepsis pricing — no PhD required.
 

@@ -2,7 +2,6 @@
 title: "Deterministic Payouts Explained"
 ---
 
-# Deterministic Payouts Explained
 
 One of Skepsis's most powerful features: **you know exactly what you'll win before you bet.**
 

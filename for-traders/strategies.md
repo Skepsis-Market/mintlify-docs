@@ -2,7 +2,6 @@
 title: "Trading Strategies"
 ---
 
-# Trading Strategies
 
 Proven approaches to improve your Skepsis predictions.
 

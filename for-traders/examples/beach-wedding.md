@@ -2,7 +2,6 @@
 title: "🌡️ Beach Wedding"
 ---
 
-# 🌡️ Beach Wedding
 
 *How Miguel used prediction markets to plan (and hedge) his perfect beach wedding.*
 

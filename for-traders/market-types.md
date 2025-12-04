@@ -2,7 +2,6 @@
 title: "Market Types"
 ---
 
-# Market Types
 
 Skepsis supports different market types, each suited for different kinds of predictions.
 

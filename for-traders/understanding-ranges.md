@@ -2,7 +2,6 @@
 title: "Understanding Ranges"
 ---
 
-# Understanding Ranges
 
 The key to successful Skepsis trading is understanding how range selection affects your odds and risk.
 

@@ -2,7 +2,6 @@
 title: "Economics"
 ---
 
-# Economics
 
 Where does the money come from? Where does it go? How does Skepsis stay solvent?
 

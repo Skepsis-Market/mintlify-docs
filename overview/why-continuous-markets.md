@@ -2,7 +2,6 @@
 title: "Why Continuous Markets?"
 ---
 
-# Why Continuous Markets?
 
 ## The Binary Problem
 

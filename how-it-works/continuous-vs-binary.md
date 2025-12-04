@@ -2,7 +2,6 @@
 title: "Continuous vs Binary Markets"
 ---
 
-# Continuous vs Binary Markets
 
 A deep dive into why predicting distributions beats predicting yes/no.
 

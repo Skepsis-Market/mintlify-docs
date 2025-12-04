@@ -2,7 +2,6 @@
 title: "Skepsis vs Kalshi"
 ---
 
-# Skepsis vs Kalshi
 
 How Skepsis compares to the regulated US prediction market.
 

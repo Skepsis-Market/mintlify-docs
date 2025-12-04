@@ -2,7 +2,6 @@
 title: "How to Place a Bet"
 ---
 
-# How to Place a Bet
 
 A complete guide to making your first prediction on Skepsis.
 

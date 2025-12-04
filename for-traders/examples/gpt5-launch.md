@@ -2,7 +2,6 @@
 title: "📅 GPT-5 Launch"
 ---
 
-# 📅 GPT-5 Launch
 
 *When will OpenAI release GPT-5? Four AI watchers place their bets.*
 

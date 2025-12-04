@@ -2,7 +2,6 @@
 title: "Glossary"
 ---
 
-# Glossary
 
 Quick reference for terms you'll encounter on Skepsis.
 
