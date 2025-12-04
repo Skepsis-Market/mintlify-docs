@@ -1,0 +1,108 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Skepsis Docs",
+  "logo": {
+    "dark": "/logo/skepsis-dark.png",
+    "light": "/logo/skepsis-light.png"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#6366f1",
+    "light": "#818cf8",
+    "dark": "#4f46e5",
+    "anchors": {
+      "from": "#6366f1",
+      "to": "#8b5cf6"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Launch App",
+      "url": "https://app.skepsis.market"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Start Trading",
+    "url": "https://app.skepsis.market"
+  },
+  "tabs": [
+    {
+      "name": "Documentation",
+      "url": "/"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "https://twitter.com/skepsismarket"
+    },
+    {
+      "name": "Discord",
+      "icon": "discord",
+      "url": "https://discord.gg/skepsis"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": [
+        "introduction",
+        "overview/why-continuous-markets",
+        "overview/quick-start",
+        "overview/glossary"
+      ]
+    },
+    {
+      "group": "For Traders",
+      "pages": [
+        {
+          "group": "How to Place a Bet",
+          "pages": [
+            "for-traders/how-to-place-a-bet",
+            "for-traders/understanding-ranges",
+            "for-traders/reading-odds",
+            "for-traders/deterministic-payouts"
+          ]
+        },
+        "for-traders/market-types",
+        "for-traders/strategies",
+        {
+          "group": "Example Markets",
+          "pages": [
+            "for-traders/examples/bitcoin-hour",
+            "for-traders/examples/beach-wedding",
+            "for-traders/examples/gpt5-launch"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "How It Works",
+      "pages": [
+        "how-it-works/lmsr-for-humans",
+        "how-it-works/continuous-vs-binary",
+        "how-it-works/economics",
+        "how-it-works/trust-and-resolution"
+      ]
+    },
+    {
+      "group": "Comparisons",
+      "pages": [
+        "comparisons/vs-polymarket",
+        "comparisons/vs-kalshi",
+        "comparisons/vs-traditional-betting"
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "faq"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "twitter": "https://twitter.com/skepsismarket",
+    "discord": "https://discord.gg/skepsis"
+  }
+}
