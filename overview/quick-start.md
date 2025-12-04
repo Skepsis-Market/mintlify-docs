@@ -31,7 +31,10 @@ Before you start, you'll need:
 3. Select your wallet (Sui Wallet, Suiet, etc.)
 4. Approve the connection
 
-<figure><img src="..//images/connect-wallet.png" alt="Connect wallet button"><figcaption><p>Click Connect Wallet to get started</p></figcaption></figure>
+<Frame>
+  <img src="/images/connect-wallet.png" alt="Connect wallet button" />
+</Frame>
+*Click Connect Wallet to get started*
 
 ---
 
@@ -83,7 +86,10 @@ $98,000 - $99,000  →  8x odds (12% probability)
 4. **Click "Place Bet"**
 5. **Confirm in your wallet**
 
-<figure><img src="..//images/place-bet.png" alt="Place bet interface"><figcaption><p>Select range, enter amount, see your guaranteed payout</p></figcaption></figure>
+<Frame>
+  <img src="/images/place-bet.png" alt="Place bet interface" />
+</Frame>
+*Select range, enter amount, see your guaranteed payout*
 
 ### Example Bet
 
