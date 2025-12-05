@@ -26,8 +26,8 @@ Go from zero to your first prediction — completely free on testnet.
     **Connect your existing wallet.**
     
     - Slush, Sui Wallet, or Martian
-    - Claim free test USDC
     - Get test SUI from [Sui Faucet](https://faucet.sui.io/)
+    - Then claim free test USDC
     - Full wallet control
   </Card>
 </CardGroup>
