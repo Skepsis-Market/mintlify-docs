@@ -28,7 +28,7 @@ Odds = 1 / Probability
 Example:
 - Range probability: 25%
 - Odds = 1 / 0.25 = 4x
-- \$100 bet → \$400 payout if correct
+- $100 bet → $400 payout if correct
 ```
 
 ---
@@ -67,7 +67,7 @@ Your multiplier if you win.
 
 ```
 Return = Total Payout / Your Bet
-2.0x = \$200 / \$100
+2.0x = $200 / $100
 ```
 
 #### Win Probability
@@ -83,7 +83,7 @@ The total amount you receive (your initial bet + profit).
 
 ```
 Payout = Bet × Return
-\$200 = \$100 × 2.0
+$200 = $100 × 2.0
 ```
 
 ---
@@ -95,14 +95,14 @@ Payout = Bet × Return
 ### Example: Spotting Value
 
 ```
-Market shows: Range \$96K-\$97K at 20% probability (5x odds)
+Market shows: Range $96K-$97K at 20% probability (5x odds)
 
 You believe: Based on your analysis, true probability is 30%
 
 Expected Value calculation:
 - EV = (Your prob × Payout) - Investment
-- EV = (0.30 × \$500) - \$100
-- EV = \$150 - \$100 = +\$50
+- EV = (0.30 × $500) - $100
+- EV = $150 - $100 = +$50
 
 This is a +EV bet! The market is mispricing this range.
 ```
@@ -131,13 +131,13 @@ Skepsis uses **LMSR (Logarithmic Market Scoring Rule)** which means:
 ### Example: Price Movement
 
 ```
-Before Alice's \$500 bet on \$96K-\$97K:
-- \$96K-\$97K: 20% prob, 5x odds
-- \$97K-\$98K: 25% prob, 4x odds
+Before Alice's $500 bet on $96K-$97K:
+- $96K-$97K: 20% prob, 5x odds
+- $97K-$98K: 25% prob, 4x odds
 
 After Alice's bet:
-- $96K-$97K: 28% prob, 3.6x odds  ← Probability up, odds down
-- $97K-$98K: 22% prob, 4.5x odds  ← Probability down, odds up
+ - $96K-$97K: 28% prob, 3.6x odds  ← Probability up, odds down
+ - $97K-$98K: 22% prob, 4.5x odds  ← Probability down, odds up
 ```
 
 ### What This Means for You
@@ -154,17 +154,17 @@ Different markets have different liquidity, which affects spreads.
 
 ### High Liquidity Market
 ```
-Range \$96K-\$97K:
-- Buy price: \$0.31 per share
-- Sell price: \$0.29 per share
+Range $96K-$97K:
+- Buy price: $0.31 per share
+- Sell price: $0.29 per share
 - Spread: 6.5%
 ```
 
 ### Low Liquidity Market
 ```
-Range \$96K-\$97K:
-- Buy price: \$0.35 per share
-- Sell price: \$0.22 per share  
+Range $96K-$97K:
+- Buy price: $0.35 per share
+- Sell price: $0.22 per share  
 - Spread: 37%
 ```
 
