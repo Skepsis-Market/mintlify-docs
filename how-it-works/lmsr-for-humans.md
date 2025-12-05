@@ -69,7 +69,7 @@ Range D: 20% (5x odds)  ████
 Range E: 20% (5x odds)  ████
 ```
 
-### After Alice Bets \$100 on Range C
+### After Alice Bets $100 on Range C
 
 ```
 Range A: 17% (5.9x odds)  ███
@@ -84,7 +84,7 @@ Range E: 17% (5.9x odds)  ███
 - Range C odds decreased (worse deal now)
 - Other ranges' odds improved (less demand)
 
-### After Bob Bets \$200 on Range C
+### After Bob Bets $200 on Range C
 
 ```
 Range A: 14% (7.1x odds)  ██

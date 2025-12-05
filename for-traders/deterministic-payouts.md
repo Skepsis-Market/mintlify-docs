@@ -134,51 +134,50 @@ Deterministic payouts create interesting dynamics:
 
 ```
 Initial state (no bets yet):
-\$95K-\$96K: 20% prob, 5x odds
-\$96K-\$97K: 25% prob, 4x odds  ← Alice bets here
-\$97K-\$98K: 25% prob, 4x odds  ← Bob bets here later
-\$98K-\$99K: 20% prob, 5x odds
-\$99K-\$100K: 10% prob, 10x odds
+$95K-$96K: 20% prob, 5x odds
+$96K-$97K: 25% prob, 4x odds  ← Alice bets here
+$97K-$98K: 25% prob, 4x odds  ← Bob bets here later
+$98K-$99K: 20% prob, 5x odds
+$99K-$100K: 10% prob, 10x odds
 ```
 
 ### Alice Bets First
 ```
-Alice: \$200 on \$96K-\$97K
+Alice: $200 on $96K-$97K
 Odds at bet time: 4x
 Shares received: 800
-Guaranteed payout: \$800
-
+Guaranteed payout: $800
 After Alice's bet:
-\$96K-\$97K: 32% prob, 3.1x odds
+$96K-$97K: 32% prob, 3.1x odds
 ```
 
 ### Bob Bets Second
 ```
-Bob: \$200 on \$97K-\$98K
+Bob: $200 on $97K-$98K
 Odds at bet time: 3.8x (slightly worse due to Alice's bet shifting things)
 Shares received: 760
-Guaranteed payout: \$760
+Guaranteed payout: $760
 
 After Bob's bet:
-\$97K-\$98K: 30% prob, 3.3x odds
+$97K-$98K: 30% prob, 3.3x odds
 ```
 
 ### Charlie Bets Last
 ```
-Charlie: \$200 on \$96K-\$97K (same range as Alice!)
+Charlie: $200 on $96K-$97K (same range as Alice!)
 Odds at bet time: 2.8x (worse than Alice got)
 Shares received: 560
-Guaranteed payout: \$560
+Guaranteed payout: $560
 ```
 
-### Resolution: BTC = \$96,500
+### Resolution: BTC = $96,500
 
 ```
-Winner: \$96K-\$97K range
+Winner: $96K-$97K range
 
-Alice: Bet \$200, wins \$800 (4x) ✅
-Bob: Bet \$200, wins \$0 ❌
-Charlie: Bet \$200, wins \$560 (2.8x) ✅
+Alice: Bet $200, wins $800 (4x) ✅
+Bob: Bet $200, wins $0 ❌
+Charlie: Bet $200, wins $560 (2.8x) ✅
 
 Alice got better odds because she bet first!
 ```
@@ -191,11 +190,11 @@ You can sell your shares before the market resolves.
 
 ### How Selling Works
 ```
-Your position: 320 shares in \$96K-\$97K
-Current market price: \$0.28 per share
-If you sell now: 320 × \$0.28 = \$89.60
+Your position: 320 shares in $96K-$97K
+Current market price: $0.28 per share
+If you sell now: 320 × $0.28 = $89.60
 
-You locked in at \$0.3125/share, so this is a small loss
+You locked in at $0.3125/share, so this is a small loss
 But if you think the range won't hit, selling is smart
 ```
 
@@ -206,8 +205,8 @@ But if you think the range won't hit, selling is smart
 
 ### Selling Is Also Deterministic
 ```
-Sell quote: 320 shares at \$0.28 = \$89.60
-If you confirm, you receive exactly \$89.60
+Sell quote: 320 shares at $0.28 = $89.60
+If you confirm, you receive exactly $89.60
 This amount won't change after you confirm
 ```
 
@@ -224,7 +223,7 @@ This amount won't change after you confirm
 | Price feeds update | None |
 | You sell early | You get quoted amount |
 | Market resolves in your range | You get guaranteed payout |
-| Market resolves outside your range | You get \$0 |
+| Market resolves outside your range | You get $0 |
 
 **Your payout is determined the moment you bet. That's the power of deterministic payouts.**
 

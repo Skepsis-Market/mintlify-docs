@@ -110,20 +110,20 @@ Nothing hidden. All verifiable.
 
 ```
 Horse racing example:
-You bet \$100 on Horse A at 5-1 odds
+You bet $100 on Horse A at 5-1 odds
 Lots of others also bet Horse A
 Final odds: 3-1 (your payout decreased!)
 
-You thought you'd win: \$500
-You actually win: \$300
+You thought you'd win: $500
+You actually win: $300
 ```
 
 ### Skepsis (Deterministic)
 
 ```
-You bet \$100 on range at 5x odds
+You bet $100 on range at 5x odds
 Others bet on the same range after you
-Your payout if correct: Still \$500 ✅
+Your payout if correct: Still $500 ✅
 
 Locked in at bet time. No changes.
 ```
@@ -206,8 +206,8 @@ No house edge eating your edge.
 ```
 Chiefs vs 49ers, spread: Chiefs -1.5
 
-Chiefs -1.5: -110 (\$110 to win \$100)
-49ers +1.5: -110 (\$110 to win \$100)
+Chiefs -1.5: -110 ($110 to win $100)
+49ers +1.5: -110 ($110 to win $100)
 
 Total implied probability: 52.4% + 52.4% = 104.8%
 House edge: 4.8%
@@ -230,7 +230,7 @@ Win by 14+:     19%
 
 Final: Chiefs win by 3
 You bet on "Win by 1-6" at 3.5x odds
-\$100 → \$350 payout ✅
+$100 → $350 payout ✅
 ```
 
 **On Skepsis, you could have expressed "Chiefs win close" directly.**
@@ -242,9 +242,9 @@ You bet on "Win by 1-6" at 3.5x odds
 ### Traditional: Zero-Sum Minus House
 
 ```
-All bettors collectively put in: \$1,000,000
-House takes: \$50,000-\$150,000
-Bettors collectively receive: \$850,000-\$950,000
+All bettors collectively put in: $1,000,000
+House takes: $50,000-$150,000
+Bettors collectively receive: $850,000-$950,000
 
 Average bettor: Loses 5-15% over time
 ```
@@ -252,9 +252,9 @@ Average bettor: Loses 5-15% over time
 ### Skepsis: Nearly Zero-Sum
 
 ```
-All traders collectively put in: \$1,000,000
-Protocol fees: \$3,000 (0.3%)
-Traders collectively receive: \$997,000
+All traders collectively put in: $1,000,000
+Protocol fees: $3,000 (0.3%)
+Traders collectively receive: $997,000
 
 Average trader: Breaks even minus tiny fee
 Skilled traders: Profit at expense of less skilled

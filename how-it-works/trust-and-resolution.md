@@ -31,7 +31,7 @@ At **resolution time**, the actual outcome is reported:
 ```
 Resolution time: 5:00 PM UTC (predefined in market)
 Condition: Time must be crossed before resolution can be called
-Oracle reports: BTC = \$97,245.67
+Oracle reports: BTC = $97,245.67
 ```
 
 ### Step 3: Winning Range Identified
@@ -39,11 +39,11 @@ Oracle reports: BTC = \$97,245.67
 The system determines which bucket/range contains the outcome:
 
 ```
-Outcome: \$97,245.67
-Winning range: \$97,200 - \$97,300 (bucket #47)
+Outcome: $97,245.67
+Winning range: $97,200 - $97,300 (bucket #47)
 
-All shares in bucket #47 are now redeemable for \$1 each
-All shares in other buckets are worth \$0
+All shares in bucket #47 are now redeemable for $1 each
+All shares in other buckets are worth $0
 ```
 
 ### Step 4: Winners Claim
@@ -51,9 +51,9 @@ All shares in other buckets are worth \$0
 Winners can claim their payouts:
 
 ```
-Your position: 500 shares in \$97,200 - \$97,300
-Outcome: \$97,245.67 ✅ In your range!
-Payout: 500 × \$1 = \$500 USDC
+Your position: 500 shares in $97,200 - $97,300
+Outcome: $97,245.67 ✅ In your range!
+Payout: 500 × $1 = $500 USDC
 
 Click "Claim" → USDC sent to your wallet
 ```
@@ -131,11 +131,11 @@ Every market has **clear resolution criteria** defined at creation.
 ### What if the outcome is exactly on a boundary?
 
 ```
-Boundaries: \$97,000.00 | \$97,100.00 | \$97,200.00
-Outcome: \$97,100.00
+Boundaries: $97,000.00 | $97,100.00 | $97,200.00
+Outcome: $97,100.00
 
 Rule: Lower bound inclusive, upper bound exclusive
-\$97,100.00 falls into: \$97,100 - \$97,200 bucket ✅
+$97,100.00 falls into: $97,100 - $97,200 bucket ✅
 ```
 
 ### What if the oracle fails?
@@ -153,10 +153,10 @@ Fallback sequence:
 ### What if the outcome is outside the market range?
 
 ```
-Market range: \$90,000 - \$110,000
-Outcome: \$85,000 (below range!)
+Market range: $90,000 - $110,000
+Outcome: $85,000 (below range!)
 
-Resolution: The "Below \$90,000" bucket wins
+Resolution: The "Below $90,000" bucket wins
 Rationale: Markets include "catch-all" buckets for outliers
 
 If nobody bet on this bucket:
@@ -186,7 +186,7 @@ During this window:
 ### Step 2: Evidence Submission
 
 ```
-Disputer claims: "Oracle was wrong, actual price was \$96,999"
+Disputer claims: "Oracle was wrong, actual price was $96,999"
 Evidence required: 
 - Screenshots from multiple exchanges
 - Timestamp proof

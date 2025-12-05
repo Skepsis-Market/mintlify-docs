@@ -56,7 +56,7 @@ Most Kalshi markets:
 
 Examples:
 - "Will Fed raise rates in March?"
-- "Will [movie] gross \$100M opening?"
+- "Will [movie] gross $100M opening?"
 - "Will unemployment be below 4%?"
 ```
 
@@ -117,16 +117,16 @@ Cons:
 
 ```
 Trading fee: 1-7% (varies by market)
-Withdrawal fee: \$0 (but slow)
-Deposit fee: \$0
+Withdrawal fee: $0 (but slow)
+Deposit fee: $0
 ```
 
 ### Skepsis
 
 ```
 Trading fee: 0.3% flat
-Withdrawal: Gas only (~\$0.001)
-Deposit: Gas only (~\$0.001)
+Withdrawal: Gas only (~$0.001)
+Deposit: Gas only (~$0.001)
 ```
 
 **Skepsis is typically cheaper**, especially for larger trades.
@@ -207,8 +207,8 @@ Recourse: Code is law
 ```
 Market: "Will December CPI be above 3.0%?"
 
-Buy Yes at \$0.65 → Win \$1 if CPI > 3.0%
-Buy No at \$0.35 → Win \$1 if CPI ≤ 3.0%
+Buy Yes at $0.65 → Win $1 if CPI > 3.0%
+Buy No at $0.35 → Win $1 if CPI ≤ 3.0%
 
 Information: 65% think CPI > 3.0%
 Missing: What if CPI is 3.5%? 4.0%? 2.8%?
