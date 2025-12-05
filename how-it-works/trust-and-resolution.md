@@ -29,8 +29,9 @@ No more bets can be placed after deadline.
 At **resolution time**, the actual outcome is reported:
 
 ```
-Resolution time: 5:00 PM UTC (same as deadline for price markets)
-Oracle reports: BTC = $97,245.67
+Resolution time: 5:00 PM UTC (predefined in market)
+Condition: Time must be crossed before resolution can be called
+Oracle reports: BTC = \$97,245.67
 ```
 
 ### Step 3: Winning Range Identified
@@ -38,11 +39,11 @@ Oracle reports: BTC = $97,245.67
 The system determines which bucket/range contains the outcome:
 
 ```
-Outcome: $97,245.67
-Winning range: $97,200 - $97,300 (bucket #47)
+Outcome: \$97,245.67
+Winning range: \$97,200 - \$97,300 (bucket #47)
 
-All shares in bucket #47 are now redeemable for $1 each
-All shares in other buckets are worth $0
+All shares in bucket #47 are now redeemable for \$1 each
+All shares in other buckets are worth \$0
 ```
 
 ### Step 4: Winners Claim
@@ -50,9 +51,9 @@ All shares in other buckets are worth $0
 Winners can claim their payouts:
 
 ```
-Your position: 500 shares in $97,200 - $97,300
-Outcome: $97,245.67 ✅ In your range!
-Payout: 500 × $1 = $500 USDC
+Your position: 500 shares in \$97,200 - \$97,300
+Outcome: \$97,245.67 ✅ In your range!
+Payout: 500 × \$1 = \$500 USDC
 
 Click "Claim" → USDC sent to your wallet
 ```
@@ -130,11 +131,11 @@ Every market has **clear resolution criteria** defined at creation.
 ### What if the outcome is exactly on a boundary?
 
 ```
-Boundaries: $97,000.00 | $97,100.00 | $97,200.00
-Outcome: $97,100.00
+Boundaries: \$97,000.00 | \$97,100.00 | \$97,200.00
+Outcome: \$97,100.00
 
 Rule: Lower bound inclusive, upper bound exclusive
-$97,100.00 falls into: $97,100 - $97,200 bucket ✅
+\$97,100.00 falls into: \$97,100 - \$97,200 bucket ✅
 ```
 
 ### What if the oracle fails?
@@ -152,18 +153,22 @@ Fallback sequence:
 ### What if the outcome is outside the market range?
 
 ```
-Market range: $90,000 - $110,000
-Outcome: $85,000 (below range!)
+Market range: \$90,000 - \$110,000
+Outcome: \$85,000 (below range!)
 
-Resolution: First bucket wins ($90,000 - $90,500)
-Rationale: Closest valid bucket
+Resolution: The "Below \$90,000" bucket wins
+Rationale: Markets include "catch-all" buckets for outliers
 
-Same logic applies if outcome is above range.
+If nobody bet on this bucket:
+- No traders win
+- Liquidity providers keep the pool (minus fees)
 ```
 
 ---
 
 ## Dispute Mechanism
+
+*Note: The decentralized dispute mechanism is currently a work in progress. For the Beta, disputes are handled via community governance channels.*
 
 What if you disagree with the resolution?
 
@@ -181,7 +186,7 @@ During this window:
 ### Step 2: Evidence Submission
 
 ```
-Disputer claims: "Oracle was wrong, actual price was $96,999"
+Disputer claims: "Oracle was wrong, actual price was \$96,999"
 Evidence required: 
 - Screenshots from multiple exchanges
 - Timestamp proof
@@ -210,16 +215,16 @@ If dispute is invalid:
 | Event | Guarantee |
 |-------|-----------|
 | Trading cutoff | Exactly at bidding_deadline |
-| Resolution | Within 1 hour of resolution_time |
+| Resolution | After resolution_time is crossed |
 | Claim availability | Immediately after resolution |
-| Claim expiry | 90 days (claim anytime within) |
+| Claim expiry | Never (claim anytime) |
 
 ### For Market Creators
 
 | Event | Guarantee |
 |-------|-----------|
 | Market goes live | Immediately after creation tx confirms |
-| LP withdrawal | After all claims processed or 90 days |
+| LP withdrawal | Immediately after resolution |
 
 ---
 
@@ -265,9 +270,9 @@ If dispute is invalid:
 
 ### What's Publicly Auditable
 
-- ✅ Smart contract code (open source)
 - ✅ Resolution criteria (stored in market)
 - ✅ Historical resolutions (on-chain history)
+- 🚧 Smart contract code (open source coming soon)
 
 ---
 
@@ -283,7 +288,7 @@ No. Once resolution is confirmed (after dispute period), it's immutable on-chain
 
 ### "What if I forget to claim?"
 
-You have 90 days. After that, unclaimed funds go to protocol treasury. (Set a reminder!)
+You can claim anytime. There is no expiry on claims. Your funds remain in the smart contract until you withdraw them.
 
 ### "How do I know the oracle is honest?"
 
