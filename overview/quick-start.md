@@ -27,7 +27,7 @@ Go from zero to your first prediction — completely free on testnet.
     
     - Slush, Sui Wallet, or Martian
     - Claim free test USDC
-    - Gas fees sponsored
+    - Get test SUI from [Sui Faucet](https://faucet.sui.io/)
     - Full wallet control
   </Card>
 </CardGroup>

@@ -26,7 +26,12 @@ Quick answers to common questions about Skepsis.
 
 ### Do I need to pay gas fees?
 
-**No.** We sponsor all transaction fees. Whether you sign in with Google (zkLogin) or use a Sui wallet, gas is on us during testnet.
+**It depends on how you sign in:**
+
+| Sign-in Method | Gas Fees |
+|----------------|----------|
+| **Google (zkLogin)** | ✅ Sponsored — we pay for you |
+| **Sui Wallet** | Get free test SUI from [faucet.sui.io](https://faucet.sui.io/) |
 
 ### Do I need a crypto wallet?
 
@@ -34,8 +39,8 @@ Quick answers to common questions about Skepsis.
 
 | Option | Best For |
 |--------|----------|
-| **Sign in with Google** | New to crypto, instant access |
-| **Connect Sui Wallet** | Sui native users, full control |
+| **Sign in with Google** | New to crypto, instant access, gas sponsored |
+| **Connect Sui Wallet** | Sui native users, full control, need test SUI for gas |
 
 Both options work identically. Google sign-in uses zkLogin — a zero-knowledge proof system that creates a wallet linked to your Google account.
 

@@ -6,7 +6,7 @@ title: "Trading Strategies"
 Proven approaches to improve your Skepsis predictions.
 
 <Tip>
-**🧪 Practice risk-free on testnet.** Test these strategies with free USDC. Sign in with Google or connect your Sui wallet — no gas fees, no real money.
+**🧪 Practice risk-free on testnet.** Test these strategies with free USDC. Sign in with Google (gas sponsored) or connect your Sui wallet.
 </Tip>
 
 ---
