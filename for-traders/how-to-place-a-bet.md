@@ -24,6 +24,10 @@ Let's walk through each step.
 
 Browse available markets on the [Skepsis app](https://beta.skepsis.live/markets).
 
+<Frame>
+  <img src="/images/browse-markets.png" alt="Active market cards showing question, distribution, and time remaining" />
+</Frame>
+
 ### What You'll See
 
 Each market card shows:
@@ -48,24 +52,15 @@ Each market card shows:
 
 ## Step 2: Select Your Range
 
-This is where Skepsis differs from traditional betting.
+This is where Skepsis differs from traditional betting. Instead of a simple "Yes/No", you define the exact outcome range you believe in.
 
 ### The Range Selector
 
 When you open a market, you'll see a probability chart. Click and drag to select your range:
 
-```
-Your selected range: $96,000 - $97,500
-
-         ▓▓▓▓▓▓▓▓▓▓▓▓▓
-      ▓▓▓░░░░░░░░░░░░░▓▓▓
-   ▓▓▓░░░░░░░░░░░░░░░░░░░▓▓▓
-▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░░▓▓▓
-|----|----|----|----|----|----|
-$94K $95K $96K $97K $98K $99K $100K
-          └────────┘
-          Your range
-```
+<Frame>
+  <img src="/images/range-selection.gif" alt="Interactive range selection on the probability chart" />
+</Frame>
 
 ### Range Selection Tips
 
@@ -81,23 +76,21 @@ $94K $95K $96K $97K $98K $99K $100K
 
 ## Step 3: Review Your Quote
 
-Before confirming, you'll see a detailed quote:
+Before confirming, you'll see a detailed quote on the right side of the screen.
 
-```
-┌─────────────────────────────────────┐
-│  YOUR BET SUMMARY                    │
-├─────────────────────────────────────┤
-│  Range:        $96,000 - $97,500     │
-│  Investment:   $100 USDC             │
-│  Your Odds:    3.2x                  │
-│                                      │
-│  If you WIN:   $320 USDC             │
-│  If you LOSE:  $0 (lose your $100)  │
-│                                      │
-│  Probability:  ~31%                  │
-│  Expected Value: +$0.80              │
-└─────────────────────────────────────┘
-```
+<Card title="Your Bet Summary" icon="receipt">
+  **Range:** $96,000 - $97,500
+  
+  **Investment:** $100 USDC
+  
+  **Your Odds:** 3.2x
+  
+  **If you WIN:** $320 USDC (Guaranteed)
+  
+  **If you LOSE:** $0 (You lose your $100)
+  
+  **Probability:** ~31%
+</Card>
 
 ### Understanding the Quote
 

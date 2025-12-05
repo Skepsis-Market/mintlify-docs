@@ -94,11 +94,11 @@ $98,000 - $99,000  →  8x odds (12% probability)
 ### Example Bet
 
 > **Market:** BTC 1-hour price  
-> **Your range:** $96,500 - $97,000  
-> **Your bet:** $50 USDC  
+> **Your range:** \$96,500 - \$97,000  
+> **Your bet:** \$50 USDC  
 > **Your odds:** 4.2x  
-> **If you win:** $210 USDC (guaranteed)  
-> **If you lose:** $0 (you lose your $50)
+> **If you win:** \$210 USDC (guaranteed)  
+> **If you lose:** \$0 (you lose your \$50)
 
 ---
 
