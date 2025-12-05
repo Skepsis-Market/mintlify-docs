@@ -108,8 +108,13 @@ Before confirming, you'll see a detailed quote on the right side of the screen.
 ### Transaction Details
 
 You'll pay:
-- **Bet amount:** Your USDC investment
+- **Actual Cost:** The exact cost to buy the position. This is often slightly less than your input amount (e.g., if you input 100 USDC, the actual cost might be 99.50 USDC).
 - **Gas fee:** ~0.001 SUI (negligible)
+
+<Note>
+**Why is the cost lower?** 
+Due to the way our market maker (LMSR) calculates prices, we can't always match your input amount exactly down to the cent. We buy as much as possible up to your limit. **Any unused USDC never leaves your wallet.**
+</Note>
 
 ### What Happens Next
 
@@ -155,19 +160,19 @@ After resolution:
 
 ### Scenario: BTC 1-Hour Market
 
-**You believe:** Bitcoin will stay between $96K-$98K in the next hour.
+**You believe:** Bitcoin will stay between \$96K-\$98K in the next hour.
 
 1. **Open** the BTC 1-hour market
-2. **Select** range: $96,000 - $98,000
-3. **Enter** investment: $50 USDC
+2. **Select** range: \$96,000 - \$98,000
+3. **Enter** investment: \$50 USDC
 4. **Review** quote:
    - Odds: 2.1x
-   - Potential payout: $105
+   - Potential payout: \$105
    - Probability: ~48%
 5. **Confirm** bet
 6. **Wait** 1 hour
-7. **Result:** BTC closes at $97,200
-8. **Claim** your $105 USDC! 🎉
+7. **Result:** BTC closes at \$97,200
+8. **Claim** your \$105 USDC! 🎉
 
 ---
 
