@@ -15,9 +15,9 @@ He finds a Skepsis market:
 
 > **"What will the high temperature in Miami be on Saturday, December 14th?"**
 > 
-> Range: 65°F - 95°F  
-> Resolution: Saturday 6:00 PM local time  
-> Current Liquidity: $5,000 USDC
+> **Range:** 65°F - 95°F  
+> **Resolution:** Saturday 6:00 PM local time  
+> **Current Liquidity:** \$5,000 USDC
 
 The current probability distribution shows:
 
@@ -40,15 +40,15 @@ Miguel has a problem: he wants 78-82°F (perfect beach weather). Too cold means 
 
 Miguel's not trying to profit—he's trying to **hedge his wedding risk**.
 
-**His logic:** "If it's too hot (85°F+), I'll need to rent extra fans and buy more ice for drinks. That costs about $200. Let me hedge that risk."
+**His logic:** "If it's too hot (85°F+), I'll need to rent extra fans and buy more ice for drinks. That costs about \$200. Let me hedge that risk."
 
 **His bet:**
 - **Range:** 85°F - 95°F (the "too hot" zone)
-- **Investment:** $50 USDC
+- **Investment:** \$50 USDC
 - **Odds received:** 3.3x
-- **Potential payout:** $165 if too hot
+- **Potential payout:** \$165 if too hot
 
-**Miguel's thinking:** "If it's hot, I lose on comfort but win $165 to cover extra costs. If it's perfect weather, I 'lose' $50 but have a great wedding. Win-win."
+**Miguel's thinking:** "If it's hot, I lose on comfort but win \$165 to cover extra costs. If it's perfect weather, I 'lose' \$50 but have a great wedding. Win-win."
 
 ---
 
@@ -60,9 +60,9 @@ Sophia checks the forecast obsessively. She sees 79°F predicted with high confi
 
 **Her bet:**
 - **Range:** 76°F - 82°F
-- **Investment:** $75 USDC
+- **Investment:** \$75 USDC
 - **Odds received:** 2.5x
-- **Potential payout:** $187.50 if perfect weather
+- **Potential payout:** \$187.50 if perfect weather
 
 ---
 
@@ -74,9 +74,9 @@ James has planned 200+ Miami weddings. He knows December weather patterns better
 
 **His bet:**
 - **Range:** 70°F - 76°F
-- **Investment:** $100 USDC
+- **Investment:** \$100 USDC
 - **Odds received:** 6x
-- **Potential payout:** $600 if cooler weather
+- **Potential payout:** \$600 if cooler weather
 
 ---
 
@@ -88,9 +88,9 @@ Maria has lived in Miami for 40 years. She's been watching the sky.
 
 **Her bet:**
 - **Range:** 90°F - 95°F
-- **Investment:** $30 USDC
+- **Investment:** \$30 USDC
 - **Odds received:** 12.5x
-- **Potential payout:** $375 if scorching
+- **Potential payout:** \$375 if scorching
 
 ---
 
@@ -117,20 +117,20 @@ Maria has lived in Miami for 40 years. She's been watching the sky.
 | James | 70°F - 76°F | ✅ WIN | His experience paid off! |
 | Maria | 90°F - 95°F | ❌ LOSE | Her bones lied this time |
 
-**James wins $600!** His years of experience spotting the underpriced cold range paid off.
+**James wins \$600!** His years of experience spotting the underpriced cold range paid off.
 
 ---
 
 ## The Lessons
 
 ### 1. Prediction Markets as Insurance
-Miguel didn't "lose"—he bought peace of mind. His $50 was insurance against a bad outcome. The wedding was perfect, so he happily "lost" that hedge.
+Miguel didn't "lose"—he bought peace of mind. His \$50 was insurance against a bad outcome. The wedding was perfect, so he happily "lost" that hedge.
 
 ### 2. Local Knowledge is Alpha
 James's 200+ weddings gave him an edge. He knew December cold fronts were underpriced at 10%. **Domain expertise beats algorithms.**
 
 ### 3. Narrow Ranges are Risky
-Sophia was only 2°F away from winning. A slightly wider range ($74-82°F) would have captured the outcome:
+Sophia was only 2°F away from winning. A slightly wider range (\$74-82°F) would have captured the outcome:
 - Original: 76-82°F at 2.5x ❌
 - Alternative: 74-84°F at 1.8x ✅
 
