@@ -78,31 +78,19 @@ When you open a market, you'll see a probability chart. Click and drag to select
 
 Before confirming, you'll see a detailed quote on the right side of the screen.
 
-<Card title="Your Bet Summary" icon="receipt">
-  **Range:** $96,000 - $97,500
-  
-  **Investment:** $100 USDC
-  
-  **Your Odds:** 3.2x
-  
-  **If you WIN:** $320 USDC (Guaranteed)
-  
-  **If you LOSE:** $0 (You lose your $100)
-  
-  **Probability:** ~31%
-</Card>
+<Frame>
+  <img src="/images/bet-slip.png" alt="Bet slip showing range, amount, probability, and potential payout" />
+</Frame>
 
 ### Understanding the Quote
 
 | Field | Meaning |
 |-------|---------|
-| **Range** | The outcome range you're betting on |
-| **Investment** | How much USDC you're risking |
-| **Your Odds** | Your multiplier if you win |
-| **If you WIN** | Exact payout amount (guaranteed) |
-| **If you LOSE** | You lose your investment |
-| **Probability** | Market's current estimate of this range hitting |
-| **Expected Value** | Probability × Payout - Investment |
+| **Min/Max Price** | The specific range you are betting on (e.g., \$93.3K - \$95.1K). |
+| **Your Bet** | The amount of USDC you are risking (e.g., 100 USDC). |
+| **Win Probability** | The market's current estimated chance of the outcome landing in your range (e.g., 53.67%). |
+| **IF YOU WIN** | The total amount you will receive if you are correct (e.g., \$204.75). |
+| **Return** | Your multiplier (e.g., 2.0x). This is your payout divided by your bet amount. |
 
 <Note>
 **Deterministic payouts:** Unlike traditional betting, your payout is locked in at bet time. It won't change regardless of future bets.
