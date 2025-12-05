@@ -29,11 +29,11 @@ Before you start, you'll need:
 2. Click **"Connect Wallet"** in the top right
 3. Choose your preferred method:
    - **Sign in with Google** (via zkLogin) for instant access
-   - **Sui Wallet / Suiet** for standard wallet connection
+   - **Slush** or **Martian Sui Wallet** for standard wallet connection
 4. Approve the connection
 
 <Frame>
-  <img src="/images/connect-wallet-zklogin.png" alt="Connect wallet with Google Login" />
+  <img src="/images/connect-wallet.png" alt="Connect wallet with Google Login" />
 </Frame>
 *Sign in easily with Google or connect your existing Sui wallet*
 
@@ -41,7 +41,7 @@ Before you start, you'll need:
 
 ## Step 2: Browse Markets
 
-Explore active markets across categories like Cryptocurrency, Sports, Weather, and more.
+Explore active markets across categories like Cryptocurrency, Politics, Sports, Weather, Tech, and more.
 
 <Frame>
   <img src="/images/browse-markets.png" alt="Active market cards" />
