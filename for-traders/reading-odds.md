@@ -28,26 +28,18 @@ Odds = 1 / Probability
 Example:
 - Range probability: 25%
 - Odds = 1 / 0.25 = 4x
-- $100 bet → $400 payout if correct
+- \$100 bet → \$400 payout if correct
 ```
 
 ---
 
 ## Reading the Probability Distribution
 
-When you open a market, you see a chart like this:
+When you open a market, you see a probability curve that represents the crowd's consensus.
 
-```
-        ▓▓▓▓▓▓▓▓▓
-      ▓▓▓▓▓▓▓▓▓▓▓▓▓
-    ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-|----|----|----|----|----|----|
-$94K $95K $96K $97K $98K $99K $100K
-           ↑
-    Current price: $96.5K
-```
+<Frame>
+  <img src="/images/range-selection.gif" alt="Probability distribution curve on Skepsis" />
+</Frame>
 
 ### What the Shape Tells You
 
@@ -64,46 +56,34 @@ $94K $95K $96K $97K $98K $99K $100K
 
 When you select a range and amount, you get a quote:
 
-```
-┌─────────────────────────────────────┐
-│  Range:        $96,000 - $97,500    │
-│  Investment:   $100 USDC            │
-│                                     │
-│  Shares:       320                  │
-│  Price/share:  $0.3125              │
-│  Your Odds:    3.2x                 │
-│                                     │
-│  If WIN:       $320 USDC            │
-│  If LOSE:      $0                   │
-│                                     │
-│  Implied Prob: 31.25%               │
-└─────────────────────────────────────┘
-```
+<Frame>
+  <img src="/images/bet-slip.png" alt="Bet slip showing odds and potential payout" />
+</Frame>
 
 ### Breaking It Down
 
-#### Shares
-Internal units representing your position. Each share = $1 if you win.
+#### Return (Odds)
+Your multiplier if you win.
 
 ```
-Your investment / Price per share = Shares
-$100 / $0.3125 = 320 shares
+Return = Total Payout / Your Bet
+2.0x = \$200 / \$100
 ```
 
-#### Price per Share
-What you pay for each $1 of potential payout. Lower = better odds.
+#### Win Probability
+The market's current estimate of your range winning.
 
 ```
-Price per share = 1 / Odds
-$0.3125 = 1 / 3.2
+Probability = 1 / Return
+50% = 1 / 2.0
 ```
 
-#### Implied Probability
-What the market thinks the probability is, based on current prices.
+#### If You Win
+The total amount you receive (your initial bet + profit).
 
 ```
-Implied prob = 1 / Odds = Price per share
-31.25% = 1 / 3.2 = $0.3125
+Payout = Bet × Return
+\$200 = \$100 × 2.0
 ```
 
 ---
@@ -115,14 +95,14 @@ Implied prob = 1 / Odds = Price per share
 ### Example: Spotting Value
 
 ```
-Market shows: Range $96K-$97K at 20% probability (5x odds)
+Market shows: Range \$96K-\$97K at 20% probability (5x odds)
 
 You believe: Based on your analysis, true probability is 30%
 
 Expected Value calculation:
 - EV = (Your prob × Payout) - Investment
-- EV = (0.30 × $500) - $100
-- EV = $150 - $100 = +$50
+- EV = (0.30 × \$500) - \$100
+- EV = \$150 - \$100 = +\$50
 
 This is a +EV bet! The market is mispricing this range.
 ```
@@ -151,9 +131,9 @@ Skepsis uses **LMSR (Logarithmic Market Scoring Rule)** which means:
 ### Example: Price Movement
 
 ```
-Before Alice's $500 bet on $96K-$97K:
-- $96K-$97K: 20% prob, 5x odds
-- $97K-$98K: 25% prob, 4x odds
+Before Alice's \$500 bet on \$96K-\$97K:
+- \$96K-\$97K: 20% prob, 5x odds
+- \$97K-\$98K: 25% prob, 4x odds
 
 After Alice's bet:
 - $96K-$97K: 28% prob, 3.6x odds  ← Probability up, odds down
@@ -174,17 +154,17 @@ Different markets have different liquidity, which affects spreads.
 
 ### High Liquidity Market
 ```
-Range $96K-$97K:
-- Buy price: $0.31 per share
-- Sell price: $0.29 per share
+Range \$96K-\$97K:
+- Buy price: \$0.31 per share
+- Sell price: \$0.29 per share
 - Spread: 6.5%
 ```
 
 ### Low Liquidity Market
 ```
-Range $96K-$97K:
-- Buy price: $0.35 per share
-- Sell price: $0.22 per share  
+Range \$96K-\$97K:
+- Buy price: \$0.35 per share
+- Sell price: \$0.22 per share  
 - Spread: 37%
 ```
 
@@ -209,12 +189,12 @@ Bad bet: EV < 0
 
 ### Comparing Bets
 
-| Bet | Odds | Your Est. Prob | EV per $100 |
+| Bet | Odds | Your Est. Prob | EV per \$100 |
 |-----|------|----------------|-------------|
-| A | 2x | 60% | +$20 ✅ |
-| B | 10x | 8% | -$20 ❌ |
-| C | 5x | 25% | +$25 ✅ |
-| D | 20x | 5% | $0 ⚖️ |
+| A | 2x | 60% | +\$20 ✅ |
+| B | 10x | 8% | -\$20 ❌ |
+| C | 5x | 25% | +\$25 ✅ |
+| D | 20x | 5% | \$0 ⚖️ |
 
 **Bet C is best** despite lower odds than B or D because your edge is highest.
 
@@ -222,17 +202,17 @@ Bad bet: EV < 0
 
 ## Quick Probability-to-Odds Table
 
-| Probability | Odds | $100 Payout |
+| Probability | Odds | \$100 Payout |
 |-------------|------|-------------|
-| 80% | 1.25x | $125 |
-| 50% | 2x | $200 |
-| 33% | 3x | $300 |
-| 25% | 4x | $400 |
-| 20% | 5x | $500 |
-| 10% | 10x | $1,000 |
-| 5% | 20x | $2,000 |
-| 2% | 50x | $5,000 |
-| 1% | 100x | $10,000 |
+| 80% | 1.25x | \$125 |
+| 50% | 2x | \$200 |
+| 33% | 3x | \$300 |
+| 25% | 4x | \$400 |
+| 20% | 5x | \$500 |
+| 10% | 10x | \$1,000 |
+| 5% | 20x | \$2,000 |
+| 2% | 50x | \$5,000 |
+| 1% | 100x | \$10,000 |
 
 ---
 
