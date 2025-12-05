@@ -77,8 +77,8 @@ $98,000 - $99,000  →  8x odds (12% probability)
 
 ## Step 4: Place Your Bet
 
-1. **Select your range** — Click or drag to define the range you're betting on
-2. **Enter your amount** — How much USDC you want to risk
+1. **Select your range** — Click and drag on the chart to highlight your target range.
+2. **Enter your amount** — How much USDC you want to risk.
 3. **Review your quote:**
    - **Cost:** What you'll pay
    - **Potential payout:** What you'll win if correct
@@ -87,7 +87,7 @@ $98,000 - $99,000  →  8x odds (12% probability)
 5. **Confirm in your wallet**
 
 <Frame>
-  <img src="/images/place-bet.png" alt="Place bet interface" />
+  <img src="/images/range-selection.gif" alt="Selecting a range and placing a bet" />
 </Frame>
 *Select range, enter amount, see your guaranteed payout*
 
