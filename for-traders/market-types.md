@@ -177,12 +177,6 @@ Markets that resolve based on a measured quantity.
 
 We're working on new market types:
 
-### Multi-Event Markets
-"Which happens first: GPT-5 or Gemini 2.0?"
-
-### Composite Markets
-"What will BTC + ETH combined market cap be?"
-
 ### Conditional Markets
 "If [Event A], what will [Outcome B] be?"
 
