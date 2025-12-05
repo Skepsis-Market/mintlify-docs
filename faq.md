@@ -7,6 +7,44 @@ Quick answers to common questions about Skepsis.
 
 ---
 
+## About Testnet
+
+### Is this real money?
+
+**No.** Skepsis is currently on **Sui Testnet**. All USDC used is test currency with no real value. This lets you:
+
+- Learn the platform risk-free
+- Test strategies without financial exposure
+- Provide feedback before mainnet launch
+
+### How do I get test USDC?
+
+1. Go to [beta.skepsis.live](https://beta.skepsis.live/markets)
+2. Sign in with Google or connect your Sui wallet
+3. Click **"Claim USDC"** in the app
+4. Receive free test tokens instantly
+
+### Do I need to pay gas fees?
+
+**No.** We sponsor all transaction fees. Whether you sign in with Google (zkLogin) or use a Sui wallet, gas is on us during testnet.
+
+### Do I need a crypto wallet?
+
+**Not necessarily.** You have two options:
+
+| Option | Best For |
+|--------|----------|
+| **Sign in with Google** | New to crypto, instant access |
+| **Connect Sui Wallet** | Sui native users, full control |
+
+Both options work identically. Google sign-in uses zkLogin — a zero-knowledge proof system that creates a wallet linked to your Google account.
+
+### When will mainnet launch?
+
+We're gathering feedback during testnet. Join our [Telegram](https://t.me/skepsis_market) or follow [@skepsis_market](https://x.com/skepsis_market) for updates on mainnet timing.
+
+---
+
 ## Getting Started
 
 ### What is Skepsis?
@@ -21,9 +59,12 @@ Polymarket uses binary (yes/no) markets. Skepsis uses continuous markets where y
 
 ### What do I need to get started?
 
-1. A Sui wallet ([Sui Wallet](https://chrome.google.com/webstore/detail/sui-wallet/opcgpfmipidbgpenhmajoajpbobppdil) or [Suiet](https://suiet.app/))
-2. Some USDC on Sui network
-3. A small amount of SUI for gas fees
+**Just a Google account** — or a Sui wallet if you prefer.
+
+On testnet:
+- ✅ Free test USDC from faucet
+- ✅ No gas fees (we sponsor them)
+- ✅ No real money required
 
 [Full guide: Quick Start →](/overview/quick-start)
 
@@ -43,7 +84,7 @@ Polymarket uses binary (yes/no) markets. Skepsis uses continuous markets where y
 
 ### What happens to my money when I bet?
 
-Your USDC goes into the market's liquidity pool. In return, you receive "shares" representing your position. If the outcome lands in your range, each share is worth $1. If not, they're worth $0.
+Your USDC goes into the market's liquidity pool. In return, you receive "shares" representing your position. If the outcome lands in your range, each share is worth \$1. If not, they're worth \$0.
 
 ### Can I sell my position before resolution?
 

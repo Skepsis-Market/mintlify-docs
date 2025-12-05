@@ -181,7 +181,9 @@ Skepsis markets you might find interesting:
 - 🔬 Next major model from Anthropic, Google, Meta
 
 <Note>
-**Find date prediction markets:** [Launch Skepsis →](https://beta.skepsis.live/markets)
+**Try it free on testnet.** Sign in with Google, claim test USDC, and bet on your AI predictions. No real money, no gas fees.
+
+[Launch Skepsis →](https://beta.skepsis.live/markets)
 </Note>
 
 ---

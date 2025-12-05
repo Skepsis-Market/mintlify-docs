@@ -3,39 +3,54 @@ title: "Quick Start Guide"
 ---
 
 
-**Time needed: 5 minutes** ⏱️
+**Time needed: 2 minutes** ⏱️
 
-Go from zero to your first prediction in five simple steps.
+Go from zero to your first prediction — completely free on testnet.
 
 ---
 
 ## Prerequisites
 
-Before you start, you'll need:
+**Choose your path:**
 
-- [ ] A Sui-compatible wallet ([Sui Wallet](https://chrome.google.com/webstore/detail/sui-wallet/opcgpfmipidbgpenhmajoajpbobppdil), [Suiet](https://suiet.app/), or Google Account)
-- [ ] Some USDC on Sui network (minimum $10 recommended to start)
-- [ ] 5 minutes of your time
+<CardGroup cols={2}>
+  <Card title="🌐 New to Crypto?" icon="google">
+    **Just need a Google account.** That's it.
+    
+    - Sign in with Google (zkLogin)
+    - No wallet to install
+    - No gas fees (we sponsor them)
+    - Free test USDC from faucet
+  </Card>
+  <Card title="🔷 Sui Native?" icon="wallet">
+    **Connect your existing wallet.**
+    
+    - Slush, Sui Wallet, or Martian
+    - Claim free test USDC
+    - Gas fees sponsored
+    - Full wallet control
+  </Card>
+</CardGroup>
 
-<Info>
-**New to Sui?** Get started at [sui.io](https://sui.io) — wallet setup takes about 2 minutes.
-</Info>
+<Tip>
+**🧪 Testnet Mode:** Everything is free. No real money involved. Perfect for learning and testing strategies.
+</Tip>
 
 ---
 
-## Step 1: Connect Your Wallet
+## Step 1: Connect & Get Test USDC
 
 1. Go to [beta.skepsis.live](https://beta.skepsis.live/markets)
 2. Click **"Connect Wallet"** in the top right
-3. Choose your preferred method:
-   - **Sign in with Google** (via zkLogin) for instant access
-   - **Slush** or **Martian Sui Wallet** for standard wallet connection
-4. Approve the connection
+3. Choose your method:
+   - **Sign in with Google** — Instant access, no setup
+   - **Slush / Sui Wallet / Martian** — For Sui native users
+4. **Claim test USDC** from the faucet (button appears after connecting)
 
 <Frame>
   <img src="/images/connect-wallet.png" alt="Connect wallet with Google Login" />
 </Frame>
-*Sign in easily with Google or connect your existing Sui wallet*
+*Sign in with Google for instant access, or connect your Sui wallet*
 
 ---
 
@@ -119,7 +134,16 @@ $98,000 - $99,000  →  8x odds (12% probability)
 
 ## 🎉 Congratulations!
 
-You've placed your first continuous outcome prediction. You're now part of a new way to express beliefs about the future.
+You've placed your first continuous outcome prediction — completely free on testnet!
+
+<Info>
+**Remember:** This is testnet. All USDC is test currency. Perfect for:
+- Learning the mechanics risk-free
+- Testing trading strategies
+- Providing feedback before mainnet
+
+When mainnet launches, your skills will be ready.
+</Info>
 
 ---
 
@@ -139,5 +163,5 @@ You've placed your first continuous outcome prediction. You're now part of a new
 ## Need Help?
 
 - **Telegram:** [Join our community](https://t.me/skepsis_market)
-- **@X:** [@skepsis_market](https://x.com/skepsis_market)
+- **X:** [@skepsis_market](https://x.com/skepsis_market)
 - **FAQ:** [Common questions answered](/faq)

@@ -162,7 +162,9 @@ Weather markets let you:
 - Speculate on forecaster accuracy
 
 <Note>
-**Check weather markets:** [Launch Skepsis →](https://beta.skepsis.live/markets)
+**Try it free on testnet.** Sign in with Google, claim test USDC, and explore weather markets. No real money, no gas fees.
+
+[Launch Skepsis →](https://beta.skepsis.live/markets)
 </Note>
 
 ---

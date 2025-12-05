@@ -145,7 +145,9 @@ The beauty of continuous markets: **there's no single "right" answer—just diff
 Bitcoin markets run continuously on Skepsis. Every hour is a new opportunity.
 
 <Note>
-**Place your BTC prediction:** [Launch Skepsis →](https://beta.skepsis.live/markets)
+**Try it free on testnet.** Sign in with Google, claim test USDC, and place your first BTC prediction in 2 minutes. No real money, no gas fees.
+
+[Launch Skepsis →](https://beta.skepsis.live/markets)
 </Note>
 
 ---

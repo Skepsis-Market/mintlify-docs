@@ -5,6 +5,10 @@ title: "How to Place a Bet"
 
 A complete guide to making your first prediction on Skepsis.
 
+<Tip>
+**🧪 Testnet Mode:** No real money required. Sign in with Google or connect a Sui wallet, claim free test USDC, and start predicting — all gas fees sponsored.
+</Tip>
+
 ---
 
 ## Overview
