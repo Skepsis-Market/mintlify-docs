@@ -23,15 +23,15 @@ But real predictions are rarely binary.
 
 ### The Binary Way (Frustrating)
 
-**Question:** "Will Bitcoin hit \$100,000 by December 31st?"
+**Question:** "Will Bitcoin hit $100,000 by December 31st?"
 
 | Scenario | Actual BTC Price | Your Bet | Result |
 |----------|------------------|----------|--------|
-| A | \$99,800 | Yes | ❌ LOSE |
-| B | \$100,001 | Yes | ✅ WIN |
-| C | \$150,000 | Yes | ✅ WIN |
+| A | $99,800 | Yes | ❌ LOSE |
+| B | $100,001 | Yes | ✅ WIN |
+| C | $150,000 | Yes | ✅ WIN |
 
-**The problem:** Scenario A and B are almost identical prices, but completely opposite outcomes. Your prediction of "around \$100K" was essentially correct, but the binary framing punished you.
+**The problem:** Scenario A and B are almost identical prices, but completely opposite outcomes. Your prediction of "around $100K" was essentially correct, but the binary framing punished you.
 
 ### The Skepsis Way (Intuitive)
 
@@ -39,11 +39,11 @@ But real predictions are rarely binary.
 
 | Your Range | Actual BTC Price | Result |
 |------------|------------------|--------|
-| \$95K - \$105K | \$99,800 | ✅ WIN |
-| \$95K - \$105K | \$100,001 | ✅ WIN |
-| \$95K - \$105K | \$150,000 | ❌ LOSE |
+| $95K - $105K | $99,800 | ✅ WIN |
+| $95K - $105K | $100,001 | ✅ WIN |
+| $95K - $105K | $150,000 | ❌ LOSE |
 
-**The solution:** You bet on what you actually believed — "Bitcoin will be around \$100K" — and you were rewarded for being right.
+**The solution:** You bet on what you actually believed — "Bitcoin will be around $100K" — and you were rewarded for being right.
 
 ---
 
@@ -56,7 +56,7 @@ A binary market tells you one thing: the probability of crossing a threshold.
 "BTC > $100K by Dec 31" = 45% Yes
 ```
 
-That's it. You don't know if traders think it'll be \$101K or \$200K if it passes.
+That's it. You don't know if traders think it'll be $101K or $200K if it passes.
 
 ### Continuous Markets: Full Distribution
 A Skepsis market shows you the entire probability landscape:
@@ -82,9 +82,9 @@ $120K+:        2%   ░
 
 ### Binary: Need Many Markets
 
-To express "BTC will be between \$95K-\$105K," you'd need to:
-1. Buy "Yes" on "BTC > \$95K" 
-2. Buy "No" on "BTC > \$105K"
+To express "BTC will be between $95K-$105K," you'd need to:
+1. Buy "Yes" on "BTC > $95K" 
+2. Buy "No" on "BTC > $105K"
 3. Hope both markets have liquidity
 4. Pay fees on multiple trades
 5. Track multiple positions
@@ -92,7 +92,7 @@ To express "BTC will be between \$95K-\$105K," you'd need to:
 ### Continuous: One Market, Full Expression
 
 On Skepsis:
-1. Select the \$95K-\$105K range
+1. Select the $95K-$105K range
 2. Place one bet
 3. Done.
 

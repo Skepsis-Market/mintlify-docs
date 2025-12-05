@@ -43,7 +43,7 @@ Polymarket uses binary (yes/no) markets. Skepsis uses continuous markets where y
 
 ### What happens to my money when I bet?
 
-Your USDC goes into the market's liquidity pool. In return, you receive "shares" representing your position. If the outcome lands in your range, each share is worth \$1. If not, they're worth \$0.
+Your USDC goes into the market's liquidity pool. In return, you receive "shares" representing your position. If the outcome lands in your range, each share is worth $1. If not, they're worth $0.
 
 ### Can I sell my position before resolution?
 
@@ -68,9 +68,9 @@ Odds are determined by the **LMSR algorithm** based on current betting activity:
 
 ### What does "3.5x odds" mean?
 
-If you bet \$100 at 3.5x odds:
-- **If you win:** You receive \$350
-- **If you lose:** You receive \$0
+If you bet $100 at 3.5x odds:
+- **If you win:** You receive $350
+- **If you lose:** You receive $0
 
 The multiplier tells you your payout relative to your bet.
 
@@ -83,10 +83,10 @@ The multiplier tells you your payout relative to your bet.
 ### What if the outcome is exactly on my range boundary?
 
 Boundaries are **lower-inclusive, upper-exclusive**:
-- Range: \$96,000 - \$97,000
-- \$96,000.00 → ✅ In range
-- \$96,999.99 → ✅ In range
-- \$97,000.00 → ❌ Not in range (belongs to next bucket)
+- Range: $96,000 - $97,000
+- $96,000.00 → ✅ In range
+- $96,999.99 → ✅ In range
+- $97,000.00 → ❌ Not in range (belongs to next bucket)
 
 ---
 
@@ -124,7 +124,7 @@ There's a **24-hour dispute window** after resolution. If you have evidence the 
 ### What are the fees?
 
 - **Trading fee:** 0.3% of each bet
-- **Gas fee:** ~\$0.001 per transaction (paid in SUI)
+- **Gas fee:** ~$0.001 per transaction (paid in SUI)
 
 ### Where do fees go?
 
