@@ -9,13 +9,13 @@ title: "📈 The Bitcoin Hour"
 
 ## The Setup
 
-It's 2:00 PM on a Tuesday. Bitcoin is trading at $96,450, and Skepsis has a market:
+It's 2:00 PM on a Tuesday. Bitcoin is trading at \$96,450, and Skepsis has a market:
 
 > **"Where will BTC/USD be at 3:00 PM UTC?"**
 > 
-> **Range:** $94,000 - $100,000  
+> **Range:** \$94,000 - \$100,000  
 > **Resolution:** 1 hour  
-> **Current Liquidity:** $10,000 USDC
+> **Current Liquidity:** \$10,000 USDC
 
 The probability distribution looks like this:
 
@@ -38,13 +38,13 @@ Three traders see opportunity.
 
 Sarah is a part-time crypto investor. She's watched Bitcoin all morning and believes it will stay relatively stable—maybe drift slightly up.
 
-**Her thesis:** "BTC will stay between $96,500 and $97,500. The market is too calm for big moves."
+**Her thesis:** "BTC will stay between \$96,500 and \$97,500. The market is too calm for big moves."
 
 **Her bet:**
-- **Range:** $96,500 - $97,500
-- **Investment:** $100 USDC
+- **Range:** \$96,500 - \$97,500
+- **Investment:** \$100 USDC
 - **Odds received:** 3.2x
-- **Potential payout:** $320 if correct
+- **Potential payout:** \$320 if correct
 
 Sarah knows her range is in the "popular zone" so odds aren't huge, but she's confident.
 
@@ -54,13 +54,13 @@ Sarah knows her range is in the "popular zone" so odds aren't huge, but she's co
 
 Marcus follows macro news. He just saw a headline about potential Fed comments and thinks there might be a small dip.
 
-**His thesis:** "There's going to be a quick selloff. BTC drops to $95K-$96K before recovering."
+**His thesis:** "There's going to be a quick selloff. BTC drops to \$95K-\$96K before recovering."
 
 **His bet:**
-- **Range:** $95,000 - $96,000
-- **Investment:** $150 USDC
+- **Range:** \$95,000 - \$96,000
+- **Investment:** \$150 USDC
 - **Odds received:** 8.3x
-- **Potential payout:** $1,245 if correct
+- **Potential payout:** \$1,245 if correct
 
 Marcus is betting against the crowd. Lower probability means better odds—but higher risk.
 
@@ -70,13 +70,13 @@ Marcus is betting against the crowd. Lower probability means better odds—but h
 
 Charlie is a day trader who watches order books obsessively. He noticed unusual buy pressure building and thinks a quick pump is coming.
 
-**His thesis:** "Whales are accumulating. We're going to see $98K+ within the hour."
+**His thesis:** "Whales are accumulating. We're going to see \$98K+ within the hour."
 
 **His bet:**
-- **Range:** $98,000 - $98,500 (narrow range)
-- **Investment:** $50 USDC
+- **Range:** \$98,000 - \$98,500 (narrow range)
+- **Investment:** \$50 USDC
 - **Odds received:** 12x
-- **Potential payout:** $600 if correct
+- **Potential payout:** \$600 if correct
 
 Charlie's taking a high-risk, high-reward approach with a very narrow range.
 
@@ -84,15 +84,15 @@ Charlie's taking a high-risk, high-reward approach with a very narrow range.
 
 ## The Hour Passes
 
-**2:15 PM:** BTC dips to $96,200. Marcus feels validated. Sarah's not worried.
+**2:15 PM:** BTC dips to \$96,200. Marcus feels validated. Sarah's not worried.
 
-**2:30 PM:** BTC recovers to $96,600. Sarah's looking good.
+**2:30 PM:** BTC recovers to \$96,600. Sarah's looking good.
 
-**2:45 PM:** Suddenly, buying pressure. BTC jumps to $97,100.
+**2:45 PM:** Suddenly, buying pressure. BTC jumps to \$97,100.
 
-**2:55 PM:** Another push. $97,400... $97,600... $97,800...
+**2:55 PM:** Another push. \$97,400... \$97,600... \$97,800...
 
-**3:00 PM - Resolution:** BTC closes at **$97,650**
+**3:00 PM - Resolution:** BTC closes at **\$97,650**
 
 ---
 
