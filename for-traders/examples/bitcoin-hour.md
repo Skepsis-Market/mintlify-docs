@@ -13,9 +13,9 @@ It's 2:00 PM on a Tuesday. Bitcoin is trading at $96,450, and Skepsis has a mark
 
 > **"Where will BTC/USD be at 3:00 PM UTC?"**
 > 
-> Range: $94,000 - $100,000  
-> Resolution: 1 hour  
-> Current Liquidity: $10,000 USDC
+> **Range:** $94,000 - $100,000  
+> **Resolution:** 1 hour  
+> **Current Liquidity:** $10,000 USDC
 
 The probability distribution looks like this:
 
@@ -104,17 +104,17 @@ Charlie's taking a high-risk, high-reward approach with a very narrow range.
 | Marcus | \$95,000 - \$96,000 | ❌ LOSE | Price never dropped that far |
 | Charlie | \$98,000 - \$98,500 | ❌ LOSE | Close, but didn't quite reach |
 
-**Plot twist:** Nobody won this round. The outcome landed in $97,500 - $98,000—a range that had ~20% probability but none of our traders bet on.
+**Plot twist:** Nobody won this round. The outcome landed in \$97,500 - \$98,000—a range that had ~20% probability but none of our traders bet on.
 
 ---
 
 ## The Lessons
 
 ### 1. Edge Cases Happen
-Sarah was only $150 away from winning. In binary markets, she'd have been right ("BTC stays under $98K"). Here, precision matters.
+Sarah was only \$150 away from winning. In binary markets, she'd have been right ("BTC stays under \$98K"). Here, precision matters.
 
 ### 2. The Crowd Isn't Always Wrong
-The distribution showed $96K-$98K as most likely (~78% combined). The outcome landed right in that zone—just not where our traders specified.
+The distribution showed \$96K-\$98K as most likely (~78% combined). The outcome landed right in that zone—just not where our traders specified.
 
 ### 3. Risk/Reward Trade-offs
 | Trader | Risk Style | Odds | Outcome |
@@ -124,11 +124,11 @@ The distribution showed $96K-$98K as most likely (~78% combined). The outcome la
 | Charlie | High-risk sniper | 12x | Close but no cigar |
 
 ### 4. You Can Always Hedge
-If Sarah had split her $100 into two bets:
-- $70 on $96,500 - $97,500 (3.2x)
-- $30 on $97,500 - $98,500 (5x)
+If Sarah had split her \$100 into two bets:
+- \$70 on \$96,500 - \$97,500 (3.2x)
+- \$30 on \$97,500 - \$98,500 (5x)
 
-She would have won $150 on the second bet, netting +$50 overall.
+She would have won \$150 on the second bet, netting +\$50 overall.
 
 ---
 
