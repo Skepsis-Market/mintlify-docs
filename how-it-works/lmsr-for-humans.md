@@ -27,11 +27,11 @@ Think of it as the **automated market maker** that runs every Skepsis market.
 Imagine a market with 5 possible outcome ranges:
 
 ```
-A: \$94K-\$95K
-B: \$95K-\$96K  
-C: \$96K-\$97K  ← Current price is here
-D: \$97K-\$98K
-E: \$98K-\$99K
+A: $94K-$95K
+B: $95K-$96K  
+C: $96K-$97K  ← Current price is here
+D: $97K-$98K
+E: $98K-$99K
 ```
 
 LMSR assigns each range a **probability** based on how many people have bet on it:

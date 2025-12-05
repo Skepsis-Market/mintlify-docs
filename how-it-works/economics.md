@@ -27,7 +27,7 @@ That's it. No complex token economics. No ponzinomics. Just predictions and payo
 A market creator deposits **initial liquidity**:
 
 ```
-Creator deposits: $10,000 USDC
+Creator deposits: \$10,000 USDC
 This becomes: The prize pool
 ```
 
@@ -38,11 +38,11 @@ This liquidity enables trading from day one.
 Traders buy shares in ranges they believe will win:
 
 ```
-Alice buys: $100 on range $96K-$97K (gets 400 shares)
-Bob buys: $200 on range $97K-$98K (gets 500 shares)  
-Charlie buys: $150 on range $95K-$96K (gets 800 shares)
+Alice buys: \$100 on range \$96K-\$97K (gets 400 shares)
+Bob buys: \$200 on range \$97K-\$98K (gets 500 shares)  
+Charlie buys: \$150 on range \$95K-\$96K (gets 800 shares)
 
-Pool grows: $10,000 + $100 + $200 + $150 = $10,450
+Pool grows: \$10,000 + \$100 + \$200 + \$150 = \$10,450
 ```
 
 ### Step 3: Resolution
@@ -50,13 +50,13 @@ Pool grows: $10,000 + $100 + $200 + $150 = $10,450
 The outcome is revealed, winners claim:
 
 ```
-Result: BTC = $97,200 (Bob's range wins!)
+Result: BTC = \$97,200 (Bob's range wins!)
 
-Bob's 500 shares × $1 = $500 payout
-Alice: $0 (wrong range)
-Charlie: $0 (wrong range)
+Bob's 500 shares × \$1 = \$500 payout
+Alice: \$0 (wrong range)
+Charlie: \$0 (wrong range)
 
-Bob's profit: $500 - $200 = $300 ✅
+Bob's profit: \$500 - \$200 = \$300 ✅
 ```
 
 ### Step 4: Remaining Balance
@@ -64,9 +64,9 @@ Bob's profit: $500 - $200 = $300 ✅
 After all claims:
 
 ```
-Pool started: $10,450
-Bob claimed: $500
-Pool remaining: $9,950
+Pool started: \$10,450
+Bob claimed: \$500
+Pool remaining: \$9,950
 
 This stays in the system for:
 - LP withdrawal
@@ -86,9 +86,9 @@ The primary source. When you lose, your bet goes to:
 3. LP returns
 
 ```
-Losers paid: $250 (Alice + Charlie)
-Winner received: $500 (Bob)
-Gap of $250 from: Initial liquidity
+Losers paid: \$250 (Alice + Charlie)
+Winner received: \$500 (Bob)
+Gap of \$250 from: Initial liquidity
 ```
 
 ### Source 2: Initial Liquidity
@@ -96,14 +96,14 @@ Gap of $250 from: Initial liquidity
 When losers don't cover winners, the initial liquidity bridges the gap.
 
 ```
-Initial LP: $10,000
-Total bets: $450 (Alice $100, Bob $200, Charlie $150)
-Pool: $10,450
+Initial LP: \$10,000
+Total bets: \$450 (Alice \$100, Bob \$200, Charlie \$150)
+Pool: \$10,450
 
-If winners claim $500:
-Losers contribute: $250
-LP contributes: $250
-Winner receives: $500
+If winners claim \$500:
+Losers contribute: \$250
+LP contributes: \$250
+Winner receives: \$500
 ```
 
 ### Source 3: LMSR Pricing Premium
@@ -112,7 +112,7 @@ The LMSR algorithm builds in a small edge for the market maker:
 
 ```
 Sum of all range probabilities = 100%
-Sum of implied prices = slightly > $1 (spread)
+Sum of implied prices = slightly > \$1 (spread)
 
 This spread = market maker's edge = system stays solvent
 ```
@@ -128,7 +128,7 @@ This spread = market maker's edge = system stays solvent
 ### How LMSR Guarantees Solvency
 
 ```
-Max possible payout = Total shares × $1/share
+Max possible payout = Total shares × \$1/share
 Pool balance = Initial liquidity + All bets - Payouts
 
 LMSR ensures: Pool balance ≥ Max possible payout (always)
@@ -141,8 +141,8 @@ The **alpha (α)** in LMSR is calibrated to ensure:
 ```
 Max LP loss = 50% of initial liquidity
 
-If creator deposits $10,000:
-Worst case for LP: Lose $5,000
+If creator deposits \$10,000:
+Worst case for LP: Lose \$5,000
 Best case for LP: Profit from fees and losers
 ```
 
@@ -174,9 +174,9 @@ A small fee on each transaction:
 ```
 Fee: 0.3% (30 basis points)
 
-On a $100 bet:
-Fee: $0.30
-Net bet: $99.70
+On a \$100 bet:
+Fee: \$0.30
+Net bet: \$99.70
 ```
 
 ### Where Fees Go
@@ -201,17 +201,17 @@ Total fees collected
 ### The Investment
 
 ```
-Create market with $10,000 liquidity
-Risk: Lose up to 50% ($5,000) in worst case
+Create market with \$10,000 liquidity
+Risk: Lose up to 50% (\$5,000) in worst case
 Return: Share of trading fees + any remaining liquidity
 ```
 
 ### The Return
 
 ```
-Market generates $50,000 in trading volume
-Fees at 0.3%: $150
-Creator share (30%): $45
+Market generates \$50,000 in trading volume
+Fees at 0.3%: \$150
+Creator share (30%): \$45
 
 Plus: Return of remaining liquidity at market close
 ```
@@ -220,7 +220,7 @@ Plus: Return of remaining liquidity at market close
 
 | Outcome | Creator Result |
 |---------|----------------|
-| Low volume, balanced betting | ~$0 profit, get liquidity back |
+| Low volume, balanced betting | ~\$0 profit, get liquidity back |
 | High volume, balanced betting | Fee profit + most liquidity back |
 | Low volume, unbalanced betting | Possible small loss |
 | High volume, unbalanced betting | Fee profit may offset LP loss |
@@ -232,15 +232,15 @@ Plus: Return of remaining liquidity at market close
 ### Your Money Flow
 
 ```
-You bet $100:
-├── $99.70 goes to buy shares
-└── $0.30 goes to fees
+You bet \$100:
+├── \$99.70 goes to buy shares
+└── \$0.30 goes to fees
 
 If you win:
-You receive: Shares × $1/share = deterministic payout
+You receive: Shares × \$1/share = deterministic payout
 
 If you lose:
-Your $99.70 pays other winners
+Your \$99.70 pays other winners
 ```
 
 ### Expected Value
@@ -254,7 +254,7 @@ Negative EV = Bad bet
 Example:
 Market says: 25% (4x odds)
 You think: 35%
-EV = (0.35 × $400) - $100 = +$40 ✅
+EV = (0.35 × \$400) - \$100 = +\$40 ✅
 ```
 
 ---
@@ -282,7 +282,7 @@ EV = (0.35 × $400) - $100 = +$40 ✅
 
 ### Traditional Betting (Casino/Sportsbook)
 ```
-You bet $100
+You bet \$100
 House edge: 5-10%
 House always profits
 Zero-sum for bettors
@@ -290,7 +290,7 @@ Zero-sum for bettors
 
 ### Prediction Markets (Polymarket-style)
 ```
-You bet $100 against other users
+You bet \$100 against other users
 Platform takes ~2% fee
 Winners take from losers
 Platform always profits
@@ -298,7 +298,7 @@ Platform always profits
 
 ### Skepsis
 ```
-You bet $100 against the market state
+You bet \$100 against the market state
 LMSR prices your bet fairly
 If you have edge, you profit
 Platform takes 0.3% fee

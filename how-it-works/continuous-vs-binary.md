@@ -10,16 +10,16 @@ A deep dive into why predicting distributions beats predicting yes/no.
 ## The Fundamental Difference
 
 ### Binary Markets
-> "Will Bitcoin be above $100,000 on December 31?"
+> "Will Bitcoin be above \$100,000 on December 31?"
 >
 > **Options:** Yes or No
-> **Payout:** Yes = $1, No = $1
+> **Payout:** Yes = \$1, No = \$1
 
 ### Continuous Markets (Skepsis)
 > "What will Bitcoin's price be on December 31?"
 >
 > **Options:** Any range within the market bounds
-> **Payout:** $1 per share if outcome lands in your range
+> **Payout:** \$1 per share if outcome lands in your range
 
 ---
 
