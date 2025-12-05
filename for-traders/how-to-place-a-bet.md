@@ -108,8 +108,8 @@ Before confirming, you'll see a detailed quote on the right side of the screen.
 ### Transaction Details
 
 You'll pay:
-- **Actual Cost:** The exact cost to buy the position. This is often slightly less than your input amount (e.g., if you input 100 USDC, the actual cost might be 99.50 USDC).
-- **Gas fee:** ~0.001 SUI (negligible)
+- **Actual Cost:** The exact cost to buy the position. This is often slightly less than your input amount (e.g., if you input 100 USDC, the actual cost might be 99.50 USDC). The unused difference never leaves your wallet.
+- **Network fee:** ~0.001 SUI (negligible)
 
 <Note>
 **Why is the cost lower?** 
