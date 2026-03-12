@@ -11,28 +11,34 @@ The honest breakdown of what LPs can expect.
 
 ### 1. Trading Fees
 
-Every trade on Skepsis pays a 0.3% fee. A portion of that flows to the Vault.
+Every trade on Skepsis pays a fee between 0.3% and 1%, depending on the market's risk category. A portion flows to the Vault.
 
 ```
 Daily trading volume: $500,000
-Fee rate: 0.3%
-Daily fees: $1,500
-LP share of fees: ~$600
+Fee rate: 0.3%-1% (avg ~0.5%)
+Daily fees: ~$2,500
+LP share of fees: ~$1,000
 
-On a $100,000 Vault position, that's 0.6%/day
+On a $100,000 Vault position, that's 1%/day
 (Hypothetical — actual volume varies)
 ```
 
 ### 2. Market Maker Spread
 
-LMSR doesn't price at exactly "fair value" — there's a tiny spread built into the math. This spread is what makes the system solvent, and it benefits LPs.
+LMSR has a built-in spread that benefits LPs — but it's not what you might think.
+
+The marginal prices across all outcomes always sum to exactly 1.0. That's a core property. The spread comes from **convexity**: when a trader buys a chunk of shares, the price moves up *as they buy*. The average cost per share ends up higher than the starting price.
 
 ```
-Sum of all range probabilities: 100%
-Sum of all range prices: slightly > $1
+Trader sees: $96K-$97K at 25% probability
+Trader buys $500 worth of shares
+Price moves from 25% → 28% during execution
 
-That "slightly more" is your edge as an LP.
+Average cost per share: higher than 25%
+That difference = the spread = LP's edge
 ```
+
+The bigger the trade relative to alpha, the more slippage. This is the pool's natural defense — and it's what keeps LPs solvent.
 
 ### 3. Losing Trader Capital
 

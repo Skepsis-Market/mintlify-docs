@@ -44,6 +44,44 @@ Your money never sleeps.
 
 ---
 
+## No Thin Liquidity. Ever.
+
+This is the part most people miss about the Vault — and it's the thing that changes everything for traders.
+
+On an order book platform (Polymarket, a sportsbook, even a DEX), every outcome needs someone on the other side. If nobody's making a market on "BTC lands between $94K and $95K," that range is a ghost town. You either can't trade it, or you get terrible fill prices.
+
+```
+Order book prediction market:
+
+$95K-$96K:  🟢 Deep liquidity (popular range)
+$96K-$97K:  🟢 Deep liquidity
+$97K-$98K:  🟡 Some liquidity
+$98K-$99K:  🔴 Thin — wide spread, bad fills
+$99K-$100K: 🔴 Almost nothing
+$100K+:     ⚫ No liquidity at all
+
+You want to bet on $99K? Good luck finding a counterparty.
+```
+
+On Skepsis, the Vault is the counterparty for **every single range**. The LMSR algorithm doesn't need a matching buyer — it prices every outcome mathematically. And the Vault ensures there's always capital behind that math.
+
+```
+Skepsis (Vault-backed LMSR):
+
+$95K-$96K:  🟢 Always tradeable
+$96K-$97K:  🟢 Always tradeable
+$97K-$98K:  🟢 Always tradeable
+$98K-$99K:  🟢 Always tradeable
+$99K-$100K: 🟢 Always tradeable
+$100K+:     🟢 Always tradeable
+
+Every range. Any size. Instant fill. Always.
+```
+
+This is why the Vault isn't just an LP product — it's the engine that makes Skepsis markets fundamentally different from anything built on order books. The tail ranges, the contrarian bets, the weird corners of the distribution that nobody else is trading? Those are where the real alpha lives. And on Skepsis, they're always open.
+
+---
+
 ## How It Works
 
 ### Deposit
@@ -75,7 +113,7 @@ No single market gets more than 20% of the Vault.
 When traders bet, fees are split:
 
 ```
-Trader pays 0.3% fee on every trade
+Trader pays 0.3%-1% fee on every trade (based on risk category)
 ├── Part goes to the protocol
 └── Part flows back to the Vault (your share)
 ```

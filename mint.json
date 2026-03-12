@@ -62,15 +62,15 @@
         "for-traders/reading-odds",
         "for-traders/deterministic-payouts",
         "for-traders/market-types",
-        "for-traders/strategies"
-      ]
-    },
-    {
-      "group": "Example Markets",
-      "pages": [
-        "for-traders/examples/bitcoin-hour",
-        "for-traders/examples/beach-wedding",
-        "for-traders/examples/gpt5-launch"
+        "for-traders/strategies",
+        {
+          "group": "Examples",
+          "pages": [
+            "for-traders/examples/bitcoin-hour",
+            "for-traders/examples/beach-wedding",
+            "for-traders/examples/gpt5-launch"
+          ]
+        }
       ]
     },
     {

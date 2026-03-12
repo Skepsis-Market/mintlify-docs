@@ -169,7 +169,7 @@ There's a **24-hour dispute window** after resolution. If you have evidence the 
 
 ### What are the fees?
 
-- **Trading fee:** 0.3% of each bet
+- **Trading fee:** 0.3%-1% per trade (varies by market risk category)
 - **Gas fee:** ~$0.01 per transaction (paid in AVAX)
 
 ### Where do fees go?
