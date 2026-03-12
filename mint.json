@@ -19,12 +19,12 @@
   "topbarLinks": [
     {
       "name": "Launch App",
-      "url": "https://beta.skepsis.live/markets"
+      "url": "https://alpha.skepsis.live/markets"
     }
   ],
   "topbarCtaButton": {
     "name": "Start Trading",
-    "url": "https://beta.skepsis.live/markets"
+    "url": "https://alpha.skepsis.live/markets"
   },
   "tabs": [
     {
@@ -74,10 +74,18 @@
       ]
     },
     {
+      "group": "For LPs",
+      "pages": [
+        "for-lps/vault-overview",
+        "for-lps/risks-and-returns"
+      ]
+    },
+    {
       "group": "How It Works",
       "pages": [
         "how-it-works/lmsr-for-humans",
         "how-it-works/continuous-vs-binary",
+        "how-it-works/alpha-decay",
         "how-it-works/economics",
         "how-it-works/trust-and-resolution"
       ]
@@ -85,9 +93,7 @@
     {
       "group": "Comparisons",
       "pages": [
-        "comparisons/vs-polymarket",
-        "comparisons/vs-kalshi",
-        "comparisons/vs-traditional-betting"
+        "comparisons/vs-binary-markets"
       ]
     },
     {

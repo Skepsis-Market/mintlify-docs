@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "🌡️ Beach Wedding"
 ---
 
@@ -165,7 +164,7 @@ Weather markets let you:
 <Note>
 **Try it free on testnet.** Sign in with Google, claim test USDC, and explore weather markets. No real money, no gas fees.
 
-[Launch Skepsis →](https://beta.skepsis.live/markets)
+[Launch Skepsis →](https://alpha.skepsis.live/markets)
 </Note>
 
 ---

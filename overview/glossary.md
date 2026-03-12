@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "Glossary"
 ---
 
@@ -115,17 +114,26 @@ The maximum amount you could win if all your selected ranges contain the winning
 
 ## Technical Terms
 
-### Sui
-The layer-1 blockchain Skepsis is built on. Known for high speed, low fees, and object-based architecture.
+### Avalanche
+The blockchain Skepsis is built on. Known for fast finality, low fees, and EVM compatibility.
 
 ### USDC
 The stablecoin used for betting on Skepsis. 1 USDC ≈ \$1 USD.
 
 ### Transaction
-An on-chain action like placing a bet or claiming winnings. Each transaction requires a small gas fee paid in SUI.
+An on-chain action like placing a bet or claiming winnings. Each transaction requires a small gas fee paid in AVAX.
 
 ### Smart Contract
 Self-executing code on the blockchain that manages markets, positions, and payouts. Skepsis contracts are open-source and auditable.
+
+### Vault
+An ERC-4626 pool where LPs deposit USDC to seed markets. Capital is deployed across multiple markets and recycled as markets resolve. LPs earn fees from trading activity.
+
+### Alpha Decay
+A mechanism where the liquidity parameter (alpha) gradually decreases over a market's lifetime. This makes spreads tighter as the market matures — early bettors get a premium for taking risk with less information.
+
+### Position NFT
+Your bet is represented as an ERC-1155 token. This means positions are transferable, composable, and truly owned by you — not locked in a platform account.
 
 ---
 

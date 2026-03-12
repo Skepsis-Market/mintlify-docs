@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "How to Place a Bet"
 ---
 
@@ -7,7 +6,7 @@ title: "How to Place a Bet"
 A complete guide to making your first prediction on Skepsis.
 
 <Tip>
-**🧪 Testnet Mode:** No real money required. Sign in with Google (gas sponsored) or connect a Sui wallet ([get test SUI](https://faucet.sui.io/)), claim free test USDC, and start predicting.
+**🧪 Testnet Mode:** No real money required. Sign in with Privy (gas sponsored) or connect an EVM wallet ([get test AVAX](https://faucet.avax.network/)), claim free test USDC, and start predicting.
 </Tip>
 
 ---
@@ -27,7 +26,7 @@ Let's walk through each step.
 
 ## Step 1: Choose a Market
 
-Browse available markets on the [Skepsis app](https://beta.skepsis.live/markets).
+Browse available markets on the [Skepsis app](https://alpha.skepsis.live/markets).
 
 <Frame>
   <img src="/images/browse-markets.png" alt="Active market cards showing question, distribution, and time remaining" />
@@ -114,7 +113,7 @@ Before confirming, you'll see a detailed quote on the right side of the screen.
 
 You'll pay:
 - **Actual Cost:** The exact cost to buy the position. This is often slightly less than your input amount (e.g., if you input 100 USDC, the actual cost might be 99.50 USDC). The unused difference never leaves your wallet.
-- **Network fee:** ~0.001 SUI (negligible)
+- **Network fee:** ~0.01 AVAX (negligible)
 
 <Note>
 **Why is the cost lower?** 
@@ -123,7 +122,7 @@ Due to the way our market maker (LMSR) calculates prices, we can't always match 
 
 ### What Happens Next
 
-1. ✅ Transaction confirmed on Sui blockchain
+1. ✅ Transaction confirmed on Avalanche
 2. ✅ Your position is created
 3. ✅ You can view it in "My Positions"
 4. ⏳ Wait for market resolution

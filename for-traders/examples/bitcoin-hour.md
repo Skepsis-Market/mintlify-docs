@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "📈 The Bitcoin Hour"
 ---
 
@@ -148,7 +147,7 @@ Bitcoin markets run continuously on Skepsis. Every hour is a new opportunity.
 <Note>
 **Try it free on testnet.** Sign in with Google, claim test USDC, and place your first BTC prediction in 2 minutes. No real money, no gas fees.
 
-[Launch Skepsis →](https://beta.skepsis.live/markets)
+[Launch Skepsis →](https://alpha.skepsis.live/markets)
 </Note>
 
 ---

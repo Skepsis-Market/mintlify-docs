@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "Quick Start Guide"
 ---
 
@@ -15,19 +14,18 @@ Go from zero to your first prediction — completely free on testnet.
 **Choose your path:**
 
 <CardGroup cols={2}>
-  <Card title="🌐 New to Crypto?" icon="google">
-    **Just need a Google account.** That's it.
-    
-    - Sign in with Google (zkLogin)
-    - No wallet to install
-    - No gas fees (we sponsor them)
+  <Card title="🌐 New to Crypto?" icon="envelope">
+    **Just need an email or social account.**
+
+    - Sign in with Privy (email, Google, Twitter)
+    - Embedded wallet created for you
     - Free test USDC from faucet
   </Card>
-  <Card title="🔷 Sui Native?" icon="wallet">
-    **Connect your existing wallet.**
-    
-    - Slush, Sui Wallet, or Martian
-    - Get test SUI from [Sui Faucet](https://faucet.sui.io/)
+  <Card title="🔷 Have a Wallet?" icon="wallet">
+    **Connect your existing EVM wallet.**
+
+    - MetaMask, Rabby, or any EVM wallet
+    - Get test AVAX from [Avalanche Fuji Faucet](https://faucet.avax.network/)
     - Then claim free test USDC
     - Full wallet control
   </Card>
@@ -41,17 +39,17 @@ Go from zero to your first prediction — completely free on testnet.
 
 ## Step 1: Connect & Get Test USDC
 
-1. Go to [beta.skepsis.live](https://beta.skepsis.live/markets)
+1. Go to [alpha.skepsis.live](https://alpha.skepsis.live/markets)
 2. Click **"Connect Wallet"** in the top right
 3. Choose your method:
-   - **Sign in with Google** — Instant access, no setup
-   - **Slush / Sui Wallet / Martian** — For Sui native users
+   - **Sign in with Privy** — Email, Google, or social login
+   - **MetaMask / Rabby / WalletConnect** — For EVM wallet users
 4. **Claim test USDC** from the faucet (button appears after connecting)
 
 <Frame>
   <img src="/images/connect-wallet.png" alt="Connect wallet with Google Login" />
 </Frame>
-*Sign in with Google for instant access, or connect your Sui wallet*
+*Sign in with Privy for instant access, or connect your EVM wallet*
 
 ---
 
@@ -62,7 +60,7 @@ Explore active markets across categories like Cryptocurrency, Politics, Sports, 
 <Frame>
   <img src="/images/browse-markets.png" alt="Active market cards" />
 </Frame>
-*Browse active markets like SUI and BTC price predictions*
+*Browse active markets like AVAX and BTC price predictions*
 
 **Click on any market card** to see details and place a bet.
 

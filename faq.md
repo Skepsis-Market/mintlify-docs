@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "Frequently Asked Questions"
 ---
 
@@ -12,7 +11,7 @@ Quick answers to common questions about Skepsis.
 
 ### Is this real money?
 
-**No.** Skepsis is currently on **Sui Testnet**. All USDC used is test currency with no real value. This lets you:
+**No.** Skepsis is currently on **Avalanche Fuji Testnet**. All USDC used is test currency with no real value. This lets you:
 
 - Learn the platform risk-free
 - Test strategies without financial exposure
@@ -20,8 +19,8 @@ Quick answers to common questions about Skepsis.
 
 ### How do I get test USDC?
 
-1. Go to [beta.skepsis.live](https://beta.skepsis.live/markets)
-2. Sign in with Google or connect your Sui wallet
+1. Go to [alpha.skepsis.live](https://alpha.skepsis.live/markets)
+2. Sign in with Privy or connect your EVM wallet
 3. Click **"Claim USDC"** in the app
 4. Receive free test tokens instantly
 
@@ -31,8 +30,8 @@ Quick answers to common questions about Skepsis.
 
 | Sign-in Method | Gas Fees |
 |----------------|----------|
-| **Google (zkLogin)** | ✅ Sponsored — we pay for you |
-| **Sui Wallet** | Get free test SUI from [faucet.sui.io](https://faucet.sui.io/) |
+| **Privy (email/social)** | ✅ Sponsored — we pay for you |
+| **EVM Wallet** | Get free test AVAX from [Avalanche Faucet](https://faucet.avax.network/) |
 
 ### Do I need a crypto wallet?
 
@@ -40,10 +39,10 @@ Quick answers to common questions about Skepsis.
 
 | Option | Best For |
 |--------|----------|
-| **Sign in with Google** | New to crypto, instant access, gas sponsored |
-| **Connect Sui Wallet** | Sui native users, full control, need test SUI for gas |
+| **Sign in with Privy** | New to crypto, instant access, gas sponsored |
+| **Connect EVM Wallet** | Crypto natives, full control, need test AVAX for gas |
 
-Both options work identically. Google sign-in uses zkLogin — a zero-knowledge proof system that creates a wallet linked to your Google account.
+Both options work identically. Privy creates an embedded wallet linked to your account — no extensions needed.
 
 ### When will mainnet launch?
 
@@ -55,7 +54,7 @@ We're gathering feedback during testnet. Join our [Telegram](https://t.me/skepsi
 
 ### What is Skepsis?
 
-Skepsis is a **continuous outcome prediction market** built on Sui blockchain. Instead of betting yes/no on binary questions, you bet on **ranges** where you think an outcome will land.
+Skepsis is a **continuous outcome prediction market** built on Avalanche. Instead of betting yes/no on binary questions, you bet on **ranges** where you think an outcome will land.
 
 ### How is this different from Polymarket?
 
@@ -65,7 +64,7 @@ Polymarket uses binary (yes/no) markets. Skepsis uses continuous markets where y
 
 ### What do I need to get started?
 
-**Just a Google account** — or a Sui wallet if you prefer.
+**Just an email account** — or an EVM wallet if you prefer.
 
 On testnet:
 - ✅ Free test USDC from faucet
@@ -171,7 +170,7 @@ There's a **24-hour dispute window** after resolution. If you have evidence the 
 ### What are the fees?
 
 - **Trading fee:** 0.3% of each bet
-- **Gas fee:** ~$0.001 per transaction (paid in SUI)
+- **Gas fee:** ~$0.01 per transaction (paid in AVAX)
 
 ### Where do fees go?
 
@@ -186,7 +185,7 @@ Fees are split between:
 
 ### Is Skepsis decentralized?
 
-**Mostly.** The smart contracts are deployed on Sui blockchain and handle all trading/settlement logic. Market creation and some parameters are currently controlled by the team.
+**Mostly.** The smart contracts are deployed on Avalanche and handle all trading/settlement logic. Market creation and some parameters are currently controlled by the team.
 
 ### Is the code open source?
 
@@ -194,7 +193,7 @@ Yes! Our smart contracts are open source and auditable.
 
 ### What blockchain is Skepsis on?
 
-Skepsis is built on **Sui**, a high-performance Layer 1 blockchain with sub-second finality and low fees.
+Skepsis is built on **Avalanche**, a high-performance blockchain with fast finality, low fees, and full EVM compatibility.
 
 ### Do I need to KYC?
 
@@ -210,7 +209,7 @@ No. The **LMSR algorithm** mathematically guarantees that the pool can always pa
 
 ### What if Skepsis disappears?
 
-Your funds are in smart contracts on Sui blockchain, not held by Skepsis company. As long as the blockchain exists, your positions exist.
+Your funds are in smart contracts on Avalanche, not held by Skepsis company. As long as the blockchain exists, your positions exist.
 
 ### Are smart contracts audited?
 
@@ -223,7 +222,7 @@ Your funds are in smart contracts on Sui blockchain, not held by Skepsis company
 ### My transaction failed. What happened?
 
 Common causes:
-- Insufficient SUI for gas
+- Insufficient AVAX for gas
 - Insufficient USDC for bet
 - Market already closed
 - Network congestion
@@ -234,7 +233,7 @@ Check your wallet and try again. If issues persist, reach out on Telegram.
 
 1. Make sure the market has resolved
 2. Check that the outcome was in your range
-3. Ensure you have SUI for gas
+3. Ensure you have AVAX for gas
 4. Try refreshing and reconnecting wallet
 
 If still stuck, contact support on Telegram.
@@ -256,5 +255,5 @@ Can't find your answer? Ask in our [Telegram](https://t.me/skepsis_market) — t
 ## Start Predicting
 
 <Note>
-**Ready to try it?** [Launch Skepsis →](https://beta.skepsis.live/markets)
+**Ready to try it?** [Launch Skepsis →](https://alpha.skepsis.live/markets)
 </Note>
