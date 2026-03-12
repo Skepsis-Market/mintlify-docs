@@ -190,11 +190,11 @@ The system self-balances.
 A small fee on each transaction:
 
 ```
-Fee: 0.3% (30 basis points)
+Fee: 0.3%-1% (30-100 basis points, varies by market risk category)
 
-On a $100 bet:
-Fee: $0.30
-Net bet: $99.70
+On a $100 bet at 0.5% fee:
+Fee: $0.50
+Net bet: $99.50
 ```
 
 ### Where Fees Go
@@ -228,8 +228,8 @@ Return: Share of trading fees + any remaining liquidity
 
 ```
 Market generates $50,000 in trading volume
-Fees at 0.3%: $150
-Creator share (30%): $45
+Fees at ~0.5%: $250
+Creator share (30%): $75
 
 Plus: Return of remaining liquidity at market close
 ```
@@ -319,7 +319,7 @@ Platform always profits
 You bet $100 against the market state
 LMSR prices your bet fairly
 If you have edge, you profit
-Platform takes 0.3% fee
+Platform takes 0.3%-1% fee
 LPs take bounded risk for fee share
 ```
 
@@ -344,7 +344,7 @@ With balanced betting and sufficient volume, this is positive.
 
 ### "Is this sustainable?"
 
-Yes. The 0.3% fee covers:
+Yes. The 0.3%-1% fee covers:
 - Protocol costs
 - Creator rewards  
 - LP incentives

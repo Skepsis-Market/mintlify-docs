@@ -134,7 +134,7 @@ Better than sportsbooks, but still extractive
 ### Skepsis
 
 ```
-Trading fee: 0.3% flat
+Trading fee: 0.3%-1% (varies by risk category)
 LMSR guarantees liquidity — always
 No house edge — prices set by market participants
 Your edge = your information advantage
@@ -180,7 +180,7 @@ Locked in at bet time. No surprises. Ever.
 | | Traditional Betting | Binary Markets | Skepsis |
 |---|---|---|---|
 | **Question format** | Spread/over-under | Yes/No | Where exactly? |
-| **House edge** | 5-15% | 1-7% | 0.3% fee |
+| **House edge** | 5-15% | 1-7% | 0.3%-1% fee |
 | **Who sets odds** | Bookmaker | Market makers | LMSR algorithm |
 | **Payout timing** | Variable | At resolution | Locked at bet time |
 | **Information** | Hidden | Single probability | Full distribution |
