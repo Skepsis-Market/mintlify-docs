@@ -60,7 +60,7 @@ Skepsis is a **continuous outcome prediction market** built on Avalanche. Instea
 
 Polymarket uses binary (yes/no) markets. Skepsis uses continuous markets where you select ranges. This lets you express more nuanced predictions and see full probability distributions.
 
-[Learn more: Skepsis vs Polymarket →](/comparisons/vs-polymarket)
+[Learn more: Skepsis vs Binary Markets →](/comparisons/vs-binary-markets)
 
 ### What do I need to get started?
 
@@ -114,9 +114,9 @@ Odds are determined by the **LMSR algorithm** based on current betting activity:
 
 ### What does "3.5x odds" mean?
 
-If you bet $100 at 3.5x odds:
-- **If you win:** You receive $350
-- **If you lose:** You receive $0
+If you bet \$100 at 3.5x odds:
+- **If you win:** You receive \$350
+- **If you lose:** You receive \$0
 
 The multiplier tells you your payout relative to your bet.
 
@@ -129,10 +129,10 @@ The multiplier tells you your payout relative to your bet.
 ### What if the outcome is exactly on my range boundary?
 
 Boundaries are **lower-inclusive, upper-exclusive**:
-- Range: $96,000 - $97,000
-- $96,000.00 → ✅ In range
-- $96,999.99 → ✅ In range
-- $97,000.00 → ❌ Not in range (belongs to next bucket)
+- Range: \$96,000 - \$97,000
+- \$96,000.00 → ✅ In range
+- \$96,999.99 → ✅ In range
+- \$97,000.00 → ❌ Not in range (belongs to next bucket)
 
 ---
 
@@ -170,7 +170,7 @@ There's a **24-hour dispute window** after resolution. If you have evidence the 
 ### What are the fees?
 
 - **Trading fee:** 0.3%-1% per trade (varies by market risk category)
-- **Gas fee:** ~$0.01 per transaction (paid in AVAX)
+- **Gas fee:** ~\$0.01 per transaction (paid in AVAX)
 
 ### Where do fees go?
 

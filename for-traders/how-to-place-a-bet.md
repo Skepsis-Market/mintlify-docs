@@ -70,9 +70,9 @@ When you open a market, you'll see a probability chart. Click and drag to select
 
 | Range Width | Odds | Risk Level |
 |-------------|------|------------|
-| Very narrow ($500) | 10-20x | 🔴 High risk |
-| Moderate ($2,000) | 3-5x | 🟡 Medium risk |
-| Wide ($5,000) | 1.5-2x | 🟢 Low risk |
+| Very narrow (\$500) | 10-20x | 🔴 High risk |
+| Moderate (\$2,000) | 3-5x | 🟡 Medium risk |
+| Wide (\$5,000) | 1.5-2x | 🟢 Low risk |
 
 **The trade-off:** Wider ranges are more likely to win but pay less. Narrow ranges pay more but are harder to hit.
 
@@ -133,11 +133,11 @@ Due to the way our market maker (LMSR) calculates prices, we can't always match 
 
 ### Track Your Position
 
-Go to **"My Positions"** to see:
-- All your active bets
-- Current probability of each range
-- Potential payouts
-- Time until resolution
+Go to **"Portfolio"** to see all your positions — active, sold, claimable, and lost — along with stats like total PNL, win rate, and realized gains.
+
+<Frame>
+  <img src="/images/portfolio.png" alt="Portfolio page showing positions and performance stats" />
+</Frame>
 
 ### Optional: Sell Early
 
@@ -184,10 +184,10 @@ After resolution:
 
 ### What if the outcome is exactly on my range boundary?
 
-The lower bound is inclusive, upper bound is exclusive. So range $96,000-$97,000:
-- $96,000.00 → ✅ In range
-- $96,999.99 → ✅ In range
-- $97,000.00 → ❌ Not in range
+The lower bound is inclusive, upper bound is exclusive. So range \$96,000-\$97,000:
+- \$96,000.00 → ✅ In range
+- \$96,999.99 → ✅ In range
+- \$97,000.00 → ❌ Not in range
 
 ### Can I bet on multiple ranges?
 

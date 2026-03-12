@@ -127,11 +127,52 @@ $98,000 - $99,000  →  8x odds (12% probability)
 1. The oracle reports the actual outcome
 2. Check if it landed in your range
 3. If you won: Click **"Claim Winnings"** to receive your payout
-4. If you lost: Better luck next time! 🎲
+4. If you lost: Better luck next time!
+
+### Your Portfolio
+
+Track everything from the **Portfolio** page — active positions, sold positions, claimable winnings, and overall stats like PNL, win rate, and realized gains.
+
+<Frame>
+  <img src="/images/portfolio.png" alt="Portfolio page showing positions, PNL, win rate, and realized gains" />
+</Frame>
+*Your portfolio: track active bets, claim winnings, and monitor your performance*
 
 ---
 
-## 🎉 Congratulations!
+## Step 6: Provide Liquidity (Optional)
+
+Don't just bet — **be the house.** The Vault lets you earn passive yield by funding every market on Skepsis.
+
+### How It Works
+
+1. Navigate to the **Vault** page
+2. Deposit USDC into the shared liquidity pool
+3. Receive vault shares representing your slice
+4. Earn fees from every trade across every market
+
+<Frame>
+  <img src="/images/vault-overview.png" alt="Vault overview showing deposit, shares, and earnings" />
+</Frame>
+*The Vault: deposit once, earn from every market*
+
+<Frame>
+  <img src="/images/seed-overview.png" alt="LP seed overview showing capital deployment across markets" />
+</Frame>
+*Your capital is automatically deployed across all active markets*
+
+**Why LP?**
+- **Passive income** — Earn 0.3%-1% fees on every trade
+- **No market picking** — The Vault spreads capital across all markets automatically
+- **Capital recycling** — When markets resolve, capital returns and redeploys to new markets
+
+<Info>
+**Want the full picture?** Check out the [Vault deep dive](/for-lps/vault-overview) for how it all works under the hood.
+</Info>
+
+---
+
+## Congratulations!
 
 You've placed your first continuous outcome prediction — completely free on testnet!
 

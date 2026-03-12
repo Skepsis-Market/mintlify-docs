@@ -24,7 +24,7 @@ One gives you a coin flip. The other gives you a sniper scope.
 
 ## The "Almost Right" Problem
 
-You've done the research. You're confident BTC will be around $99K by Friday.
+You've done the research. You're confident BTC will be around \$99K by Friday.
 
 ### On a Binary Platform
 
@@ -85,7 +85,7 @@ Expected value, confidence interval, tail risk — all visible.
 
 ## Expressing Complex Views
 
-Want to bet "BTC stays between $95K and $105K"?
+Want to bet "BTC stays between \$95K and \$105K"?
 
 ### Binary Platforms
 

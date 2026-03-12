@@ -48,7 +48,7 @@ Your money never sleeps.
 
 This is the part most people miss about the Vault — and it's the thing that changes everything for traders.
 
-On an order book platform (Polymarket, a sportsbook, even a DEX), every outcome needs someone on the other side. If nobody's making a market on "BTC lands between $94K and $95K," that range is a ghost town. You either can't trade it, or you get terrible fill prices.
+On an order book platform (Polymarket, a sportsbook, even a DEX), every outcome needs someone on the other side. If nobody's making a market on "BTC lands between \$94K and \$95K," that range is a ghost town. You either can't trade it, or you get terrible fill prices.
 
 ```
 Order book prediction market:
@@ -208,6 +208,16 @@ It's **not** for people who want instant liquidity or zero-risk yield.
     Your capital is now working across every market on Skepsis.
   </Step>
 </Steps>
+
+<Frame>
+  <img src="/images/vault-overview.png" alt="Vault overview showing deposit interface and earnings" />
+</Frame>
+*The Vault dashboard: deposit, track shares, and monitor earnings*
+
+<Frame>
+  <img src="/images/seed-overview.png" alt="Seed overview showing capital deployed across markets" />
+</Frame>
+*See how your capital is deployed across active markets*
 
 ---
 
