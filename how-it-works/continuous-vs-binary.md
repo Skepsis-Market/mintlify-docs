@@ -1,4 +1,5 @@
 ---
+deprecated: true
 title: "Continuous vs Binary Markets"
 ---
 

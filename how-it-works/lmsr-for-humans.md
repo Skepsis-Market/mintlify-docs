@@ -1,4 +1,5 @@
 ---
+deprecated: true
 title: "LMSR Explained (For Humans)"
 ---
 

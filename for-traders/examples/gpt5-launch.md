@@ -1,4 +1,5 @@
 ---
+deprecated: true
 title: "📅 GPT-5 Launch"
 ---
 

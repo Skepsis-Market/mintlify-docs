@@ -1,4 +1,5 @@
 ---
+deprecated: true
 title: "Trading Strategies"
 ---
 

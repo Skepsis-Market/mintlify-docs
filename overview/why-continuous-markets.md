@@ -1,4 +1,5 @@
 ---
+deprecated: true
 title: "Why Continuous Markets?"
 ---
 

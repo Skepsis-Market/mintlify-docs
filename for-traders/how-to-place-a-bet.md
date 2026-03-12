@@ -1,4 +1,5 @@
 ---
+deprecated: true
 title: "How to Place a Bet"
 ---
 

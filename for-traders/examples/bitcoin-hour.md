@@ -1,4 +1,5 @@
 ---
+deprecated: true
 title: "📈 The Bitcoin Hour"
 ---
 
