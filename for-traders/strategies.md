@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "Trading Strategies"
 ---
 
@@ -7,7 +6,7 @@ title: "Trading Strategies"
 Proven approaches to improve your Skepsis predictions.
 
 <Tip>
-**🧪 Practice risk-free on testnet.** Test these strategies with free USDC. Sign in with Google (gas sponsored) or connect your Sui wallet.
+**🧪 Practice risk-free on testnet.** Test these strategies with free USDC. Sign in with Privy (gas sponsored) or connect your EVM wallet.
 </Tip>
 
 ---

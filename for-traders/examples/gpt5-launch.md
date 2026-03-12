@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "📅 GPT-5 Launch"
 ---
 
@@ -184,7 +183,7 @@ Skepsis markets you might find interesting:
 <Note>
 **Try it free on testnet.** Sign in with Google, claim test USDC, and bet on your AI predictions. No real money, no gas fees.
 
-[Launch Skepsis →](https://beta.skepsis.live/markets)
+[Launch Skepsis →](https://alpha.skepsis.live/markets)
 </Note>
 
 ---

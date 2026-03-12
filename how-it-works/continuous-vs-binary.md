@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "Continuous vs Binary Markets"
 ---
 
@@ -288,7 +287,7 @@ Derived binaries (from same underlying):
 Experience continuous markets yourself:
 
 <Note>
-**Make a continuous prediction:** [Launch Skepsis →](https://beta.skepsis.live/markets)
+**Make a continuous prediction:** [Launch Skepsis →](https://alpha.skepsis.live/markets)
 </Note>
 
 ---

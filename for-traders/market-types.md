@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "Market Types"
 ---
 
@@ -188,7 +187,7 @@ We're working on new market types:
 Each market type offers different opportunities. Find one that matches your knowledge edge.
 
 <Note>
-**Browse all markets:** [Launch Skepsis →](https://beta.skepsis.live/markets)
+**Browse all markets:** [Launch Skepsis →](https://alpha.skepsis.live/markets)
 </Note>
 
 ---

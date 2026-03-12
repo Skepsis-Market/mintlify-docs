@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "Economics"
 ---
 
@@ -74,6 +73,24 @@ This stays in the system for:
 - Protocol fees
 - Next market seeding
 ```
+
+### The Vault: Capital Recycling
+
+In the current version, individual creators don't seed markets alone. Instead, a shared **Vault** pools LP capital:
+
+```
+LPs deposit USDC → Vault
+Vault deploys capital → Active markets
+Markets resolve → Capital returns to Vault
+Vault recycles → Next markets
+
+Result: Capital works across many markets simultaneously
+```
+
+This means:
+- **LPs earn fees across all markets** — not stuck in one
+- **Markets are always funded** — no bootstrapping problem
+- **Capital efficiency** — idle USDC doesn't sit unused
 
 ---
 

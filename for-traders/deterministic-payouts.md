@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "Deterministic Payouts Explained"
 ---
 

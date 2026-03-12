@@ -1,5 +1,4 @@
 ---
-deprecated: true
 title: "Why Continuous Markets?"
 ---
 
@@ -171,5 +170,5 @@ These properties mean **fair, efficient, and trustworthy** markets.
 Experience the difference yourself.
 
 <Note>
-**Your first continuous prediction:** [Launch Skepsis →](https://beta.skepsis.live/markets)
+**Your first continuous prediction:** [Launch Skepsis →](https://alpha.skepsis.live/markets)
 </Note>
