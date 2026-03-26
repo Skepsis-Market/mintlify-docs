@@ -103,58 +103,19 @@ Range E: 14% (7.1x odds)  ██
 
 ## Key Properties of LMSR
 
-### 1. Infinite Liquidity
+**Infinite liquidity.** No order book, no counterparties. The cost function always returns a quote, so every trade fills immediately.
 
-You can **always** place a bet. There's no order book, no waiting for counterparties.
+**Bounded loss.** The protocol's maximum loss is mathematically bounded — it can't go bankrupt regardless of outcomes.
 
-```
-Traditional exchange: "No sellers at this price, order not filled"
-LMSR: "Here's your quote, always available"
-```
+**Path independence.** Final prices depend only on total shares outstanding, not the order trades came in. Alice then Bob, or Bob then Alice — same result. No timing advantage.
 
-### 2. Bounded Loss
-
-The market maker (protocol) has a **known maximum loss**. It can't go bankrupt.
-
-```
-Initial liquidity: $10,000
-Max possible loss: ~$5,000 (50%)
-This is calculated mathematically, guaranteed.
-```
-
-### 3. Path Independence
-
-The final market state depends only on **total bets**, not the order they came in.
-
-```
-Scenario A: Alice bets $100, then Bob bets $100
-Scenario B: Bob bets $100, then Alice bets $100
-
-Final prices: SAME in both scenarios
-```
-
-This means no one gets an unfair advantage by timing.
-
-### 4. No Manipulation
-
-You can't "pump and dump" the market:
-
-```
-Whale buys $10K to move price up
-Whale tries to sell at new price
-Selling moves price back down
-Whale ends up roughly where they started (minus fees)
-```
+**No manipulation.** A whale buying $10K of shares to push the price up can't profit by selling — the act of selling pushes the price back down. The cost function is symmetric, so pump-and-dump strategies net out to roughly zero (minus fees).
 
 ---
 
 ## The Alpha Parameter
 
-You might hear about "alpha" (α) in Skepsis discussions. Here's what it means:
-
-### What Alpha Does
-
-Alpha controls how sensitive prices are to bets:
+Alpha (α) controls how sensitive prices are to bets:
 
 | Alpha | Effect | Who Benefits |
 |-------|--------|--------------|
@@ -233,54 +194,17 @@ The exponential function creates:
 
 ### vs AMMs (Uniswap-style)
 
-| Feature | Uniswap AMM | LMSR |
-|---------|-------------|------|
-| Use case | Token swaps | Predictions |
-| Price range | 0 to ∞ | 0% to 100% |
-| Impermanent loss | Yes | No (bounded loss) |
-| Sum to 100%? | No | Yes (probabilities) |
+Uniswap-style AMMs price token pairs across an unbounded range — they don't care whether prices "add up" to anything. LMSR is purpose-built for predictions: outcome probabilities always sum to 100%, there's no impermanent loss (loss is bounded instead), and the price range is naturally constrained between 0% and 100%.
 
 ---
 
-## Why LMSR is Perfect for Prediction Markets
+## Why LMSR for Prediction Markets
 
-1. **Probabilities naturally sum to 100%.** Unlike token prices, predictions must add up.
-2. **Bounded loss.** The market can always pay winners.
-3. **Always liquid.** No waiting for counterparties.
-4. **Incentivizes truth.** Honest predictions are rewarded.
+LMSR exists because prediction markets have a constraint that token markets don't: outcome probabilities must sum to 100%. LMSR enforces this natively. Combined with bounded loss, guaranteed liquidity, and incentive-compatibility (honest predictions are the profit-maximizing strategy), it's the standard choice for on-chain prediction markets.
 
 ---
 
-## The Bottom Line
+## Further reading
 
-You don't need to understand the math to use Skepsis. Just know:
-
-- Prices automatically adjust based on betting activity
-- More popular ranges = lower odds
-- Less popular ranges = higher odds
-- You can always bet (infinite liquidity)
-- Your payout is guaranteed (deterministic)
-
-The LMSR handles all the complexity behind the scenes.
-
----
-
-## Want to Go Deeper?
-
-For the mathematically curious:
-
-- [Original LMSR Paper by Robin Hanson](http://mason.gmu.edu/~rhanson/mktscore.pdf)
-- [Gnosis LMSR Implementation](https://gnosis.io/)
-- Our technical docs (coming soon)
-
----
-
-## Next Steps
-
-<table data-card-size="large" data-view="cards">
-<thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
-<tbody>
-<tr><td><strong>Continuous vs Binary</strong></td><td>Why distributions beat yes/no</td><td><a href="/how-it-works/continuous-vs-binary">Continuous vs Binary</a></td></tr>
-<tr><td><strong>Economics</strong></td><td>Where does the money come from?</td><td><a href="/how-it-works/economics">Economics</a></td></tr>
-</tbody>
-</table>
+- [Original LMSR paper — Robin Hanson](http://mason.gmu.edu/~rhanson/mktscore.pdf)
+- [Gnosis LMSR implementation](https://gnosis.io/)

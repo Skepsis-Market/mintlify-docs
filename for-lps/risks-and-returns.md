@@ -152,40 +152,7 @@ the Vault loses at most ~$9K, not $100K.
 
 ## Expected Returns
 
-LP returns depend on:
+LP returns improve with high trading volume, balanced betting across ranges, alpha decay harvesting surplus capital, and diversification across many markets. Returns suffer when betting is one-sided, volume is low, or popular ranges win frequently.
 
-| Factor | Good for LPs | Bad for LPs |
-|--------|-------------|-------------|
-| High trading volume | More fees | — |
-| Balanced betting | Spread across ranges | — |
-| Alpha decay | Surplus harvest | — |
-| Many markets | Diversification | — |
-| — | — | One-sided betting |
-| — | — | Low volume |
-| — | — | Many popular ranges winning |
+The core LP bet: across many markets, fees and spread income outweigh payouts to winners. LMSR-based systems have generally supported this, but it is not guaranteed.
 
-**Bottom line:** LPs are betting that across many markets, trading fees and spread income will outweigh payouts to winners. History of LMSR-based systems suggests this is generally true, but not guaranteed.
-
----
-
-## Summary
-
-| Aspect | Detail |
-|--------|--------|
-| **Revenue sources** | Trading fees, spread, losing trader capital |
-| **Risk** | Popular winning ranges, bounded per market |
-| **Max loss per market** | α × ln(N), known in advance |
-| **Withdrawal** | Queue-based, FIFO |
-| **Best for** | Patient capital, believers in prediction market volume |
-
----
-
-## Next Steps
-
-<table data-card-size="large" data-view="cards">
-<thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
-<tbody>
-<tr><td><strong>The Vault</strong></td><td>How to deposit and get started</td><td><a href="/for-lps/vault-overview">The Vault</a></td></tr>
-<tr><td><strong>LMSR Explained</strong></td><td>The math that makes it work</td><td><a href="/how-it-works/lmsr-for-humans">LMSR Explained</a></td></tr>
-</tbody>
-</table>

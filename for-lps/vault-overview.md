@@ -3,82 +3,13 @@ title: "The Vault"
 ---
 
 
-Think of the Vault as a shared war chest that funds every prediction market on Skepsis.
+The Vault is a single pool of USDC that backs every prediction market on Skepsis. Deposit once, LP across all markets, and capital automatically recycles as markets resolve.
 
 ---
 
-## The Old Way vs The Vault Way
+## Why a Vault Instead of Per-Market LPing
 
-### Without a Vault (How Most Protocols Work)
-
-Imagine you want to provide liquidity to prediction markets. Here's what it looks like:
-
-```
-Market 1 (BTC price): You deposit $5,000
-Market 2 (ETH price): You deposit $3,000
-Market 3 (Weather):   You deposit $2,000
-
-Your $10,000 is split across 3 markets.
-Market 1 resolves → Capital stuck until you manually redeploy.
-Market 4 launches → No capital left. You miss it.
-```
-
-You're a fund manager with no fund — just a bunch of scattered bets.
-
-### With the Vault
-
-```
-You deposit $10,000 into the Vault. Done.
-
-Vault deploys $4,000 → Market 1
-Vault deploys $3,000 → Market 2
-Vault deploys $3,000 → Market 3
-
-Market 1 resolves → Capital returns to Vault automatically
-Vault deploys $4,000 → Market 4 (new!)
-
-Your money never sleeps.
-```
-
-**One deposit. Every market. Automatic recycling.**
-
----
-
-## No Thin Liquidity. Ever.
-
-This is the part most people miss about the Vault, and it changes everything for traders.
-
-On an order book platform (Polymarket, a sportsbook, even a DEX), every outcome needs someone on the other side. If nobody's making a market on "BTC lands between \$94K and \$95K," that range is a ghost town. You either can't trade it, or you get terrible fill prices.
-
-```
-Order book prediction market:
-
-$95K-$96K:  Deep liquidity (popular range)
-$96K-$97K:  Deep liquidity
-$97K-$98K:  Some liquidity
-$98K-$99K:  Thin, wide spread, bad fills
-$99K-$100K: Almost nothing
-$100K+:     No liquidity at all
-
-You want to bet on $99K? Good luck finding a counterparty.
-```
-
-On Skepsis, the Vault is the counterparty for **every single range**. The LMSR algorithm doesn't need a matching buyer. It prices every outcome mathematically. And the Vault ensures there's always capital behind that math.
-
-```
-Skepsis (Vault-backed LMSR):
-
-$95K-$96K:  Always tradeable
-$96K-$97K:  Always tradeable
-$97K-$98K:  Always tradeable
-$98K-$99K:  Always tradeable
-$99K-$100K: Always tradeable
-$100K+:     Always tradeable
-
-Every range. Any size. Instant fill. Always.
-```
-
-This is why the Vault isn't just an LP product. It's the engine that makes Skepsis markets fundamentally different from anything built on order books. The tail ranges, the contrarian bets, the weird corners of the distribution that nobody else is trading: those are where the real alpha lives. And on Skepsis, they're always open.
+On order-book prediction markets, tail ranges have no liquidity because nobody's willing to make a market there. LMSR doesn't need a counterparty — it prices every outcome algorithmically — but it does need capital behind it. The Vault provides that capital across all ranges and all markets from a single pool, so LPs don't have to pick individual markets or manually redeploy after resolution.
 
 ---
 
@@ -86,108 +17,33 @@ This is why the Vault isn't just an LP product. It's the engine that makes Skeps
 
 ### Deposit
 
-You deposit USDC into the Vault and receive vault shares in return. These shares represent your slice of the entire pool.
-
-```
-You deposit: 10,000 USDC
-Vault total: 100,000 USDC
-Your share: 10%
-
-Every fee earned, every market funded: you get 10%.
-```
+Deposit USDC, receive vault shares representing your pro-rata slice of the pool. Your share entitles you to a proportional cut of all fee revenue and market P&L.
 
 ### Capital Deployment
 
-The Vault pushes capital into active markets as they're created. Each market gets enough USDC to power its LMSR pricing. This is what makes "always-on liquidity" possible for traders.
-
-```
-New BTC market created → Vault sends $5,000
-New weather market created → Vault sends $2,000
-
-No single market gets more than 20% of the Vault.
-```
+The Vault seeds each new market with enough USDC to power its LMSR pricing. No single market gets more than 20% of the Vault. When a market resolves, deployed capital (minus payouts to winners) returns to the pool automatically.
 
 ### Revenue
 
-When traders bet, fees are split:
-
-```
-Trader pays 0.3%-1% fee on every trade (based on risk category)
-├── Part goes to the protocol
-└── Part flows back to the Vault (your share)
-```
-
-When markets resolve, any leftover pool balance (after paying winners) returns to the Vault. If traders collectively overbought losing ranges, the Vault profits. If the winning range was popular, the Vault might take a small hit, but that's bounded by the math.
+LPs earn from three sources: trading fees (0.3%-1% per trade, split between protocol and Vault), LMSR convexity spread, and residual pool balance after winners are paid. See [Risks & Returns](/for-lps/risks-and-returns) for details.
 
 ### Withdrawal
 
-Want your money back? You request a withdrawal and join the queue.
-
-```
-You request: Withdraw 5,000 USDC
-Queue position: #3
-
-As markets resolve and capital returns,
-the queue processes in order (FIFO).
-
-Capital returns → Your withdrawal is filled → USDC in your wallet.
-```
-
-Why a queue? Because your capital is deployed in active markets. Pulling it mid-trade would break the solvency guarantees for traders. The queue ensures everyone gets paid fairly.
+Withdrawals are queue-based (FIFO). Because capital is deployed in active markets, pulling it mid-trade would break solvency guarantees. As markets resolve and capital returns, the queue processes in order.
 
 ---
 
-## What Can Go Wrong?
+## Risks
 
-The risks are real.
+Per-market LP loss is bounded at `α * ln(bucketCount)`. For a typical market (alpha = 3,333 USDC, 16 buckets), that's ~$9,240 max. The 20% per-market cap limits concentration risk — even correlated losses across several markets won't drain the Vault.
 
-### The Vault Can Lose Money
-
-If many markets resolve with popular winning ranges, the Vault pays out more than it collects. This is the LP risk: the price of being the house.
-
-**But it's bounded.** The LMSR math guarantees that the maximum loss per market is capped. No single market can blow up the entire Vault.
-
-```
-Per-market max loss: α × ln(bucketCount)
-
-For a typical market with α = 3,333 and 16 buckets:
-Max loss ≈ $9,240
-
-On a $100,000 Vault, that's 9.2%. Painful but survivable.
-```
-
-### Multiple Markets Can Lose Simultaneously
-
-The 20% cap per market limits concentration. Even if 5 markets all go badly, the Vault survives.
-
-### The Queue Means You Wait
-
-Your withdrawal isn't instant. If all capital is deployed, you wait until markets resolve. During volatile periods, this could take days.
+Withdrawals are not instant. If capital is fully deployed, you wait until markets resolve. During volatile periods this could take days.
 
 ---
 
 ## Who Should LP?
 
-The Vault is designed for people who:
-
-- Believe prediction markets will see consistent trading volume
-- Want passive yield from fees without picking individual markets
-- Understand LP risk (you can lose capital, though it's bounded)
-- Have a time horizon longer than a single market cycle
-
-It's **not** for people who want instant liquidity or zero-risk yield.
-
----
-
-## The Numbers That Matter
-
-| Metric | What It Means |
-|--------|---------------|
-| **Vault NAV** | Total value of all USDC (liquid + deployed) |
-| **Your share %** | Your slice of the Vault |
-| **Fee APY** | Annualized return from trading fees |
-| **Utilization** | % of Vault capital currently in active markets |
-| **Queue depth** | How many USDC in withdrawal requests ahead of you |
+LPs who want passive, diversified exposure to prediction market fee flow without picking individual markets. You need a time horizon longer than a single market cycle, and you need to be comfortable with bounded but real downside risk. Not suitable if you need instant liquidity.
 
 ---
 
@@ -218,14 +74,3 @@ It's **not** for people who want instant liquidity or zero-risk yield.
 </Frame>
 *See how your capital is deployed across active markets*
 
----
-
-## Next Steps
-
-<table data-card-size="large" data-view="cards">
-<thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
-<tbody>
-<tr><td><strong>Risks & Returns</strong></td><td>Deep dive into LP economics</td><td><a href="/for-lps/risks-and-returns">Risks & Returns</a></td></tr>
-<tr><td><strong>Economics</strong></td><td>Where does the money flow?</td><td><a href="/how-it-works/economics">Economics</a></td></tr>
-</tbody>
-</table>

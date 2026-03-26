@@ -22,23 +22,11 @@ Quick answers to common questions about Skepsis.
 
 ### Do I need to pay gas fees?
 
-**It depends on how you sign in:**
-
-| Sign-in Method | Gas Fees |
-|----------------|----------|
-| **Privy (email/social)** | Sponsored (we pay for you) |
-| **EVM Wallet** | Get free test AVAX from [Avalanche Faucet](https://faucet.avax.network/) |
+If you sign in with Privy (email/social), gas is sponsored. If you connect an EVM wallet, grab free test AVAX from the [Avalanche Faucet](https://faucet.avax.network/).
 
 ### Do I need a crypto wallet?
 
-**Not necessarily.** You have two options:
-
-| Option | Best For |
-|--------|----------|
-| **Sign in with Privy** | New to crypto, instant access, gas sponsored |
-| **Connect EVM Wallet** | Crypto natives, full control, need test AVAX for gas |
-
-Both options work identically. Privy creates an embedded wallet linked to your account, no extensions needed.
+No. You can sign in with Privy (email/social) and it creates an embedded wallet for you. Or connect your own EVM wallet if you prefer full control.
 
 ### When will mainnet launch?
 
@@ -56,18 +44,9 @@ Skepsis is a **continuous outcome prediction market** built on Avalanche. Instea
 
 Polymarket uses binary (yes/no) markets. Skepsis uses continuous markets where you select ranges. This lets you express more nuanced predictions and see full probability distributions.
 
-[Learn more: Skepsis vs Binary Markets →](/comparisons/vs-binary-markets)
-
 ### What do I need to get started?
 
-**Just an email account**, or an EVM wallet if you prefer.
-
-On testnet:
-- Free test USDC from faucet
-- No gas fees (we sponsor them)
-- No real money required
-
-[Full guide: Quick Start →](/overview/quick-start)
+An email account or an EVM wallet. On testnet everything is free — test USDC from the faucet, sponsored gas. See the [Quick Start](/overview/quick-start) if you want a walkthrough.
 
 ---
 
@@ -80,8 +59,6 @@ On testnet:
 3. Enter your bet amount
 4. Review your quote (see exact payout)
 5. Confirm the transaction
-
-[Detailed guide: How to Place a Bet →](/for-traders/how-to-place-a-bet)
 
 ### What happens to my money when I bet?
 
@@ -101,12 +78,7 @@ You have **90 days** after resolution to claim. After that, unclaimed funds go t
 
 ### How are odds calculated?
 
-Odds are determined by the **LMSR algorithm** based on current betting activity:
-
-- More bets on a range = higher probability, lower odds
-- Fewer bets on a range = lower probability, higher odds
-
-[Learn more: LMSR Explained →](/how-it-works/lmsr-for-humans)
+Odds are set by the [LMSR algorithm](/how-it-works/lmsr-for-humans). More bets on a range push that range's probability up and its odds down. Less-bet ranges stay cheap.
 
 ### What does "3.5x odds" mean?
 
@@ -118,17 +90,11 @@ The multiplier tells you your payout relative to your bet.
 
 ### Are payouts guaranteed?
 
-**Yes.** This is called "deterministic payouts." The moment you place your bet, your potential payout is locked in. Future bets by others don't change your payout.
-
-[Learn more: Deterministic Payouts →](/for-traders/deterministic-payouts)
+**Yes.** Your payout is locked the moment you place your bet. Future bets by others don't change it. See [Deterministic Payouts](/for-traders/deterministic-payouts) for the details.
 
 ### What if the outcome is exactly on my range boundary?
 
-Boundaries are **lower-inclusive, upper-exclusive**:
-- Range: \$96,000 - \$97,000
-- \$96,000.00: in range
-- \$96,999.99: in range
-- \$97,000.00: not in range (belongs to next bucket)
+Ranges are lower-inclusive, upper-exclusive. So for a \$96,000–\$97,000 range, \$96,000.00 pays out but \$97,000.00 belongs to the next bucket.
 
 ---
 
@@ -136,11 +102,7 @@ Boundaries are **lower-inclusive, upper-exclusive**:
 
 ### What types of markets are available?
 
-- **Price markets:** BTC, ETH, and other asset prices
-- **Date markets:** Product launches, event dates
-- **Measurement markets:** Weather, economic indicators
-
-[Learn more: Market Types →](/for-traders/market-types)
+Price markets (BTC, ETH, etc.), date markets (product launches, event dates), and measurement markets (weather, economic indicators). See [Market Types](/for-traders/market-types) for the full breakdown.
 
 ### Who creates markets?
 
@@ -148,12 +110,7 @@ Currently, markets are created by the Skepsis team and approved creators. Permis
 
 ### What determines the outcome?
 
-**Oracles** report the actual outcome:
-- Price markets: Pyth/Chainlink price feeds
-- Weather markets: NOAA official data
-- Event markets: official announcements
-
-[Learn more: Trust & Resolution →](/how-it-works/trust-and-resolution)
+Oracles report the actual outcome — Pyth/Chainlink for price feeds, NOAA for weather, official announcements for events. Details in [Trust & Resolution](/how-it-works/trust-and-resolution).
 
 ### What if the oracle is wrong?
 
@@ -165,15 +122,11 @@ There's a **24-hour dispute window** after resolution. If you have evidence the 
 
 ### What are the fees?
 
-- **Trading fee:** 0.3%-1% per trade (varies by market risk category)
-- **Gas fee:** ~\$0.01 per transaction (paid in AVAX)
+0.3%–1% per trade depending on market risk category, plus ~\$0.01 gas (AVAX).
 
 ### Where do fees go?
 
-Fees are split between:
-- Protocol treasury (30%)
-- Market creators (30%)
-- Liquidity providers (40%)
+40% to LPs, 30% to market creators, 30% to the protocol treasury.
 
 ---
 
@@ -244,15 +197,7 @@ If still stuck, contact support on Telegram.
 
 ## More Questions?
 
-Can't find your answer? Ask in our [Telegram](https://t.me/skepsis_market).
-
----
-
-## Start Predicting
-
-<Note>
-[Launch Skepsis →](https://alpha.skepsis.live/markets)
-</Note>
+[Telegram](https://t.me/skepsis_market)
 
 ---
 

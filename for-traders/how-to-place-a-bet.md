@@ -6,7 +6,7 @@ title: "How to Place a Bet"
 A complete guide to making your first prediction on Skepsis.
 
 <Tip>
-**Testnet Mode:** No real money required. Sign in with Privy (gas sponsored) or connect an EVM wallet ([get test AVAX](https://faucet.avax.network/)), claim free test USDC, and start predicting.
+Currently on testnet. Claim free USDC from the app to try it out — no real money needed.
 </Tip>
 
 ---
@@ -38,17 +38,7 @@ Each market card shows:
 - **Time remaining:** When the market resolves
 - **Liquidity:** How much money is in the market
 
-### Market Types
-
-| Type | Example | Typical Duration |
-|------|---------|------------------|
-| **Price** | BTC/USD in 1 hour | Minutes to hours |
-| **Weather** | Tomorrow's high temp | Hours to days |
-| **Events** | Product release date | Days to months |
-
-<Info>
-**Start with short-duration markets.** You'll see results faster and learn the mechanics quickly.
-</Info>
+Markets cover price feeds, weather, events, and more. See [Market Types](/for-traders/market-types) for the full breakdown. Short-duration markets (e.g. 1-hour BTC) are a good place to start.
 
 ---
 
@@ -64,15 +54,7 @@ When you open a market, you'll see a probability chart. Click and drag to select
   <img src="/images/range-selection.gif" alt="Interactive range selection on the probability chart" />
 </Frame>
 
-### Range Selection Tips
-
-| Range Width | Odds | Risk Level |
-|-------------|------|------------|
-| Very narrow (\$500) | 10-20x | High risk |
-| Moderate (\$2,000) | 3-5x | Medium risk |
-| Wide (\$5,000) | 1.5-2x | Low risk |
-
-**The trade-off:** Wider ranges are more likely to win but pay less. Narrow ranges pay more but are harder to hit.
+Wider ranges are more likely to win but pay less. Narrow ranges pay more but are harder to hit. For strategy details, see [Understanding Ranges](/for-traders/understanding-ranges).
 
 ---
 
@@ -180,29 +162,10 @@ After resolution:
 
 ## Common Questions
 
-### What if the outcome is exactly on my range boundary?
+**Range boundaries:** Lower bound is inclusive, upper bound is exclusive. If your range is \$96,000-\$97,000, a result of exactly \$97,000 is *not* in range.
 
-The lower bound is inclusive, upper bound is exclusive. So range \$96,000-\$97,000:
-- \$96,000.00: In range
-- \$96,999.99: In range
-- \$97,000.00: Not in range
+**Multiple ranges:** Yes, you can bet on multiple ranges in the same market.
 
-### Can I bet on multiple ranges?
+**Lost connection mid-bet:** If you signed the transaction, it will complete on-chain. Check "My Positions" to verify. If you didn't sign, nothing left your wallet.
 
-Yes! You can place multiple bets on different ranges in the same market. This is a common hedging strategy.
-
-### What happens if I lose connection during the bet?
-
-If the transaction was signed, it will complete. Check "My Positions" to verify. If it wasn't signed, no USDC left your wallet.
-
----
-
-## Next Steps
-
-<table data-card-size="large" data-view="cards">
-<thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
-<tbody>
-<tr><td><strong>Understanding Ranges</strong></td><td>Deep dive into range selection strategy</td><td><a href="/for-traders/understanding-ranges">Understanding Ranges</a></td></tr>
-<tr><td><strong>Reading Odds</strong></td><td>How odds are calculated and what they mean</td><td><a href="/for-traders/reading-odds">Reading Odds</a></td></tr>
-</tbody>
-</table>
+For more, see the [FAQ](/resources/faq).

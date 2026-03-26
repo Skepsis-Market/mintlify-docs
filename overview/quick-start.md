@@ -5,13 +5,11 @@ title: "Quick Start Guide"
 
 **Time needed: 2 minutes**
 
-Go from zero to your first prediction, completely free on testnet.
+Go from zero to your first prediction, free on testnet.
 
 ---
 
 ## Prerequisites
-
-**Choose your path:**
 
 <CardGroup cols={2}>
   <Card title="New to Crypto?" icon="envelope">
@@ -27,13 +25,8 @@ Go from zero to your first prediction, completely free on testnet.
     - MetaMask, Rabby, or any EVM wallet
     - Get test AVAX from [Avalanche Fuji Faucet](https://faucet.avax.network/)
     - Then claim free test USDC
-    - Full wallet control
   </Card>
 </CardGroup>
-
-<Tip>
-**Testnet Mode:** Everything is free. No real money involved.
-</Tip>
 
 ---
 
@@ -55,14 +48,14 @@ Go from zero to your first prediction, completely free on testnet.
 
 ## Step 2: Browse Markets
 
-Explore active markets across categories like Cryptocurrency, Politics, Sports, Weather, Tech, and more.
+Explore active markets across categories — crypto, politics, sports, weather, tech.
 
 <Frame>
   <img src="/images/browse-markets.png" alt="Active market cards" />
 </Frame>
 *Browse active markets like AVAX and BTC price predictions*
 
-**Click on any market card** to see details and place a bet.
+**Click any market card** to see details and place a bet.
 
 ---
 
@@ -71,28 +64,26 @@ Explore active markets across categories like Cryptocurrency, Politics, Sports, 
 When you open a market, you'll see:
 
 ### The Probability Distribution
-A chart showing where the crowd thinks the outcome will land. Peaks = high probability areas. Valleys = opportunities.
+A chart showing where the crowd thinks the outcome will land. Peaks = high probability. Valleys = potential opportunities.
 
 ### Current Range Odds
 Example for a BTC market:
 ```
 $94,000 - $95,000  →  12x odds (8% probability)
-$95,000 - $96,000  →  6x odds (17% probability)  
+$95,000 - $96,000  →  6x odds (17% probability)
 $96,000 - $97,000  →  4x odds (25% probability)  ← Most popular
 $97,000 - $98,000  →  5x odds (20% probability)
 $98,000 - $99,000  →  8x odds (12% probability)
 ```
 
-<Note>
-**Pro tip:** Higher odds = lower probability but bigger payout. Find ranges where you disagree with the crowd!
-</Note>
+Higher odds = lower probability but bigger payout. Look for ranges where you disagree with the crowd.
 
 ---
 
 ## Step 4: Place Your Bet
 
 1. **Select your range.** Click and drag on the chart to highlight your target range.
-2. **Enter your amount.** How much USDC you want to risk.
+2. **Enter your amount.** How much USDC to risk.
 3. **Review your quote:**
    - **Cost:** What you pay
    - **Potential payout:** What you win if correct
@@ -107,12 +98,12 @@ $98,000 - $99,000  →  8x odds (12% probability)
 
 ### Example Bet
 
-> **Market:** BTC 1-hour price  
-> **Your range:** \$96,500 - \$97,000  
-> **Your bet:** \$50 USDC  
-> **Your odds:** 4.2x  
-> **If you win:** \$210 USDC (guaranteed)  
-> **If you lose:** \$0 (you lose your \$50)
+> **Market:** BTC 1-hour price
+> **Your range:** $96,500 - $97,000
+> **Your bet:** $50 USDC
+> **Your odds:** 4.2x
+> **If you win:** $210 USDC (guaranteed)
+> **If you lose:** $0 (you lose your $50)
 
 ---
 
@@ -136,15 +127,13 @@ Track active positions, sold positions, claimable winnings, and overall stats (P
 <Frame>
   <img src="/images/portfolio.png" alt="Portfolio page showing positions, PNL, win rate, and realized gains" />
 </Frame>
-*Your portfolio: track active bets, claim winnings, and monitor your performance*
+*Track active bets, claim winnings, and monitor performance*
 
 ---
 
 ## Step 6: Provide Liquidity (Optional)
 
 The Vault lets you earn passive yield by funding every market on Skepsis.
-
-### How It Works
 
 1. Navigate to the **Vault** page
 2. Deposit USDC into the shared liquidity pool
@@ -159,42 +148,17 @@ The Vault lets you earn passive yield by funding every market on Skepsis.
 <Frame>
   <img src="/images/seed-overview.png" alt="LP seed overview showing capital deployment across markets" />
 </Frame>
-*Your capital is automatically deployed across all active markets*
+*Capital is automatically deployed across all active markets*
 
-**Why LP?**
-- **Passive income.** Earn 0.3%-1% fees on every trade.
-- **No market picking.** The Vault spreads capital across all markets automatically.
-- **Capital recycling.** When markets resolve, capital returns and redeploys to new markets.
-
-<Info>
-See the [Vault deep dive](/for-lps/vault-overview) for details on how this works.
-</Info>
+The Vault spreads capital across all markets automatically. When markets resolve, capital returns and redeploys to new markets. See the [Vault deep dive](/for-lps/vault-overview) for details.
 
 ---
 
-## That's It
+## Done
 
-You've placed your first continuous outcome prediction on testnet.
+You've placed your first continuous outcome prediction on testnet. All USDC on testnet is test currency.
 
-<Info>
-All USDC on testnet is test currency. Use it to:
-- Learn the mechanics risk-free
-- Test trading strategies
-- Provide feedback before mainnet
-</Info>
-
----
-
-## What's Next?
-
-<table data-card-size="large" data-view="cards">
-<thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
-<tbody>
-<tr><td><strong>Understanding Ranges</strong></td><td>Learn how range selection affects your odds</td><td><a href="/for-traders/understanding-ranges">Understanding Ranges</a></td></tr>
-<tr><td><strong>Strategies</strong></td><td>Tips from experienced predictors</td><td><a href="/for-traders/strategies">Strategies</a></td></tr>
-<tr><td><strong>Example: Bitcoin Hour</strong></td><td>See a full market walkthrough</td><td><a href="/for-traders/examples/bitcoin-hour">Bitcoin Hour</a></td></tr>
-</tbody>
-</table>
+**Next:** [Understanding Ranges](/for-traders/understanding-ranges) · [Strategies](/for-traders/strategies) · [Bitcoin Hour example](/for-traders/examples/bitcoin-hour)
 
 ---
 

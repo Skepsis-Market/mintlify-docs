@@ -5,61 +5,54 @@ title: "Why Continuous Markets?"
 
 ## The Binary Problem
 
-Every major prediction market today forces you into binary choices:
+Every major prediction market forces binary choices:
 
-- **Polymarket:** "Will X happen?" → Yes / No
-- **Kalshi:** "Will Y be above Z?" → Yes / No  
-- **Metaculus:** "Will this occur?" → Yes / No
+- **Polymarket:** "Will X happen?" — Yes / No
+- **Kalshi:** "Will Y be above Z?" — Yes / No
+- **Metaculus:** "Will this occur?" — Yes / No
 
-But real predictions are rarely binary.
+Real predictions are rarely binary.
 
 ---
 
-## A Tale of Two Predictions
+## Binary vs. Continuous
 
-<Frame caption="Visual: A timeline showing how a price of $99.8k results in a loss on a binary market (threshold $100k) but a win on Skepsis (range $95k-$105k).">
+<Frame caption="A price of $99.8k results in a loss on a binary market (threshold $100k) but a win on Skepsis (range $95k-$105k).">
   <img src="/images/binary-vs-continuous.svg" alt="Binary vs Continuous Outcome Resolution" />
 </Frame>
 
-### The Binary Way
+### Binary
 
 **Question:** "Will Bitcoin hit $100,000 by December 31st?"
 
-| Scenario | Actual BTC Price | Your Bet | Result |
-|----------|------------------|----------|--------|
-| A | $99,800 | Yes | LOSE |
-| B | $100,001 | Yes | WIN |
-| C | $150,000 | Yes | WIN |
+- BTC ends at $99,800 — you bet Yes — **LOSE**
+- BTC ends at $100,001 — you bet Yes — **WIN**
 
-Scenario A and B are almost identical prices but produce opposite outcomes. Your prediction of "around $100K" was correct; the binary framing punished you.
+$200 difference, opposite outcomes. Your belief ("around $100K") was correct. The framing punished you.
 
-### The Skepsis Way
+### Continuous
 
 **Question:** "Where will Bitcoin be on December 31st?"
 
-| Your Range | Actual BTC Price | Result |
-|------------|------------------|--------|
-| $95K - $105K | $99,800 | WIN |
-| $95K - $105K | $100,001 | WIN |
-| $95K - $105K | $150,000 | LOSE |
+- You bet $95K - $105K. BTC ends at $99,800 — **WIN**
+- You bet $95K - $105K. BTC ends at $100,001 — **WIN**
+- You bet $95K - $105K. BTC ends at $150,000 — **LOSE**
 
-You bet on what you actually believed, "Bitcoin will be around $100K," and were rewarded for being right.
+You bet what you actually believed and got rewarded for being right.
 
 ---
 
 ## Information Density
 
-### Binary Markets: One Data Point
-A binary market tells you one thing: the probability of crossing a threshold.
+A binary market produces one number: the probability of crossing a threshold.
 
 ```
 "BTC > $100K by Dec 31" = 45% Yes
 ```
 
-That's it. You don't know if traders think it'll be $101K or $200K if it passes.
+You don't know if traders expect $101K or $200K if it passes.
 
-### Continuous Markets: Full Distribution
-A Skepsis market shows you the entire probability landscape:
+A continuous market shows the full distribution:
 
 ```
 $80K - $90K:   5%   ░░
@@ -71,102 +64,50 @@ $110K - $120K: 8%   ░░░
 $120K+:        2%   ░
 ```
 
-This tells you:
-- Where the crowd thinks BTC will land
-- How confident they are (narrow vs. wide distribution)
-- Where the contrarian opportunities are (underpriced tails)
+You can see where the crowd expects BTC to land, how confident they are (narrow vs. wide distribution), and where the contrarian opportunities sit (underpriced tails).
 
 ---
 
 ## Capital Efficiency
 
-### Binary: Need Many Markets
+To express "BTC will be between $95K-$105K" on binary markets, you'd need to buy "Yes" on "BTC > $95K," buy "No" on "BTC > $105K," hope both markets have liquidity, and pay fees on multiple trades.
 
-To express "BTC will be between $95K-$105K," you'd need to:
-1. Buy "Yes" on "BTC > $95K" 
-2. Buy "No" on "BTC > $105K"
-3. Hope both markets have liquidity
-4. Pay fees on multiple trades
-5. Track multiple positions
-
-### Continuous: One Market, Full Expression
-
-On Skepsis:
-1. Select the $95K-$105K range
-2. Place one bet
-3. Done.
-
-Same belief, one transaction, lower fees.
+On Skepsis: select $95K-$105K, place one bet, done. Same belief, one transaction, lower fees.
 
 ---
 
 ## Real-World Examples
 
-### Release Date Predictions
+**Release dates** — Binary requires separate markets for each threshold ("before April?", "before July?", "before October?"). Continuous: one market, select your window.
 
-**Binary:**
-- "Will GPT-5 launch before April 2025?" → Yes/No
-- "Will GPT-5 launch before July 2025?" → Yes/No
-- "Will GPT-5 launch before October 2025?" → Yes/No
-- *(Need to bet on multiple markets)*
+**Weather** — Binary: "Will NYC hit 90°F?" Continuous: "What will NYC's high be?" Select 85°F-92°F. Matches how forecasters actually think.
 
-**Continuous:**
-- "When will GPT-5 launch?" → Select: May - August 2025
-- *(One market captures your full belief)*
+**Economic indicators** — Binary: "Unemployment below 4%?" Continuous: see the full distribution from 3.5% to 5.5%.
 
 ---
 
-### Weather Forecasting
+## LMSR Properties
 
-**Binary:**
-- "Will NYC hit 90°F tomorrow?" → Yes/No
+Continuous markets on Skepsis use LMSR (Logarithmic Market Scoring Rule), which guarantees:
 
-**Continuous:**
-- "What will NYC's high be?" → Select: 85°F - 92°F
-- *(Actually matches how meteorologists think)*
-
----
-
-### Economic Indicators
-
-**Binary:**
-- "Will unemployment be below 4%?" → Yes/No
-
-**Continuous:**
-- "What will unemployment be?" → See full distribution from 3.5% to 5.5%
-- *(Captures market uncertainty, not just a threshold)*
+- **Bounded loss** — market makers know their max downside
+- **Always-available liquidity** — every range is tradeable at any time
+- **Path independence** — fair pricing regardless of trade order
+- **Proper scoring** — rewards honest probability estimates
 
 ---
 
-## The Mathematical Edge
+## Summary
 
-Continuous markets using LMSR (our pricing algorithm) have proven properties:
-
-| Property | What It Means |
-|----------|---------------|
-| **Bounded Loss** | Market makers know their max downside |
-| **Infinite Liquidity** | Always able to trade, any size |
-| **Path Independence** | Fair pricing regardless of trade order |
-| **Proper Scoring** | Rewards honest probability estimates |
-
-Together these properties produce fair, efficient markets.
-
----
-
-## Summary: Why Continuous Wins
-
-| Aspect | Binary Markets | Continuous Markets |
-|--------|----------------|-------------------|
+| | Binary Markets | Continuous Markets |
+|--|----------------|-------------------|
 | **Expressiveness** | Yes/No only | Any range |
 | **Information** | Single probability | Full distribution |
 | **Capital efficiency** | Multiple markets needed | One market |
-| **Edge case handling** | All-or-nothing | Nuanced outcomes |
-| **Real-world fit** | Rarely perfect | Natural fit |
+| **Edge cases** | All-or-nothing | Nuanced outcomes |
 
 ---
 
-## Try It
-
 <Note>
-**Your first continuous prediction:** [Launch Skepsis →](https://alpha.skepsis.live/markets)
+[Launch Skepsis](https://alpha.skepsis.live/markets)
 </Note>

@@ -3,102 +3,59 @@ title: "GPT-5 Launch"
 ---
 
 
-*When will OpenAI release GPT-5? Four AI watchers place their bets.*
+*Four AI watchers bet on GPT-5's release date. The news junkie wins.*
 
 ---
 
-## The Setup
+## The Market
 
-It's early 2025. The AI world is buzzing with GPT-5 speculation. Skepsis has a market:
+Early 2025. GPT-5 speculation is everywhere. Skepsis has a market:
 
 > **"When will OpenAI publicly release GPT-5?"**
-> 
-> **Range:** January 2025 - December 2026  
-> **Resolution:** Official OpenAI announcement of public availability  
-> **Current Liquidity:** \$25,000 USDC
-
-The probability distribution reflects current speculation:
+>
+> **Range:** January 2025 - December 2026
+> **Resolution:** Official OpenAI announcement of public availability
+> **Liquidity:** $25,000 USDC
 
 ```
 Jan-Mar 2025:   5%   ░░
 Apr-Jun 2025:   15%  ░░░░░░
-Jul-Sep 2025:   25%  ░░░░░░░░░░  
+Jul-Sep 2025:   25%  ░░░░░░░░░░
 Oct-Dec 2025:   30%  ░░░░░░░░░░░░  ← Most likely
 Jan-Jun 2026:   18%  ░░░░░░░
 Jul-Dec 2026:   5%   ░░
 Never/2027+:    2%   ░
 ```
 
-Four AI watchers have different theories.
+---
+
+## The Bets
+
+**Dr. Chen (AI researcher)** — notices OpenAI's release cadence accelerating. GPT-4 to 4 Turbo was 6 months, 4 Turbo to 4o was 7 months. Summer 2025 is realistic.
+
+- Jun-Sep 2025 / $500 USDC / 2.8x / $1,400 potential payout
+
+**Alex (news junkie)** — reads every AI newsletter, follows insiders on Twitter. Multiple credible sources point to fall 2025. Enterprise contracts already being negotiated.
+
+- Oct-Dec 2025 / $300 USDC / 3.3x / $990 potential payout
+
+**Sarah (works at a competing AI lab)** — knows how hard scaling is. Safety reviews, compute constraints, enterprise readiness. This is a 2026 story.
+
+- Jan-Jun 2026 / $400 USDC / 5.5x / $2,200 potential payout
+
+**Marcus (hype believer)** — interprets Altman's cryptic tweets as hints at an imminent release.
+
+- Jan-Mar 2025 / $100 USDC / 20x / $2,000 potential payout
 
 ---
 
-## The Players
+## Timeline
 
-### Dr. Chen: The Researcher
+**March 2025:** OpenAI announces "GPT-4.5" — incremental update, not GPT-5. Marcus's window closes.
 
-Dr. Chen follows AI papers closely. She's noticed a pattern: OpenAI's release cycles are accelerating.
-
-**Her thesis:** "GPT-4 to GPT-4 Turbo was 6 months. GPT-4 Turbo to GPT-4o was 7 months. They're speeding up. Summer 2025 is realistic."
-
-**Her bet:**
-- **Range:** June - September 2025
-- **Investment:** \$500 USDC
-- **Odds received:** 2.8x
-- **Potential payout:** \$1,400 if mid-2025 release
-
----
-
-### Alex: The News Junkie
-
-Alex reads every AI newsletter and follows all the insiders on Twitter. He's seen leaked roadmaps suggesting a Q4 2025 release.
-
-**His thesis:** "Multiple credible sources point to fall 2025. The enterprise contracts are already being negotiated."
-
-**His bet:**
-- **Range:** October - December 2025
-- **Investment:** \$300 USDC
-- **Odds received:** 3.3x
-- **Potential payout:** \$990 if Q4 2025 release
-
----
-
-### Sarah: The Skeptic
-
-Sarah works at a competing AI lab. She knows how hard scaling is.
-
-**Her thesis:** "Everyone's too optimistic. GPT-5 will face safety reviews, compute constraints, and enterprise readiness issues. It's a 2026 story."
-
-**Her bet:**
-- **Range:** January - June 2026
-- **Investment:** \$400 USDC
-- **Odds received:** 5.5x
-- **Potential payout:** \$2,200 if delayed to 2026
-
----
-
-### Marcus: The Hype Believer
-
-Marcus follows Sam Altman's every tweet. He interprets recent cryptic posts as hints at an imminent release.
-
-**His thesis:** "Altman's been teasing something big. They're going to surprise everyone with a Q1 2025 drop."
-
-**His bet:**
-- **Range:** January - March 2025
-- **Investment:** \$100 USDC
-- **Odds received:** 20x
-- **Potential payout:** \$2,000 if surprise early release
-
----
-
-## Time Passes...
-
-### March 2025
-OpenAI announces "GPT-4.5," an incremental update. Not GPT-5. Marcus's hopes dim.
-
-**Market update:**
+Updated distribution:
 ```
-Jan-Mar 2025:   0.1%  (almost impossible now)
+Jan-Mar 2025:   0.1%  (dead)
 Apr-Jun 2025:   12%   ░░░░░
 Jul-Sep 2025:   22%   ░░░░░░░░░
 Oct-Dec 2025:   35%   ░░░░░░░░░░░░░░  ← Rising
@@ -106,89 +63,42 @@ Jan-Jun 2026:   25%   ░░░░░░░░░░
 Jul-Dec 2026:   5%    ░░
 ```
 
-### July 2025
-Leaked benchmarks suggest GPT-5 is in final testing. Dr. Chen's window is closing.
+**July 2025:** Leaked benchmarks suggest GPT-5 is in final testing. Dr. Chen's window is closing.
 
-### October 2025
-OpenAI schedules a "major product announcement" for November 15th.
+**October 2025:** OpenAI schedules a "major product announcement" for November 15th.
 
-### November 15, 2025 - Resolution
-Sam Altman takes the stage: **"Today, we're releasing GPT-5 to the world."**
-
-Official release date: **November 15, 2025**
+**November 15, 2025:** Altman takes the stage: **"Today, we're releasing GPT-5 to the world."**
 
 ---
 
-## The Results
+## Results
 
-| Player | Range | Result | Outcome |
-|--------|-------|--------|---------|
-| Dr. Chen | Jun-Sep 2025 | LOSE | 2 months too early |
-| Alex | Oct-Dec 2025 | WIN | Nailed it |
-| Sarah | Jan-Jun 2026 | LOSE | Too pessimistic |
-| Marcus | Jan-Mar 2025 | LOSE | Way too optimistic |
+| Player | Range | Result |
+|--------|-------|--------|
+| Dr. Chen | Jun-Sep 2025 | LOSE — 2 months early |
+| Alex | Oct-Dec 2025 | **WIN — $990** |
+| Sarah | Jan-Jun 2026 | LOSE — too pessimistic |
+| Marcus | Jan-Mar 2025 | LOSE — way too early |
 
-**Alex wins \$990.** His news sources and insider knowledge paid off.
+Alex's approach of triangulating multiple independent sources pointed to the right window. Dr. Chen's analysis was directionally correct but didn't leave buffer room — Jun-Dec 2025 at lower odds (~1.8x) would have captured it.
 
----
+Sarah's insider knowledge made her too pessimistic. She knew all the reasons things could go wrong but didn't weight OpenAI's competitive pressure to ship.
 
-## The Lessons
-
-### 1. Time Ranges Need Buffer Room
-Dr. Chen's analysis was solid, but she didn't leave buffer room for delays. A range of June-December 2025 (lower odds but higher coverage) might have been smarter.
-
-| Strategy | Range | Odds | Outcome |
-|----------|-------|------|---------|
-| Precise | Jun-Sep 2025 | 2.8x | Miss |
-| Buffered | Jun-Dec 2025 | 1.8x | Hit |
-
-### 2. Leaks Are Signal, Not Noise
-Alex's "news junkie" approach worked because he triangulated multiple sources. When several independent sources point to the same timeframe, that's valuable alpha.
-
-### 3. Expert Knowledge Cuts Both Ways
-Sarah's insider knowledge made her *too* pessimistic. She knew all the reasons things could go wrong but didn't account for OpenAI's competitive pressure to ship.
-
-### 4. Hype Cycles Are Predictable
-Marcus fell for the classic hype trap: interpreting ambiguous signals as confirmation of what he wanted to believe. In prediction markets, **wishful thinking is expensive.**
+Marcus fell for the classic trap: interpreting ambiguous signals as confirmation of what he wanted to believe.
 
 ---
 
-## Why Date Markets Are Special
+## Date markets
 
-Date prediction markets have unique properties:
+Date prediction markets have distinct dynamics worth noting:
 
-| Property | Implication |
-|----------|-------------|
-| **Time decay** | As time passes, probabilities shift automatically |
-| **News sensitivity** | Single announcement can resolve the market |
-| **Range selection psychology** | "Q4 2025" feels different than "Oct-Dec 2025" even though they're the same |
-| **Anchoring effects** | Round dates (Jan 1, Q1, etc.) often get overweighted |
-
-### Pro Tip: Avoid Round Number Bias
-Markets often overprice round dates:
-- "Q1 2025" ≠ exactly January-March
-- Companies release when ready, not when calendars say so
-- Mid-quarter releases are underpriced
+- **Time decay is automatic.** As windows pass without resolution, remaining windows absorb their probability.
+- **Single events can resolve them instantly.** One announcement and it's over.
+- **Round-number bias is real.** "Q1" and "H1" get overweighted. Mid-quarter releases are consistently underpriced.
+- Companies ship when ready, not on calendar boundaries.
 
 ---
-
-## Build Your AI Release Watchlist
-
-Skepsis markets you might find interesting:
-- Apple AI features release dates
-- Tesla FSD v13 wide release
-- GTA 6 launch date
-- Next major model from Anthropic, Google, Meta
 
 <Note>
-**Try it free on testnet.** Sign in with Google, claim test USDC, and bet on your AI predictions. No real money, no gas fees.
-
-[Launch Skepsis →](https://alpha.skepsis.live/markets)
+Testnet is live — no real money, no gas fees. [Launch Skepsis](https://alpha.skepsis.live/markets)
 </Note>
-
----
-
-## More Examples
-
-- [The Bitcoin Hour](/for-traders/examples/bitcoin-hour) - Price prediction market
-- [Beach Wedding](/for-traders/examples/beach-wedding) - Weather prediction market

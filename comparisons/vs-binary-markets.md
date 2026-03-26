@@ -18,7 +18,7 @@ Binary market:     "Will BTC hit $100K?"  → Yes / No
 Skepsis market:    "Where will BTC be?"   → Pick your range
 ```
 
-One gives you a coin flip. The other gives you a sniper scope.
+Binary markets resolve to yes/no. Continuous markets resolve to a value within a range, letting you express where, not just whether.
 
 ---
 
@@ -47,7 +47,7 @@ Result: You WIN
 Reality: Your prediction was accurate, and you got paid for it
 ```
 
-Binary markets punish near-misses. Skepsis rewards accuracy.
+With range-based markets, a thesis that's directionally correct but off by a tick can still pay out.
 
 ---
 
@@ -79,7 +79,7 @@ $110K+:       10%
 Expected value, confidence interval, tail risk: all visible.
 ```
 
-**One Skepsis market replaces dozens of binary questions.**
+A single continuous market surfaces a full probability distribution — expected value, confidence intervals, tail risk — where binary markets would need dozens of separate questions to approximate the same information.
 
 ---
 
@@ -128,19 +128,15 @@ The house always wins long-term.
 Platform fee: 1-7%
 Liquidity depends on market makers
 Some markets have wide spreads
-Better than sportsbooks, but still extractive
 ```
 
 ### Skepsis
 
 ```
 Trading fee: 0.3%-1% (varies by risk category)
-LMSR guarantees liquidity, always
-No house edge. Prices set by market participants
-Your edge = your information advantage
+LMSR provides liquidity algorithmically — no order book needed
+Prices set by market participants, not a bookmaker
 ```
-
-If you're right more than the market expects, you profit. Period.
 
 ---
 
@@ -192,30 +188,6 @@ Locked in at bet time. No surprises. Ever.
 
 ## When to Use What
 
-| Your Need | Best Fit |
-|-----------|----------|
-| "Will [candidate] win?" | Binary market |
-| "What will [price] be?" | **Skepsis** |
-| "Will [event] happen?" | Binary market |
-| "When will [event] happen?" | **Skepsis** |
-| "What will [metric] be?" | **Skepsis** |
-| Sports entertainment | Sportsbook |
-| Expressing a precise thesis | **Skepsis** |
+Binary markets fit discrete yes/no questions ("Will [candidate] win?", "Will [event] happen?"). Continuous markets fit questions about magnitude or timing ("What will [price] be?", "When will [event] happen?"). Sportsbooks are fine for entertainment betting where you don't care about edge.
 
----
-
-## The Bottom Line
-
-Binary markets are blunt instruments. Great for elections and yes/no questions.
-
-But if you have a specific, high-conviction thesis about **where** something will land, not just whether it crosses a line, you're leaving money on the table every time you use them.
-
-Skepsis pays you for precision.
-
----
-
-## Try It
-
-<Note>
-**Make a continuous prediction:** [Launch Skepsis →](https://alpha.skepsis.live/markets)
-</Note>
+Testnet is live at [alpha.skepsis.live/markets](https://alpha.skepsis.live/markets).

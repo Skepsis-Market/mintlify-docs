@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "Stop betting on coin flips. Predict exactly where the price will land."
+description: "A continuous outcome prediction market. Bet on exact ranges, not binary yes/no."
 ---
 
 <img
@@ -10,23 +10,19 @@ description: "Stop betting on coin flips. Predict exactly where the price will l
   width="200"
 />
 
-## Precision Pays
+## What Is Skepsis
 
-The world isn't black and white. Why are your bets?
+Skepsis is a **continuous outcome market**. Instead of binary Yes/No positions, you bet on the exact range where an outcome will land. Narrower conviction means better odds.
 
-Most prediction markets (like Polymarket) force you into binary **Yes/No** boxes. They are blunt instruments. If you have a specific, high-conviction thesis, you leave money on the table every time you use them.
+### The Precision Premium
 
-**Skepsis is different.** We are a **continuous outcome market**. We let you bet on the exact range where an outcome will land.
-
-### The "Precision Premium" Example
-
-<Frame caption="The Precision Premium: Same market move, 5x higher payout for predicting the specific range.">
+<Frame caption="Same market move, higher payout for predicting a specific range.">
   <img src="/images/precision-chart-v2.svg" alt="Precision Premium Chart Comparison" />
 </Frame>
 
-Imagine Bitcoin is at **\$95,000**. You've done the analysis, and you are confident it will end the week between **\$98,000 and \$99,000**.
+Bitcoin is at **\$95,000**. You're confident it ends the week between **\$98,000 and \$99,000**.
 
-Here is the difference between a binary bet and a Skepsis bet:
+Binary bet vs. Skepsis bet:
 
 | | Binary Market (Polymarket) | Skepsis |
 |---|---|---|
@@ -36,37 +32,35 @@ Here is the difference between a binary bet and a Skepsis bet:
 | **The Odds** | ~2.0x (Double your money) | **~10.0x (Ten times your money)** |
 | **The Result** | BTC hits \$98.5k. You win. | BTC hits \$98.5k. You win. |
 
-**Same outcome. 5x more profit.**
-
-Why? Because on the binary market, your specific insight ("It will stop at \$99k") was priced the same as the generic "It will go up" view. On Skepsis, you were paid for your **precision**.
+On the binary market, "it stops at \$99k" is priced the same as "it goes up." Skepsis pays for precision.
 
 ---
 
-## The Sniper vs. The Shotgun
+## Range Betting vs. Binary
 
-<Frame caption="The Shotgun vs. The Sniper: Binary markets spray capital across a wide area for low returns. Skepsis allows for a precision strike with concentrated returns.">
+<Frame caption="Binary markets spread capital across a wide outcome space. Range markets concentrate it.">
   <img src="/images/outcome-ui.svg" alt="Outcome Resolution Comparison" />
 </Frame>
 
-*   **Binary Markets are Shotguns:** Good for hitting broad targets ("Up", "Down", "Yes", "No"). Low risk of missing, but low reward for accuracy.
-*   **Skepsis is a Sniper Rifle:** Built for traders who know their target. Higher difficulty, but massive rewards for hitting the bullseye.
+*   **Binary markets** cover broad targets ("Up", "Down", "Yes", "No"). Low miss rate, but low reward for accuracy.
+*   **Range markets** are for traders with a specific thesis. Narrower range = higher payout when correct.
 
 ---
 
-## Why Traders Choose Skepsis
+## Key Properties
 
 <CardGroup cols={2}>
   <Card title="Every Range, Always Tradeable" icon="water">
-    No thin order books. No "insufficient liquidity" on the range you want. The Vault backs every market with deep, protocol-owned liquidity, so every range is always open for business.
+    No thin order books. The Vault backs every market with protocol-owned liquidity, so every range has depth.
   </Card>
-  <Card title="Express True Beliefs" icon="brain">
-    Real life happens in bell curves, not coin flips. Bet on "stable", "extreme volatility", or "slow bleed", not just "up/down".
+  <Card title="Continuous Outcomes" icon="brain">
+    Bet on "stable", "extreme volatility", or "slow bleed" -- not just "up/down".
   </Card>
   <Card title="Deterministic Payouts" icon="calculator">
-    Know your exact payout the moment you bet. No parimutuel pools where odds change later. You lock it in.
+    Payout is locked at trade time. No parimutuel pools, no post-trade odds drift.
   </Card>
   <Card title="Built on Avalanche" icon="bolt">
-    Markets that move as fast as the price. Fast finality and low fees mean you can trade news in real-time.
+    Fast finality and low fees. Trade on news in real-time.
   </Card>
 </CardGroup>
 
@@ -86,10 +80,10 @@ Try strategies, learn the mechanics, and provide feedback, all without risking a
 
 ---
 
-## Start Your Strategy
+## How It Works
 
 <Steps>
-  <Step title="Pick Your Target">
+  <Step title="Pick a Market">
     Choose a market (Price, Date, or Data).
   </Step>
   <Step title="Define Your Range">
@@ -98,32 +92,26 @@ Try strategies, learn the mechanics, and provide feedback, all without risking a
   <Step title="Lock In Odds">
     See your multiplier immediately.
   </Step>
-  <Step title="Fire">
-    Place your bet in USDC.
+  <Step title="Place Your Bet">
+    Confirm in USDC.
   </Step>
 </Steps>
-
-<Note>
-Try free on testnet. No wallet, no gas, no risk.
-
-[Launch Skepsis App →](https://alpha.skepsis.live/markets)
-</Note>
 
 ---
 
 ## Explore the Docs
 
 <CardGroup cols={2}>
-  <Card title="🚀 Quick Start" icon="rocket" href="/overview/quick-start">
+  <Card title="Quick Start" icon="rocket" href="/overview/quick-start">
     Place your first bet in 5 minutes
   </Card>
-  <Card title="🎯 Understanding Ranges" icon="bullseye" href="/for-traders/understanding-ranges">
-    Master the art of range betting
+  <Card title="Understanding Ranges" icon="bullseye" href="/for-traders/understanding-ranges">
+    How range betting works
   </Card>
-  <Card title="⚖️ Skepsis vs. Binary Markets" icon="scale-balanced" href="/comparisons/vs-binary-markets">
-    Why ranges beat yes/no
+  <Card title="Skepsis vs. Binary Markets" icon="scale-balanced" href="/comparisons/vs-binary-markets">
+    Structural differences from yes/no markets
   </Card>
-  <Card title="🧠 LMSR Explained" icon="flask" href="/how-it-works/lmsr-for-humans">
-    The algorithm behind the liquidity
+  <Card title="LMSR Explained" icon="flask" href="/how-it-works/lmsr-for-humans">
+    The pricing algorithm behind market liquidity
   </Card>
 </CardGroup>

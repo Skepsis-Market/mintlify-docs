@@ -2,202 +2,38 @@
 title: "Market Types"
 ---
 
-
-Skepsis supports different market types, each suited for different kinds of predictions.
-
----
-
 ## Price Prediction Markets
 
-### What They Are
-Markets that resolve based on the price of an asset at a specific time.
+Markets that resolve based on the price of an asset at a specific time — BTC/USD in 1 hour, ETH at midnight UTC, etc. Typically short duration (minutes to days), resolved by oracle price feeds, with ranges spanning ±5-20% from spot.
 
-### Examples
-- BTC/USD price in 1 hour
-- ETH/USD price at midnight UTC
-- Gold price on Friday close
-- AAPL stock at market close
-
-### Characteristics
-
-| Property | Typical Value |
-|----------|---------------|
-| Duration | Minutes to days |
-| Resolution | Price feed (oracle) |
-| Volatility | High (prices move fast) |
-| Range | ±5-20% from current |
-
-### Best For
-- Short-term traders
-- Those with market views
-- Hedging crypto positions
-
-### Tips
-- **1-hour markets** are good for learning. Fast feedback loops.
-- Watch for scheduled events (Fed meetings, earnings) that move prices.
-- Wider ranges for volatile assets, narrower for stable ones
+1-hour markets are good for learning since you get fast feedback. Watch for scheduled catalysts (Fed, earnings) and size your range width to the asset's volatility.
 
 ---
 
 ## Date Prediction Markets
 
-### What They Are
-Markets that resolve based on when an event occurs.
+Markets that resolve based on *when* something happens — GPT-5 release, GTA 6 launch, next iPhone announcement. These run weeks to months, resolved by official announcements.
 
-### Examples
-- GPT-5 release date
-- GTA 6 launch date
-- Next iPhone announcement
-- SpaceX Starship orbital launch
-
-### Characteristics
-
-| Property | Typical Value |
-|----------|---------------|
-| Duration | Weeks to months |
-| Resolution | Official announcement |
-| Volatility | Medium (news-driven) |
-| Range | Weeks/months |
-
-### Best For
-- Tech/gaming enthusiasts
-- Those who follow industry news
-- Long-term speculators
-
-### Tips
-- **Follow credible leakers.** They often have real information.
-- Companies have release patterns. Study historical timing.
-- Round dates (Jan 1, Q1) are often overpriced due to anchoring bias.
+Credible leakers are alpha here. Companies have release cadences worth studying, and round dates (Jan 1, Q1 start) tend to be overpriced due to anchoring.
 
 ---
 
 ## Measurement Markets
 
-### What They Are
-Markets that resolve based on a measured quantity.
+Markets that resolve on a measured quantity — tomorrow's high temperature in NYC, Super Bowl final score, box office opening weekend. Duration varies (hours to weeks), resolved by official sources (NOAA, Vegas, Box Office Mojo).
 
-### Examples
-- Tomorrow's high temperature in NYC
-- Rainfall this week in Seattle
-- Super Bowl final score
-- Box office opening weekend
+Historical data is your edge. Weather services disagree with each other, and local knowledge sometimes beats models.
 
-### Characteristics
+## Resolution
 
-| Property | Typical Value |
-|----------|---------------|
-| Duration | Hours to weeks |
-| Resolution | Official measurement |
-| Volatility | Low to medium |
-| Range | Historical typical range |
+All market types follow the same flow: the measurement period ends, an authoritative source reports the value, the value maps to a winning bucket, and winners claim.
 
-### Best For
-- Weather enthusiasts
-- Sports fans
-- Local experts
+**Price markets** use oracle feeds (Pyth, Chainlink, exchange APIs) and resolve automatically. **Date markets** require clear resolution criteria — "public release" vs "beta release" matters, and the market description specifies which counts. **Measurement markets** use official reporting bodies as their source of truth.
 
-### Tips
-- **Historical data is your friend.** Check past measurements.
-- Weather services disagree. Multiple forecasts can reveal opportunity.
-- Local knowledge beats models sometimes.
+## Picking a Market
 
----
-
-## Market Type Comparison
-
-| Type | Example | Duration | Skill Required | Fun Factor |
-|------|---------|----------|----------------|------------|
-| **Price** | BTC 1hr | Short | Trading analysis | Fast action |
-| **Date** | GPT-5 launch | Long | Industry knowledge | Big payouts |
-| **Measurement** | NYC temp | Medium | Domain expertise | Use your knowledge |
-
----
-
-## How Resolution Works by Type
-
-### Price Markets
-```
-1. Market closes at specified time
-2. Oracle reports official price
-3. Price is matched to bucket
-4. Winners can claim immediately
-```
-
-**Oracle sources:** Pyth, Chainlink, exchange APIs
-
-### Date Markets
-```
-1. Event occurs (or doesn't)
-2. Resolution criteria checked:
-   - Official announcement
-   - Product available to public
-   - Verified by multiple sources
-3. Winning date range determined
-4. Winners can claim
-```
-
-**Resolution criteria must be clear.** "Public release" vs "beta release" matters.
-
-### Measurement Markets
-```
-1. Measurement period ends
-2. Official source reports value
-3. Value matched to bucket
-4. Winners can claim
-```
-
-**Official sources:** NOAA (weather), Vegas lines (sports), Box Office Mojo (movies)
-
----
-
-## Choosing Your Market
-
-### Based on Your Strengths
-
-| If You're Good At... | Try These Markets |
-|---------------------|-------------------|
-| Technical analysis | Price markets |
-| Industry research | Date markets |
-| Local/domain knowledge | Measurement markets |
-| Quick decisions | Short-duration price |
-| Patient analysis | Long-duration date |
-
-### Based on Your Goals
-
-| Goal | Recommended Market |
-|------|-------------------|
-| Learn the platform | 1-hour price markets |
-| Big potential payouts | Date markets (tail bets) |
-| Consistent small wins | Wide-range price markets |
-| Use specific expertise | Relevant measurement market |
-
----
+If you do TA, start with short-duration price markets. If you follow industry news, date markets reward that research. Domain expertise (weather, sports, entertainment) maps directly to measurement markets. When in doubt, 1-hour price markets give the fastest feedback loop for learning the platform.
 
 ## Coming Soon
 
-New market types in development:
-
-### Conditional Markets
-"If [Event A], what will [Outcome B] be?"
-
----
-
-## Start Trading
-
-Each market type offers different opportunities. Pick one that matches your knowledge.
-
-<Note>
-**Browse all markets:** [Launch Skepsis →](https://alpha.skepsis.live/markets)
-</Note>
-
----
-
-## Related
-
-<table data-card-size="large" data-view="cards">
-<thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
-<tbody>
-<tr><td><strong>Strategies</strong></td><td>Different strategies for different market types</td><td><a href="/for-traders/strategies">Strategies</a></td></tr>
-<tr><td><strong>Example Markets</strong></td><td>See each market type in action</td><td><a href="examples/">examples</a></td></tr>
-</tbody>
-</table>
+**Conditional markets:** "If [Event A], what will [Outcome B] be?"

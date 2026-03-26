@@ -10,145 +10,127 @@ Quick reference for terms used on Skepsis.
 ## Core Concepts
 
 ### Range
-The span of values you're betting on. For example, in a Bitcoin market, your range might be "\$95,000 - \$97,000". If the final price lands anywhere within your range, you win.
+The span of values you're betting on (e.g., "$95,000 - $97,000"). If the outcome lands anywhere in your range, you win.
 
-### Bucket / Spread
-The smallest unit of a range. Markets are divided into discrete buckets (e.g., each \$100 increment for BTC). When you select a range, you're actually selecting multiple adjacent buckets.
+### Bucket
+The smallest unit of a range. Markets are divided into discrete buckets (e.g., each $100 increment). Your selected range is a set of adjacent buckets.
 
 ### Probability Distribution
-A visualization showing how likely each outcome range is according to current market beliefs. Peaks indicate high-probability areas; valleys indicate low-probability areas (and potentially better odds).
+How likely each outcome range is according to current market pricing. Peaks = high probability, valleys = potentially better odds.
 
 ### Resolution
-The moment when the actual outcome is determined and reported. After resolution, winning positions can claim their payouts.
+When the actual outcome is determined and reported. After resolution, winning positions can claim payouts.
 
 ---
 
 ## Trading Terms
 
 ### Position
-Your stake in a market. When you bet on a range, you receive a position representing your potential claim to winnings.
+Your stake in a market — received when you bet on a range.
 
 ### Odds / Multiplier
-How much you'll win relative to your bet. "5x odds" means a \$100 bet wins \$500 if correct.
+How much you win relative to your bet. 5x odds means $100 wins $500 if correct.
 
 ### Quote
-The instant price calculation showing what your bet will cost and what you'll win. Quotes are generated in real-time based on current market state.
+Real-time price calculation showing cost and potential payout for a bet, based on current market state.
 
 ### Deterministic Payout
-Your payout is fixed the moment you bet. Unlike traditional betting where payouts can change, Skepsis guarantees your exact winnings upfront.
+Your payout is fixed at the moment you bet. No post-trade payout changes.
 
 ### Shares
-Internal accounting units representing your position size. Each share is worth exactly \$1 if your range wins, \$0 if it loses.
+Internal units representing position size. Each share pays $1 if your range wins, $0 if it loses.
 
 ---
 
 ## Market Structure
 
 ### Market
-A single prediction question with a defined outcome range and resolution time. Example: "BTC price at 5:00 PM UTC on December 15th"
+A prediction question with a defined outcome range and resolution time.
 
 ### Outcome Range
-The full span of possible values for a market. For a BTC market, this might be \$80,000 - \$120,000.
+The full span of possible values (e.g., $80,000 - $120,000 for a BTC market).
 
 ### Bucket Count
-How many discrete segments the outcome range is divided into. More buckets = finer granularity but potentially lower liquidity per bucket.
+How many segments the outcome range is divided into. More buckets = finer granularity but lower liquidity per bucket.
 
 ### Liquidity
-The total funds available in a market for trading. Higher liquidity = tighter spreads and less price impact.
+Total funds available for trading. Higher liquidity = less price impact.
 
 ### Pool Balance
-The total USDC held by the market smart contract, used to pay winners.
+Total USDC held by the market contract, used to pay winners.
 
 ---
 
 ## Pricing & Economics
 
 ### LMSR (Logarithmic Market Scoring Rule)
-The mathematical algorithm that determines prices. It ensures:
-- Always-available liquidity
-- Prices that reflect current beliefs
-- Bounded risk for the protocol
+The pricing algorithm. Guarantees always-available liquidity, prices reflecting beliefs, and bounded protocol risk.
 
-### Alpha (α) / Liquidity Parameter
-A value that controls how sensitive prices are to trades. Higher alpha = prices move less per trade = more stable but lower profit potential for early traders.
+### Alpha (a) / Liquidity Parameter
+Controls price sensitivity to trades. Higher alpha = prices move less per trade.
 
 ### Spread
-The difference between what you pay to buy and what you'd receive to sell immediately. Think of it as the market's "fee" embedded in prices.
+Difference between buy and immediate-sell price. The market's embedded fee.
 
 ### Slippage
-The difference between the quoted price and the actual execution price. On Skepsis, slippage is minimal due to LMSR's mathematical properties.
+Difference between quoted price and execution price. Minimal on Skepsis due to LMSR's properties.
 
 ---
 
 ## Resolution Terms
 
 ### Oracle
-The trusted data source that reports the actual outcome. For price markets, this might be a price feed like Pyth or Chainlink.
+Trusted data source reporting the actual outcome (e.g., Pyth or Chainlink for price feeds).
 
 ### Resolution Time
-The predetermined moment when the outcome is measured and winners are determined.
+The predetermined moment when the outcome is measured.
 
 ### Winning Bucket
-The bucket (or range) where the actual outcome landed. All positions containing this bucket win.
+The bucket where the actual outcome landed. All positions containing this bucket win.
 
 ### Claim
-The action of withdrawing your winnings after resolution. Winners receive \$1 per share they hold in winning buckets.
+Withdrawing winnings after resolution. Winners receive $1 per share in winning buckets.
 
 ---
 
 ## Position Management
 
 ### Buy
-Opening a new position or adding to an existing one by paying USDC to receive shares.
+Open or add to a position by paying USDC to receive shares.
 
 ### Sell
-Closing part or all of your position before resolution by returning shares for USDC. The amount you receive depends on current market prices.
+Close part or all of a position before resolution by returning shares for USDC. Amount received depends on current market prices.
 
 ### Total Invested
-The sum of USDC you've put into positions across all your bets in a market.
+Sum of USDC across all your bets in a market.
 
 ### Potential Payout
-The maximum amount you could win if all your selected ranges contain the winning outcome.
+Maximum amount you win if your selected ranges contain the outcome.
 
 ---
 
 ## Technical Terms
 
 ### Avalanche
-The blockchain Skepsis is built on. Known for fast finality, low fees, and EVM compatibility.
+The blockchain Skepsis runs on. Fast finality, low fees, EVM-compatible.
 
 ### USDC
-The stablecoin used for betting on Skepsis. 1 USDC ≈ \$1 USD.
+Stablecoin used for betting. 1 USDC ~ $1.
 
 ### Transaction
-An on-chain action like placing a bet or claiming winnings. Each transaction requires a small gas fee paid in AVAX.
+An on-chain action (placing a bet, claiming winnings). Requires a small gas fee in AVAX.
 
 ### Smart Contract
-Self-executing code on the blockchain that manages markets, positions, and payouts. Skepsis contracts are open-source and auditable.
+On-chain code managing markets, positions, and payouts. Skepsis contracts are open-source.
 
 ### Vault
-An ERC-4626 pool where LPs deposit USDC to seed markets. Capital is deployed across multiple markets and recycled as markets resolve. LPs earn fees from trading activity.
+ERC-4626 pool where LPs deposit USDC to seed markets. Capital deploys across markets and recycles as they resolve. LPs earn trading fees.
 
 ### Alpha Decay
-A mechanism where the liquidity parameter (alpha) gradually decreases over a market's lifetime. This makes spreads tighter as the market matures. Early bettors get a premium for taking risk with less information.
+Gradual decrease of the liquidity parameter over a market's lifetime, tightening spreads as the market matures.
 
 ### Position NFT
-Your bet is represented as an ERC-1155 token. This means positions are transferable, composable, and owned by you, not locked in a platform account.
-
----
-
-## Quick Reference Table
-
-| Term | Simple Definition |
-|------|-------------------|
-| Range | What you're betting on (e.g., "\$95K-\$97K") |
-| Odds | Your multiplier if you win (e.g., "5x") |
-| Position | Your stake / bet |
-| Resolution | When the winner is decided |
-| Claim | Withdrawing your winnings |
-| LMSR | The math that sets prices |
-| Bucket | Smallest betting unit |
-| Liquidity | Money in the market pool |
+Your bet is an ERC-1155 token — transferable, composable, and self-custodied.
 
 ---
 

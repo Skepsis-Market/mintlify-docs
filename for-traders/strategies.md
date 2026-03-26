@@ -5,204 +5,116 @@ title: "Trading Strategies"
 
 Proven approaches to improve your Skepsis predictions.
 
-<Tip>
-**Practice risk-free on testnet.** Test these strategies with free USDC. Sign in with Privy (gas sponsored) or connect your EVM wallet.
-</Tip>
+All strategies can be tested risk-free on testnet.
 
 ---
 
 ## Core Strategies
 
-### 1. The Information Edge
+### 1. Information Edge
 
-**Concept:** Trade when you know something the market doesn't.
+Trade before the market catches up. Breaking news, domain expertise, local knowledge — if you have signal others don't, act on it fast.
 
-**When to use:**
-- Breaking news not yet priced in
-- Domain expertise (you work in the industry)
-- Local knowledge (weather, events)
-
-**Example:**
 ```
-You see a credible leaker post "GPT-5 demo next week"
-Market still shows Feb-March as most likely
-You bet on next week's range before others react
+Credible leaker posts "GPT-5 demo next week"
+Market still prices Feb-March as most likely
+Buy next week's range before it reprices
 ```
 
-**Risk level:** Medium (information may be wrong)
+Medium risk — your information may be wrong or already priced in.
 
 ---
 
-### 2. The Contrarian
+### 2. Contrarian
 
-**Concept:** Bet against the crowd when they're overreacting.
+Bet against overreactions. When BTC drops 2% on a random FUD tweet and market probabilities shift dramatically, that's a mean-reversion opportunity. The crowd panics, you fade it.
 
-**When to use:**
-- Market moved sharply on emotional news
-- Herd mentality is visible
-- Fundamentals haven't changed
-
-**Example:**
-```
-BTC drops 2% on random FUD tweet
-1-hour market probabilities shift dramatically
-You bet on recovery (mean reversion)
-```
-
-**Risk level:** Medium (crowd can be right)
+Risk is real though — the crowd is sometimes right.
 
 ---
 
-### 3. The Safe Player
+### 3. Safe Player
 
-**Concept:** Wide ranges, high win rate, small but consistent gains.
+Wide ranges, high win rate, small but consistent gains. Good for building bankroll or grinding in high-liquidity markets.
 
-**When to use:**
-- New to the platform
-- Building bankroll
-- High liquidity markets
-
-**Example:**
 ```
 BTC at $97,000
-You bet on $94,000 - $100,000 (huge range)
-Odds: 1.3x
-Win rate: ~85%
-Small but consistent profit
+Bet on $94,000 - $100,000
+Odds: 1.3x — wins ~85% of the time
 ```
 
-**Risk level:** Low (but low returns too)
+Low risk, low return. You're not getting rich, but you're not blowing up either.
 
 ---
 
-### 4. The Sniper
+### 4. Sniper
 
-**Concept:** Very narrow ranges, high conviction bets.
+Narrow ranges, high conviction. You need a real edge — a specific catalyst, a strong model — because this is binary. Either big win or total loss.
 
-**When to use:**
-- Strong analytical edge
-- Specific catalyst known
-- Small position size (it's risky!)
-
-**Example:**
 ```
 Apple earnings after hours
-You calculate likely price impact: +$3-5
-You bet on very narrow post-earnings range
-Odds: 15x
-Either big win or total loss
+You model likely price impact: +$3-5
+Narrow post-earnings range at 15x odds
 ```
 
-**Risk level:** High (requires real edge)
+Don't size these like your safe bets.
 
 ---
 
-### 5. The Hedger
+### 5. Hedger
 
-**Concept:** Use predictions to offset real-world risk.
+Offset real-world exposure. You're not trying to profit — you're buying insurance.
 
-**When to use:**
-- You have exposure to an outcome
-- Want to reduce variance
-- Not trying to profit, trying to protect
-
-**Example:**
 ```
-You're getting married outdoors Saturday
-Good weather = great wedding, no bet payout
-Bad weather = rough wedding, BUT you win $500
-
-Outcome: You're happy either way
+Outdoor wedding Saturday
+Good weather = great wedding, no payout
+Bad weather = rough wedding, but you win $500
+Happy either way
 ```
-
-**Risk level:** Low (you're buying insurance)
 
 ---
 
 ## Advanced Strategies
 
-### The Barbell Strategy
+### Barbell
 
-Split your capital between safe bets and long shots.
+Split capital between safe bets and long shots. Grind small profits most of the time, occasionally hit big.
 
 ```
-Total budget: $100
+$100 budget
 
-70%: Safe bet (1.5x odds, ~65% prob)
-     $70 → potential $105
+$70 on safe bet (1.5x, ~65% prob) → potential $105
+$30 on long shot (8x, ~12% prob) → potential $240
 
-30%: Long shot (8x odds, ~12% prob)
-     $30 → potential $240
-
-Outcomes:
-- Safe wins: +$35 (net profit)
-- Long shot wins: +$170 (big win!)
-- Both win: +$205 (jackpot!)
-- Both lose: -$100 (max loss)
+Safe wins: +$35 | Long shot wins: +$170
+Both win: +$205 | Both lose: -$100
 ```
-
-**Why it works:** Most of the time you grind small profits. Occasionally you hit big.
 
 ---
 
-### The Bracket Strategy
+### Bracket
 
-Cover multiple adjacent ranges with decreasing amounts.
+Cover adjacent ranges with decreasing size to eliminate "off by one bucket" frustration.
 
 ```
-Center bet: $50 on $96K-$97K (3x odds)
-Edge bet 1: $25 on $95K-$96K (4x odds)
-Edge bet 2: $25 on $97K-$98K (4x odds)
+$50 on $96K-$97K (3x)
+$25 on $95K-$96K (4x)
+$25 on $97K-$98K (4x)
 
-You're betting on "around $96K-$97K" with coverage
-
-Outcomes:
-- Center hits: Win $150, lose $50 → +$100
-- Edge hits: Win $100, lose $75 → +$25
-- Miss: Lose $100
+Center hits: +$100 | Edge hits: +$25 | Miss: -$100
 ```
-
-**Why it works:** Reduces the "off by one bucket" frustration.
 
 ---
 
-### The Fade Strategy
+### Fade
 
-Bet against ranges that look overpriced.
-
-```
-Market shows BTC $100K-$101K at 25% probability
-Your analysis: More like 15%
-
-You don't bet ON $100K-$101K
-You bet on everything else (or specific alternatives)
-
-If $100K-$101K is truly overpriced,
-adjacent ranges are underpriced
-```
-
-**Why it works:** Exploits market inefficiencies without betting on unlikely events.
+If a range looks overpriced, don't bet on it — bet on the alternatives. When BTC $100K-$101K shows 25% but your model says 15%, the adjacent ranges are underpriced. Buy those instead.
 
 ---
 
-### Time Decay Strategy
+### Time Decay
 
-Exploit how probabilities shift as resolution approaches.
-
-```
-Date market for product launch, 3 months out:
-- All monthly ranges ~equal probability
-- Uncertainty is high
-
-As time passes without news:
-- Near-term ranges get less likely
-- Far-term ranges get more likely
-
-If you believe "probably later than people think":
-Bet on later ranges early, get good odds
-```
-
-**Why it works:** Time itself is information.
+Probabilities shift as resolution approaches, even without news. In a product launch date market 3 months out, all ranges start roughly equal. As time passes without announcements, near-term ranges lose probability and far-term ranges gain it. If you think "probably later than consensus," buy later ranges early while odds are good.
 
 ---
 
@@ -339,14 +251,3 @@ Did it work? Go live.
 Didn't work? Iterate.
 ```
 
----
-
-## Next Steps
-
-<table data-card-size="large" data-view="cards">
-<thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
-<tbody>
-<tr><td><strong>Example Markets</strong></td><td>See strategies in action</td><td><a href="examples/">examples</a></td></tr>
-<tr><td><strong>LMSR Explained</strong></td><td>Understand the pricing math</td><td><a href="/how-it-works/lmsr-for-humans">LMSR Explained</a></td></tr>
-</tbody>
-</table>
