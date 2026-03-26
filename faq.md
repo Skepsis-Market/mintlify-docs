@@ -11,11 +11,7 @@ Quick answers to common questions about Skepsis.
 
 ### Is this real money?
 
-**No.** Skepsis is currently on **Avalanche Fuji Testnet**. All USDC used is test currency with no real value. This lets you:
-
-- Learn the platform risk-free
-- Test strategies without financial exposure
-- Provide feedback before mainnet launch
+**No.** Skepsis is currently on **Avalanche Fuji Testnet**. All USDC used is test currency with no real value.
 
 ### How do I get test USDC?
 
@@ -30,7 +26,7 @@ Quick answers to common questions about Skepsis.
 
 | Sign-in Method | Gas Fees |
 |----------------|----------|
-| **Privy (email/social)** | ✅ Sponsored — we pay for you |
+| **Privy (email/social)** | Sponsored (we pay for you) |
 | **EVM Wallet** | Get free test AVAX from [Avalanche Faucet](https://faucet.avax.network/) |
 
 ### Do I need a crypto wallet?
@@ -42,11 +38,11 @@ Quick answers to common questions about Skepsis.
 | **Sign in with Privy** | New to crypto, instant access, gas sponsored |
 | **Connect EVM Wallet** | Crypto natives, full control, need test AVAX for gas |
 
-Both options work identically. Privy creates an embedded wallet linked to your account — no extensions needed.
+Both options work identically. Privy creates an embedded wallet linked to your account, no extensions needed.
 
 ### When will mainnet launch?
 
-We're gathering feedback during testnet. Join our [Telegram](https://t.me/skepsis_market) or follow [@skepsis_market](https://x.com/skepsis_market) for updates on mainnet timing.
+No date announced yet. Join our [Telegram](https://t.me/skepsis_market) or follow [@skepsis_market](https://x.com/skepsis_market) for updates.
 
 ---
 
@@ -64,12 +60,12 @@ Polymarket uses binary (yes/no) markets. Skepsis uses continuous markets where y
 
 ### What do I need to get started?
 
-**Just an email account** — or an EVM wallet if you prefer.
+**Just an email account**, or an EVM wallet if you prefer.
 
 On testnet:
-- ✅ Free test USDC from faucet
-- ✅ No gas fees (we sponsor them)
-- ✅ No real money required
+- Free test USDC from faucet
+- No gas fees (we sponsor them)
+- No real money required
 
 [Full guide: Quick Start →](/overview/quick-start)
 
@@ -97,7 +93,7 @@ Yes! You can sell your shares at any time before the market closes. The amount y
 
 ### What if I forget to claim my winnings?
 
-You have **90 days** after resolution to claim. After that, unclaimed funds go to the protocol treasury. Set a reminder!
+You have **90 days** after resolution to claim. After that, unclaimed funds go to the protocol treasury.
 
 ---
 
@@ -107,8 +103,8 @@ You have **90 days** after resolution to claim. After that, unclaimed funds go t
 
 Odds are determined by the **LMSR algorithm** based on current betting activity:
 
-- More bets on a range → Higher probability → Lower odds
-- Fewer bets on a range → Lower probability → Higher odds
+- More bets on a range = higher probability, lower odds
+- Fewer bets on a range = lower probability, higher odds
 
 [Learn more: LMSR Explained →](/how-it-works/lmsr-for-humans)
 
@@ -122,7 +118,7 @@ The multiplier tells you your payout relative to your bet.
 
 ### Are payouts guaranteed?
 
-**Yes!** This is called "deterministic payouts." The moment you place your bet, your potential payout is locked in. Future bets by others don't change your payout.
+**Yes.** This is called "deterministic payouts." The moment you place your bet, your potential payout is locked in. Future bets by others don't change your payout.
 
 [Learn more: Deterministic Payouts →](/for-traders/deterministic-payouts)
 
@@ -130,9 +126,9 @@ The multiplier tells you your payout relative to your bet.
 
 Boundaries are **lower-inclusive, upper-exclusive**:
 - Range: \$96,000 - \$97,000
-- \$96,000.00 → ✅ In range
-- \$96,999.99 → ✅ In range
-- \$97,000.00 → ❌ Not in range (belongs to next bucket)
+- \$96,000.00: in range
+- \$96,999.99: in range
+- \$97,000.00: not in range (belongs to next bucket)
 
 ---
 
@@ -153,9 +149,9 @@ Currently, markets are created by the Skepsis team and approved creators. Permis
 ### What determines the outcome?
 
 **Oracles** report the actual outcome:
-- Price markets → Pyth/Chainlink price feeds
-- Weather markets → NOAA official data
-- Event markets → Official announcements
+- Price markets: Pyth/Chainlink price feeds
+- Weather markets: NOAA official data
+- Event markets: official announcements
 
 [Learn more: Trust & Resolution →](/how-it-works/trust-and-resolution)
 
@@ -205,11 +201,11 @@ No. Skepsis is wallet-based with no identity verification required.
 
 ### Can the market run out of money?
 
-No. The **LMSR algorithm** mathematically guarantees that the pool can always pay all winners. The system is designed to remain solvent under all conditions.
+No. The **LMSR algorithm** mathematically guarantees that the pool can always pay all winners. The system remains solvent under all conditions.
 
 ### What if Skepsis disappears?
 
-Your funds are in smart contracts on Avalanche, not held by Skepsis company. As long as the blockchain exists, your positions exist.
+Your funds are in smart contracts on Avalanche, not held by Skepsis. As long as the blockchain exists, your positions exist.
 
 ### Are smart contracts audited?
 
@@ -248,12 +244,18 @@ If still stuck, contact support on Telegram.
 
 ## More Questions?
 
-Can't find your answer? Ask in our [Telegram](https://t.me/skepsis_market) — the community is helpful!
+Can't find your answer? Ask in our [Telegram](https://t.me/skepsis_market).
 
 ---
 
 ## Start Predicting
 
 <Note>
-**Ready to try it?** [Launch Skepsis →](https://alpha.skepsis.live/markets)
+[Launch Skepsis →](https://alpha.skepsis.live/markets)
 </Note>
+
+---
+
+<Info>
+Claude has been a friendly neighbour who helped us build these docs. For feedback or corrections, reach out on Telegram: [@defigonn](https://t.me/defigonn).
+</Info>

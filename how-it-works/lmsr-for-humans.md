@@ -3,7 +3,7 @@ title: "LMSR Explained (For Humans)"
 ---
 
 
-The math behind Skepsis pricing — no PhD required.
+The math behind Skepsis pricing, explained simply.
 
 ---
 
@@ -96,8 +96,8 @@ Range E: 14% (7.1x odds)  ██
 
 **What happened:**
 - Range C moved even more
-- But not twice as much (logarithmic diminishing returns)
-- Other ranges now have great odds for contrarians
+- But not twice as much, due to logarithmic diminishing returns
+- Other ranges now have better odds for contrarians
 
 ---
 
@@ -187,7 +187,7 @@ This means:
 
 ## How Prices Actually Calculate
 
-Let's peek under the hood (simplified):
+Here's a simplified look under the hood:
 
 ### The Cost Function
 
@@ -196,7 +196,7 @@ Cost to buy shares = C(after) - C(before)
 
 Where C(q) = α × ln(Σ e^(qi/α))
 
-Don't panic! Let's break it down:
+Where:
 - q = shares in each bucket
 - α = liquidity parameter
 - The formula sums up exponentials
@@ -244,10 +244,10 @@ The exponential function creates:
 
 ## Why LMSR is Perfect for Prediction Markets
 
-1. **Probabilities naturally sum to 100%** — Unlike token prices, predictions must add up
-2. **Bounded loss** — Market can always pay winners
-3. **Always liquid** — No waiting for counterparties
-4. **Incentivizes truth** — Honest predictions are rewarded
+1. **Probabilities naturally sum to 100%.** Unlike token prices, predictions must add up.
+2. **Bounded loss.** The market can always pay winners.
+3. **Always liquid.** No waiting for counterparties.
+4. **Incentivizes truth.** Honest predictions are rewarded.
 
 ---
 
@@ -255,11 +255,11 @@ The exponential function creates:
 
 You don't need to understand the math to use Skepsis. Just know:
 
-- ✅ Prices automatically adjust based on betting activity
-- ✅ More popular ranges = lower odds
-- ✅ Less popular ranges = higher odds
-- ✅ You can always bet (infinite liquidity)
-- ✅ Your payout is guaranteed (deterministic)
+- Prices automatically adjust based on betting activity
+- More popular ranges = lower odds
+- Less popular ranges = higher odds
+- You can always bet (infinite liquidity)
+- Your payout is guaranteed (deterministic)
 
 The LMSR handles all the complexity behind the scenes.
 

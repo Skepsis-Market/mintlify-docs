@@ -46,39 +46,39 @@ Your money never sleeps.
 
 ## No Thin Liquidity. Ever.
 
-This is the part most people miss about the Vault — and it's the thing that changes everything for traders.
+This is the part most people miss about the Vault, and it changes everything for traders.
 
 On an order book platform (Polymarket, a sportsbook, even a DEX), every outcome needs someone on the other side. If nobody's making a market on "BTC lands between \$94K and \$95K," that range is a ghost town. You either can't trade it, or you get terrible fill prices.
 
 ```
 Order book prediction market:
 
-$95K-$96K:  🟢 Deep liquidity (popular range)
-$96K-$97K:  🟢 Deep liquidity
-$97K-$98K:  🟡 Some liquidity
-$98K-$99K:  🔴 Thin — wide spread, bad fills
-$99K-$100K: 🔴 Almost nothing
-$100K+:     ⚫ No liquidity at all
+$95K-$96K:  Deep liquidity (popular range)
+$96K-$97K:  Deep liquidity
+$97K-$98K:  Some liquidity
+$98K-$99K:  Thin, wide spread, bad fills
+$99K-$100K: Almost nothing
+$100K+:     No liquidity at all
 
 You want to bet on $99K? Good luck finding a counterparty.
 ```
 
-On Skepsis, the Vault is the counterparty for **every single range**. The LMSR algorithm doesn't need a matching buyer — it prices every outcome mathematically. And the Vault ensures there's always capital behind that math.
+On Skepsis, the Vault is the counterparty for **every single range**. The LMSR algorithm doesn't need a matching buyer. It prices every outcome mathematically. And the Vault ensures there's always capital behind that math.
 
 ```
 Skepsis (Vault-backed LMSR):
 
-$95K-$96K:  🟢 Always tradeable
-$96K-$97K:  🟢 Always tradeable
-$97K-$98K:  🟢 Always tradeable
-$98K-$99K:  🟢 Always tradeable
-$99K-$100K: 🟢 Always tradeable
-$100K+:     🟢 Always tradeable
+$95K-$96K:  Always tradeable
+$96K-$97K:  Always tradeable
+$97K-$98K:  Always tradeable
+$98K-$99K:  Always tradeable
+$99K-$100K: Always tradeable
+$100K+:     Always tradeable
 
 Every range. Any size. Instant fill. Always.
 ```
 
-This is why the Vault isn't just an LP product — it's the engine that makes Skepsis markets fundamentally different from anything built on order books. The tail ranges, the contrarian bets, the weird corners of the distribution that nobody else is trading? Those are where the real alpha lives. And on Skepsis, they're always open.
+This is why the Vault isn't just an LP product. It's the engine that makes Skepsis markets fundamentally different from anything built on order books. The tail ranges, the contrarian bets, the weird corners of the distribution that nobody else is trading: those are where the real alpha lives. And on Skepsis, they're always open.
 
 ---
 
@@ -93,19 +93,18 @@ You deposit: 10,000 USDC
 Vault total: 100,000 USDC
 Your share: 10%
 
-Every fee earned, every market funded — you get 10%.
+Every fee earned, every market funded: you get 10%.
 ```
 
 ### Capital Deployment
 
-The Vault pushes capital into active markets as they're created. Each market gets enough USDC to power its LMSR pricing — this is what makes "always-on liquidity" possible for traders.
+The Vault pushes capital into active markets as they're created. Each market gets enough USDC to power its LMSR pricing. This is what makes "always-on liquidity" possible for traders.
 
 ```
 New BTC market created → Vault sends $5,000
 New weather market created → Vault sends $2,000
 
 No single market gets more than 20% of the Vault.
-(Safety first.)
 ```
 
 ### Revenue
@@ -118,7 +117,7 @@ Trader pays 0.3%-1% fee on every trade (based on risk category)
 └── Part flows back to the Vault (your share)
 ```
 
-When markets resolve, any leftover pool balance (after paying winners) returns to the Vault. If traders collectively overbought losing ranges, the Vault profits. If the winning range was popular, the Vault might take a small hit — but that's bounded by the math.
+When markets resolve, any leftover pool balance (after paying winners) returns to the Vault. If traders collectively overbought losing ranges, the Vault profits. If the winning range was popular, the Vault might take a small hit, but that's bounded by the math.
 
 ### Withdrawal
 
@@ -134,17 +133,17 @@ the queue processes in order (FIFO).
 Capital returns → Your withdrawal is filled → USDC in your wallet.
 ```
 
-Why a queue? Because your capital is deployed in active markets. We can't yank it mid-trade — that would break the solvency guarantees for traders. The queue ensures everyone gets paid fairly.
+Why a queue? Because your capital is deployed in active markets. Pulling it mid-trade would break the solvency guarantees for traders. The queue ensures everyone gets paid fairly.
 
 ---
 
 ## What Can Go Wrong?
 
-Let's be honest about the risks.
+The risks are real.
 
 ### The Vault Can Lose Money
 
-If many markets resolve with popular winning ranges, the Vault pays out more than it collects. This is the LP risk — it's the price of being the house.
+If many markets resolve with popular winning ranges, the Vault pays out more than it collects. This is the LP risk: the price of being the house.
 
 **But it's bounded.** The LMSR math guarantees that the maximum loss per market is capped. No single market can blow up the entire Vault.
 
@@ -154,7 +153,7 @@ Per-market max loss: α × ln(bucketCount)
 For a typical market with α = 3,333 and 16 buckets:
 Max loss ≈ $9,240
 
-On a $100,000 Vault, that's 9.2% — painful but survivable.
+On a $100,000 Vault, that's 9.2%. Painful but survivable.
 ```
 
 ### Multiple Markets Can Lose Simultaneously
@@ -205,7 +204,7 @@ It's **not** for people who want instant liquidity or zero-risk yield.
     Enter the amount you want to deposit. Receive vault shares.
   </Step>
   <Step title="Earn">
-    Your capital is now working across every market on Skepsis.
+    Your capital is now deployed across every market on Skepsis.
   </Step>
 </Steps>
 

@@ -17,8 +17,8 @@ At the specified **bidding deadline**, trading stops:
 Market: "BTC price at 5:00 PM UTC"
 Bidding deadline: 5:00 PM UTC
 
-4:59 PM: Trading open ✅
-5:00 PM: Trading closed ❌
+4:59 PM: Trading open
+5:00 PM: Trading closed
 5:01 PM: Awaiting resolution
 ```
 
@@ -52,7 +52,7 @@ Winners can claim their payouts:
 
 ```
 Your position: 500 shares in $97,200 - $97,300
-Outcome: $97,245.67 ✅ In your range!
+Outcome: $97,245.67 (in your range)
 Payout: 500 × $1 = $500 USDC
 
 Click "Claim" → USDC sent to your wallet
@@ -102,17 +102,17 @@ Every market has **clear resolution criteria** defined at creation.
 ### Good Criteria Examples
 
 ```
-✅ "BTC/USD price on Binance at exactly 5:00:00 PM UTC"
-✅ "Official high temperature recorded at JFK airport on Dec 15"
-✅ "Date of first public availability per OpenAI blog post"
+"BTC/USD price on Binance at exactly 5:00:00 PM UTC"
+"Official high temperature recorded at JFK airport on Dec 15"
+"Date of first public availability per OpenAI blog post"
 ```
 
 ### Bad Criteria Examples
 
 ```
-❌ "When BTC moons" (undefined)
-❌ "Tomorrow's weather" (which tomorrow? which location?)
-❌ "When the product launches" (beta? limited? general?)
+"When BTC moons" (undefined)
+"Tomorrow's weather" (which tomorrow? which location?)
+"When the product launches" (beta? limited? general?)
 ```
 
 ### What Makes Good Criteria
@@ -135,7 +135,7 @@ Boundaries: $97,000.00 | $97,100.00 | $97,200.00
 Outcome: $97,100.00
 
 Rule: Lower bound inclusive, upper bound exclusive
-$97,100.00 falls into: $97,100 - $97,200 bucket ✅
+$97,100.00 falls into: $97,100 - $97,200 bucket
 ```
 
 ### What if the oracle fails?
@@ -233,27 +233,27 @@ If dispute is invalid:
 ### Smart Contract Level
 
 ```
-✅ Resolution only after resolution_time
-✅ Cannot resolve twice
-✅ Cannot change outcome after resolution
-✅ Payout amounts fixed at bet time (not resolution)
+- Resolution only after resolution_time
+- Cannot resolve twice
+- Cannot change outcome after resolution
+- Payout amounts fixed at bet time (not resolution)
 ```
 
 ### Oracle Level
 
 ```
-✅ Multi-oracle aggregation
-✅ Staleness checks (reject old data)
-✅ Sanity bounds (reject impossible values)
-✅ Fallback mechanisms
+- Multi-oracle aggregation
+- Staleness checks (reject old data)
+- Sanity bounds (reject impossible values)
+- Fallback mechanisms
 ```
 
 ### Governance Level
 
 ```
-✅ Dispute mechanism
-✅ Emergency pause capability
-✅ Upgrade timelock (7 days)
+- Dispute mechanism
+- Emergency pause capability
+- Upgrade timelock (7 days)
 ```
 
 ---
@@ -262,17 +262,17 @@ If dispute is invalid:
 
 ### What's Verifiable On-Chain
 
-- ✅ All bets and positions
-- ✅ Resolution outcome
-- ✅ Claim transactions
-- ✅ Fee distribution
-- ✅ Oracle data submitted
+- All bets and positions
+- Resolution outcome
+- Claim transactions
+- Fee distribution
+- Oracle data submitted
 
 ### What's Publicly Auditable
 
-- ✅ Resolution criteria (stored in market)
-- ✅ Historical resolutions (on-chain history)
-- 🚧 Smart contract code (open source coming soon)
+- Resolution criteria (stored in market)
+- Historical resolutions (on-chain history)
+- Smart contract code (open source coming soon)
 
 ---
 

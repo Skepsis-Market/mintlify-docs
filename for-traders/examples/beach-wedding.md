@@ -1,5 +1,5 @@
 ---
-title: "🌡️ Beach Wedding"
+title: "Beach Wedding"
 ---
 
 
@@ -9,7 +9,7 @@ title: "🌡️ Beach Wedding"
 
 ## The Setup
 
-Miguel is planning a beach wedding in Miami for next Saturday. Everything is set—venue, catering, decorations—but one thing is out of his control: **the weather**.
+Miguel is planning a beach wedding in Miami for next Saturday. Everything is set (venue, catering, decorations) but one thing is out of his control: **the weather**.
 
 He finds a Skepsis market:
 
@@ -36,9 +36,9 @@ Miguel has a problem: he wants 78-82°F (perfect beach weather). Too cold means 
 
 ## The Players
 
-### 💒 Miguel: The Groom (Hedger)
+### Miguel: The Groom (Hedger)
 
-Miguel's not trying to profit—he's trying to **hedge his wedding risk**.
+Miguel's not trying to profit. He's trying to **hedge his wedding risk**.
 
 **His logic:** "If it's too hot (85°F+), I'll need to rent extra fans and buy more ice for drinks. That costs about \$200. Let me hedge that risk."
 
@@ -52,7 +52,7 @@ Miguel's not trying to profit—he's trying to **hedge his wedding risk**.
 
 ---
 
-### 👰 Sophia: The Bride (Optimist)
+### Sophia: The Bride (Optimist)
 
 Sophia checks the forecast obsessively. She sees 79°F predicted with high confidence.
 
@@ -66,7 +66,7 @@ Sophia checks the forecast obsessively. She sees 79°F predicted with high confi
 
 ---
 
-### 📋 James: The Wedding Planner (Professional)
+### James: The Wedding Planner (Professional)
 
 James has planned 200+ Miami weddings. He knows December weather patterns better than any app.
 
@@ -80,7 +80,7 @@ James has planned 200+ Miami weddings. He knows December weather patterns better
 
 ---
 
-### 🌴 Local Maria: The Long-time Resident
+### Local Maria: The Long-time Resident
 
 Maria has lived in Miami for 40 years. She's been watching the sky.
 
@@ -112,27 +112,27 @@ Maria has lived in Miami for 40 years. She's been watching the sky.
 
 | Player | Range | Result | Outcome |
 |--------|-------|--------|---------|
-| Miguel | 85°F - 95°F | ❌ LOSE | It wasn't hot—but his wedding was perfect! |
-| Sophia | 76°F - 82°F | ❌ LOSE | Just 2 degrees too cold |
-| James | 70°F - 76°F | ✅ WIN | His experience paid off! |
-| Maria | 90°F - 95°F | ❌ LOSE | Her bones lied this time |
+| Miguel | 85°F - 95°F | LOSE | It wasn't hot, but his wedding was perfect |
+| Sophia | 76°F - 82°F | LOSE | Just 2 degrees too cold |
+| James | 70°F - 76°F | WIN | His experience paid off |
+| Maria | 90°F - 95°F | LOSE | Her bones lied this time |
 
-**James wins \$600!** His years of experience spotting the underpriced cold range paid off.
+**James wins \$600.** His years of experience spotting the underpriced cold range paid off.
 
 ---
 
 ## The Lessons
 
 ### 1. Prediction Markets as Insurance
-Miguel didn't "lose"—he bought peace of mind. His \$50 was insurance against a bad outcome. The wedding was perfect, so he happily "lost" that hedge.
+Miguel didn't "lose." He bought peace of mind. His \$50 was insurance against a bad outcome. The wedding was perfect, so he happily "lost" that hedge.
 
 ### 2. Local Knowledge is Alpha
 James's 200+ weddings gave him an edge. He knew December cold fronts were underpriced at 10%. **Domain expertise beats algorithms.**
 
 ### 3. Narrow Ranges are Risky
 Sophia was only 2°F away from winning. A slightly wider range (\$74-82°F) would have captured the outcome:
-- Original: 76-82°F at 2.5x ❌
-- Alternative: 74-84°F at 1.8x ✅
+- Original: 76-82°F at 2.5x (miss)
+- Alternative: 74-84°F at 1.8x (hit)
 
 **Wider range = lower odds but higher hit rate.**
 
@@ -143,7 +143,7 @@ The forecast said 81°F on Monday. The market priced 80-85°F at 35%. But weathe
 
 ## Real Talk: Wedding Insurance
 
-Miguel's strategy is actually how many people should think about prediction markets—**as insurance, not gambling**.
+Miguel's strategy is how many people should think about prediction markets: **as insurance, not gambling**.
 
 | Scenario | Traditional Insurance | Skepsis Hedge |
 |----------|----------------------|---------------|
@@ -171,5 +171,5 @@ Weather markets let you:
 
 ## More Examples
 
-- [📈 The Bitcoin Hour](/for-traders/examples/bitcoin-hour) — Price prediction market
-- [📅 GPT-5 Launch](/for-traders/examples/gpt5-launch) — Date prediction market
+- [The Bitcoin Hour](/for-traders/examples/bitcoin-hour) - Price prediction market
+- [GPT-5 Launch](/for-traders/examples/gpt5-launch) - Date prediction market

@@ -7,7 +7,7 @@ Skepsis supports different market types, each suited for different kinds of pred
 
 ---
 
-## Price Prediction Markets 📈
+## Price Prediction Markets
 
 ### What They Are
 Markets that resolve based on the price of an asset at a specific time.
@@ -33,13 +33,13 @@ Markets that resolve based on the price of an asset at a specific time.
 - Hedging crypto positions
 
 ### Tips
-- **1-hour markets** are good for learning — fast feedback loops
-- Watch for scheduled events (Fed meetings, earnings) that move prices
+- **1-hour markets** are good for learning. Fast feedback loops.
+- Watch for scheduled events (Fed meetings, earnings) that move prices.
 - Wider ranges for volatile assets, narrower for stable ones
 
 ---
 
-## Date Prediction Markets 📅
+## Date Prediction Markets
 
 ### What They Are
 Markets that resolve based on when an event occurs.
@@ -65,13 +65,13 @@ Markets that resolve based on when an event occurs.
 - Long-term speculators
 
 ### Tips
-- **Follow credible leakers** — they often have real information
-- Companies have release patterns — study historical timing
-- Round dates (Jan 1, Q1) are often overpriced due to anchoring bias
+- **Follow credible leakers.** They often have real information.
+- Companies have release patterns. Study historical timing.
+- Round dates (Jan 1, Q1) are often overpriced due to anchoring bias.
 
 ---
 
-## Measurement Markets 🌡️
+## Measurement Markets
 
 ### What They Are
 Markets that resolve based on a measured quantity.
@@ -97,9 +97,9 @@ Markets that resolve based on a measured quantity.
 - Local experts
 
 ### Tips
-- **Historical data is your friend** — check past measurements
-- Weather services disagree — multiple forecasts can show opportunity
-- Local knowledge beats models sometimes
+- **Historical data is your friend.** Check past measurements.
+- Weather services disagree. Multiple forecasts can reveal opportunity.
+- Local knowledge beats models sometimes.
 
 ---
 
@@ -107,9 +107,9 @@ Markets that resolve based on a measured quantity.
 
 | Type | Example | Duration | Skill Required | Fun Factor |
 |------|---------|----------|----------------|------------|
-| **Price** | BTC 1hr | Short | Trading analysis | ⚡ Fast action |
-| **Date** | GPT-5 launch | Long | Industry knowledge | 🎯 Big payouts |
-| **Measurement** | NYC temp | Medium | Domain expertise | 🧠 Use your knowledge |
+| **Price** | BTC 1hr | Short | Trading analysis | Fast action |
+| **Date** | GPT-5 launch | Long | Industry knowledge | Big payouts |
+| **Measurement** | NYC temp | Medium | Domain expertise | Use your knowledge |
 
 ---
 
@@ -136,7 +136,7 @@ Markets that resolve based on a measured quantity.
 4. Winners can claim
 ```
 
-**Resolution criteria must be clear** — "public release" vs "beta release" matters
+**Resolution criteria must be clear.** "Public release" vs "beta release" matters.
 
 ### Measurement Markets
 ```
@@ -173,9 +173,9 @@ Markets that resolve based on a measured quantity.
 
 ---
 
-## Coming Soon 🚧
+## Coming Soon
 
-We're working on new market types:
+New market types in development:
 
 ### Conditional Markets
 "If [Event A], what will [Outcome B] be?"
@@ -184,7 +184,7 @@ We're working on new market types:
 
 ## Start Trading
 
-Each market type offers different opportunities. Find one that matches your knowledge edge.
+Each market type offers different opportunities. Pick one that matches your knowledge.
 
 <Note>
 **Browse all markets:** [Launch Skepsis →](https://alpha.skepsis.live/markets)

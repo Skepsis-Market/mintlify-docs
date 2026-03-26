@@ -6,7 +6,7 @@ title: "How to Place a Bet"
 A complete guide to making your first prediction on Skepsis.
 
 <Tip>
-**🧪 Testnet Mode:** No real money required. Sign in with Privy (gas sponsored) or connect an EVM wallet ([get test AVAX](https://faucet.avax.network/)), claim free test USDC, and start predicting.
+**Testnet Mode:** No real money required. Sign in with Privy (gas sponsored) or connect an EVM wallet ([get test AVAX](https://faucet.avax.network/)), claim free test USDC, and start predicting.
 </Tip>
 
 ---
@@ -15,12 +15,10 @@ A complete guide to making your first prediction on Skepsis.
 
 Placing a bet on Skepsis involves four simple steps:
 
-1. **Choose a market** — Find a prediction you have an opinion on
-2. **Select your range** — Define where you think the outcome will land
-3. **Review your quote** — See your exact odds and potential payout
-4. **Confirm the bet** — Execute the transaction
-
-Let's walk through each step.
+1. **Choose a market.** Find a prediction you have an opinion on.
+2. **Select your range.** Define where you think the outcome will land.
+3. **Review your quote.** See your exact odds and potential payout.
+4. **Confirm the bet.** Execute the transaction.
 
 ---
 
@@ -49,7 +47,7 @@ Each market card shows:
 | **Events** | Product release date | Days to months |
 
 <Info>
-**Start with short-duration markets** — You'll see results faster and learn the mechanics quickly.
+**Start with short-duration markets.** You'll see results faster and learn the mechanics quickly.
 </Info>
 
 ---
@@ -70,9 +68,9 @@ When you open a market, you'll see a probability chart. Click and drag to select
 
 | Range Width | Odds | Risk Level |
 |-------------|------|------------|
-| Very narrow (\$500) | 10-20x | 🔴 High risk |
-| Moderate (\$2,000) | 3-5x | 🟡 Medium risk |
-| Wide (\$5,000) | 1.5-2x | 🟢 Low risk |
+| Very narrow (\$500) | 10-20x | High risk |
+| Moderate (\$2,000) | 3-5x | Medium risk |
+| Wide (\$5,000) | 1.5-2x | Low risk |
 
 **The trade-off:** Wider ranges are more likely to win but pay less. Narrow ranges pay more but are harder to hit.
 
@@ -122,10 +120,10 @@ Due to the way our market maker (LMSR) calculates prices, we can't always match 
 
 ### What Happens Next
 
-1. ✅ Transaction confirmed on Avalanche
-2. ✅ Your position is created
-3. ✅ You can view it in "My Positions"
-4. ⏳ Wait for market resolution
+1. Transaction confirmed on Avalanche
+2. Your position is created
+3. You can view it in "My Positions"
+4. Wait for market resolution
 
 ---
 
@@ -133,7 +131,7 @@ Due to the way our market maker (LMSR) calculates prices, we can't always match 
 
 ### Track Your Position
 
-Go to **"Portfolio"** to see all your positions — active, sold, claimable, and lost — along with stats like total PNL, win rate, and realized gains.
+Go to **"Portfolio"** to see all your positions (active, sold, claimable, and lost) along with stats like total PNL, win rate, and realized gains.
 
 <Frame>
   <img src="/images/portfolio.png" alt="Portfolio page showing positions and performance stats" />
@@ -176,7 +174,7 @@ After resolution:
 5. **Confirm** bet
 6. **Wait** 1 hour
 7. **Result:** BTC closes at \$97,200
-8. **Claim** your \$105 USDC! 🎉
+8. **Claim** your \$105 USDC
 
 ---
 
@@ -185,9 +183,9 @@ After resolution:
 ### What if the outcome is exactly on my range boundary?
 
 The lower bound is inclusive, upper bound is exclusive. So range \$96,000-\$97,000:
-- \$96,000.00 → ✅ In range
-- \$96,999.99 → ✅ In range
-- \$97,000.00 → ❌ Not in range
+- \$96,000.00: In range
+- \$96,999.99: In range
+- \$97,000.00: Not in range
 
 ### Can I bet on multiple ranges?
 

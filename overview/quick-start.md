@@ -3,9 +3,9 @@ title: "Quick Start Guide"
 ---
 
 
-**Time needed: 2 minutes** ⏱️
+**Time needed: 2 minutes**
 
-Go from zero to your first prediction — completely free on testnet.
+Go from zero to your first prediction, completely free on testnet.
 
 ---
 
@@ -14,14 +14,14 @@ Go from zero to your first prediction — completely free on testnet.
 **Choose your path:**
 
 <CardGroup cols={2}>
-  <Card title="🌐 New to Crypto?" icon="envelope">
+  <Card title="New to Crypto?" icon="envelope">
     **Just need an email or social account.**
 
     - Sign in with Privy (email, Google, Twitter)
     - Embedded wallet created for you
     - Free test USDC from faucet
   </Card>
-  <Card title="🔷 Have a Wallet?" icon="wallet">
+  <Card title="Have a Wallet?" icon="wallet">
     **Connect your existing EVM wallet.**
 
     - MetaMask, Rabby, or any EVM wallet
@@ -32,7 +32,7 @@ Go from zero to your first prediction — completely free on testnet.
 </CardGroup>
 
 <Tip>
-**🧪 Testnet Mode:** Everything is free. No real money involved. Perfect for learning and testing strategies.
+**Testnet Mode:** Everything is free. No real money involved.
 </Tip>
 
 ---
@@ -42,8 +42,8 @@ Go from zero to your first prediction — completely free on testnet.
 1. Go to [alpha.skepsis.live](https://alpha.skepsis.live/markets)
 2. Click **"Connect Wallet"** in the top right
 3. Choose your method:
-   - **Sign in with Privy** — Email, Google, or social login
-   - **MetaMask / Rabby / WalletConnect** — For EVM wallet users
+   - **Sign in with Privy:** Email, Google, or social login
+   - **MetaMask / Rabby / WalletConnect:** For EVM wallet users
 4. **Claim test USDC** from the faucet (button appears after connecting)
 
 <Frame>
@@ -91,11 +91,11 @@ $98,000 - $99,000  →  8x odds (12% probability)
 
 ## Step 4: Place Your Bet
 
-1. **Select your range** — Click and drag on the chart to highlight your target range.
-2. **Enter your amount** — How much USDC you want to risk.
+1. **Select your range.** Click and drag on the chart to highlight your target range.
+2. **Enter your amount.** How much USDC you want to risk.
 3. **Review your quote:**
-   - **Cost:** What you'll pay
-   - **Potential payout:** What you'll win if correct
+   - **Cost:** What you pay
+   - **Potential payout:** What you win if correct
    - **Odds:** Your multiplier (e.g., 5.2x)
 4. **Click "Place Bet"**
 5. **Confirm in your wallet**
@@ -127,11 +127,11 @@ $98,000 - $99,000  →  8x odds (12% probability)
 1. The oracle reports the actual outcome
 2. Check if it landed in your range
 3. If you won: Click **"Claim Winnings"** to receive your payout
-4. If you lost: Better luck next time!
+4. If you lost: Your stake is forfeited
 
 ### Your Portfolio
 
-Track everything from the **Portfolio** page — active positions, sold positions, claimable winnings, and overall stats like PNL, win rate, and realized gains.
+Track active positions, sold positions, claimable winnings, and overall stats (PNL, win rate, realized gains) from the **Portfolio** page.
 
 <Frame>
   <img src="/images/portfolio.png" alt="Portfolio page showing positions, PNL, win rate, and realized gains" />
@@ -142,7 +142,7 @@ Track everything from the **Portfolio** page — active positions, sold position
 
 ## Step 6: Provide Liquidity (Optional)
 
-Don't just bet — **be the house.** The Vault lets you earn passive yield by funding every market on Skepsis.
+The Vault lets you earn passive yield by funding every market on Skepsis.
 
 ### How It Works
 
@@ -162,27 +162,25 @@ Don't just bet — **be the house.** The Vault lets you earn passive yield by fu
 *Your capital is automatically deployed across all active markets*
 
 **Why LP?**
-- **Passive income** — Earn 0.3%-1% fees on every trade
-- **No market picking** — The Vault spreads capital across all markets automatically
-- **Capital recycling** — When markets resolve, capital returns and redeploys to new markets
+- **Passive income.** Earn 0.3%-1% fees on every trade.
+- **No market picking.** The Vault spreads capital across all markets automatically.
+- **Capital recycling.** When markets resolve, capital returns and redeploys to new markets.
 
 <Info>
-**Want the full picture?** Check out the [Vault deep dive](/for-lps/vault-overview) for how it all works under the hood.
+See the [Vault deep dive](/for-lps/vault-overview) for details on how this works.
 </Info>
 
 ---
 
-## Congratulations!
+## That's It
 
-You've placed your first continuous outcome prediction — completely free on testnet!
+You've placed your first continuous outcome prediction on testnet.
 
 <Info>
-**Remember:** This is testnet. All USDC is test currency. Perfect for:
-- Learning the mechanics risk-free
-- Testing trading strategies
-- Providing feedback before mainnet
-
-When mainnet launches, your skills will be ready.
+All USDC on testnet is test currency. Use it to:
+- Learn the mechanics risk-free
+- Test trading strategies
+- Provide feedback before mainnet
 </Info>
 
 ---
@@ -192,9 +190,9 @@ When mainnet launches, your skills will be ready.
 <table data-card-size="large" data-view="cards">
 <thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead>
 <tbody>
-<tr><td><strong>📖 Understanding Ranges</strong></td><td>Learn how range selection affects your odds</td><td><a href="/for-traders/understanding-ranges">Understanding Ranges</a></td></tr>
-<tr><td><strong>💡 Strategies</strong></td><td>Tips from experienced predictors</td><td><a href="/for-traders/strategies">Strategies</a></td></tr>
-<tr><td><strong>📈 Example: Bitcoin Hour</strong></td><td>See a full market walkthrough</td><td><a href="/for-traders/examples/bitcoin-hour">Bitcoin Hour</a></td></tr>
+<tr><td><strong>Understanding Ranges</strong></td><td>Learn how range selection affects your odds</td><td><a href="/for-traders/understanding-ranges">Understanding Ranges</a></td></tr>
+<tr><td><strong>Strategies</strong></td><td>Tips from experienced predictors</td><td><a href="/for-traders/strategies">Strategies</a></td></tr>
+<tr><td><strong>Example: Bitcoin Hour</strong></td><td>See a full market walkthrough</td><td><a href="/for-traders/examples/bitcoin-hour">Bitcoin Hour</a></td></tr>
 </tbody>
 </table>
 

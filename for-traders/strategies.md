@@ -6,14 +6,14 @@ title: "Trading Strategies"
 Proven approaches to improve your Skepsis predictions.
 
 <Tip>
-**🧪 Practice risk-free on testnet.** Test these strategies with free USDC. Sign in with Privy (gas sponsored) or connect your EVM wallet.
+**Practice risk-free on testnet.** Test these strategies with free USDC. Sign in with Privy (gas sponsored) or connect your EVM wallet.
 </Tip>
 
 ---
 
 ## Core Strategies
 
-### 1. The Information Edge 📰
+### 1. The Information Edge
 
 **Concept:** Trade when you know something the market doesn't.
 
@@ -29,11 +29,11 @@ Market still shows Feb-March as most likely
 You bet on next week's range before others react
 ```
 
-**Risk level:** 🟡 Medium (information may be wrong)
+**Risk level:** Medium (information may be wrong)
 
 ---
 
-### 2. The Contrarian 🔄
+### 2. The Contrarian
 
 **Concept:** Bet against the crowd when they're overreacting.
 
@@ -49,11 +49,11 @@ BTC drops 2% on random FUD tweet
 You bet on recovery (mean reversion)
 ```
 
-**Risk level:** 🟡 Medium (crowd can be right)
+**Risk level:** Medium (crowd can be right)
 
 ---
 
-### 3. The Safe Player 🛡️
+### 3. The Safe Player
 
 **Concept:** Wide ranges, high win rate, small but consistent gains.
 
@@ -71,11 +71,11 @@ Win rate: ~85%
 Small but consistent profit
 ```
 
-**Risk level:** 🟢 Low (but low returns too)
+**Risk level:** Low (but low returns too)
 
 ---
 
-### 4. The Sniper 🎯
+### 4. The Sniper
 
 **Concept:** Very narrow ranges, high conviction bets.
 
@@ -93,11 +93,11 @@ Odds: 15x
 Either big win or total loss
 ```
 
-**Risk level:** 🔴 High (requires real edge)
+**Risk level:** High (requires real edge)
 
 ---
 
-### 5. The Hedger 🔀
+### 5. The Hedger
 
 **Concept:** Use predictions to offset real-world risk.
 
@@ -115,13 +115,13 @@ Bad weather = rough wedding, BUT you win $500
 Outcome: You're happy either way
 ```
 
-**Risk level:** 🟢 Low (you're buying insurance)
+**Risk level:** Low (you're buying insurance)
 
 ---
 
 ## Advanced Strategies
 
-### The Barbell Strategy 📊
+### The Barbell Strategy
 
 Split your capital between safe bets and long shots.
 
@@ -145,7 +145,7 @@ Outcomes:
 
 ---
 
-### The Bracket Strategy 🎾
+### The Bracket Strategy
 
 Cover multiple adjacent ranges with decreasing amounts.
 
@@ -166,7 +166,7 @@ Outcomes:
 
 ---
 
-### The Fade Strategy 🔻
+### The Fade Strategy
 
 Bet against ranges that look overpriced.
 
@@ -185,7 +185,7 @@ adjacent ranges are underpriced
 
 ---
 
-### Time Decay Strategy ⏰
+### Time Decay Strategy
 
 Exploit how probabilities shift as resolution approaches.
 
@@ -222,7 +222,7 @@ Bet on later ranges early, get good odds
 
 ## Common Mistakes to Avoid
 
-### ❌ Over-betting Favorites
+### Over-betting Favorites
 
 ```
 Range at 60% probability, 1.67x odds
@@ -233,7 +233,7 @@ Problem: 40% of the time you lose half your money
 Fix: Size positions appropriately
 ```
 
-### ❌ Revenge Trading
+### Revenge Trading
 
 ```
 Lost $100 on a bet
@@ -244,7 +244,7 @@ Bet $400...
 Fix: Take a break. Stick to your strategy.
 ```
 
-### ❌ Ignoring Liquidity
+### Ignoring Liquidity
 
 ```
 Found 20x odds on a range
@@ -254,7 +254,7 @@ Slippage ate 30% of expected odds
 Fix: Check liquidity before large bets
 ```
 
-### ❌ Analysis Paralysis
+### Analysis Paralysis
 
 ```
 Spent 2 hours analyzing a 1-hour market

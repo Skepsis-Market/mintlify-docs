@@ -1,5 +1,5 @@
 ---
-title: "📈 The Bitcoin Hour"
+title: "The Bitcoin Hour"
 ---
 
 
@@ -34,9 +34,9 @@ Three traders see opportunity.
 
 ## The Traders
 
-### 🎯 Sarah: The Range Player
+### Sarah: The Range Player
 
-Sarah is a part-time crypto investor. She's watched Bitcoin all morning and believes it will stay relatively stable—maybe drift slightly up.
+Sarah is a part-time crypto investor. She's watched Bitcoin all morning and believes it will stay relatively stable, maybe drifting slightly up.
 
 **Her thesis:** "BTC will stay between \$96,500 and \$97,500. The market is too calm for big moves."
 
@@ -50,7 +50,7 @@ Sarah knows her range is in the "popular zone" so odds aren't huge, but she's co
 
 ---
 
-### 📉 Marcus: The Contrarian
+### Marcus: The Contrarian
 
 Marcus follows macro news. He just saw a headline about potential Fed comments and thinks there might be a small dip.
 
@@ -62,11 +62,11 @@ Marcus follows macro news. He just saw a headline about potential Fed comments a
 - **Odds received:** 8.3x
 - **Potential payout:** \$1,245 if correct
 
-Marcus is betting against the crowd. Lower probability means better odds—but higher risk.
+Marcus is betting against the crowd. Lower probability means better odds, but higher risk.
 
 ---
 
-### 🎰 Charlie: The Sniper
+### Charlie: The Sniper
 
 Charlie is a day trader who watches order books obsessively. He noticed unusual buy pressure building and thinks a quick pump is coming.
 
@@ -100,11 +100,11 @@ Charlie's taking a high-risk, high-reward approach with a very narrow range.
 
 | Trader | Range | Result | Outcome |
 |--------|-------|--------|---------|
-| Sarah | \$96,500 - \$97,500 | ❌ LOSE | \$97,650 was just above her range |
-| Marcus | \$95,000 - \$96,000 | ❌ LOSE | Price never dropped that far |
-| Charlie | \$98,000 - \$98,500 | ❌ LOSE | Close, but didn't quite reach |
+| Sarah | \$96,500 - \$97,500 | LOSE | \$97,650 was just above her range |
+| Marcus | \$95,000 - \$96,000 | LOSE | Price never dropped that far |
+| Charlie | \$98,000 - \$98,500 | LOSE | Close, but didn't quite reach |
 
-**Plot twist:** Nobody won this round. The outcome landed in \$97,500 - \$98,000—a range that had ~20% probability but none of our traders bet on.
+**Plot twist:** Nobody won this round. The outcome landed in \$97,500 - \$98,000, a range that had ~20% probability but none of our traders bet on.
 
 ---
 
@@ -114,7 +114,7 @@ Charlie's taking a high-risk, high-reward approach with a very narrow range.
 Sarah was only \$150 away from winning. In binary markets, she'd have been right ("BTC stays under \$98K"). Here, precision matters.
 
 ### 2. The Crowd Isn't Always Wrong
-The distribution showed \$96K-\$98K as most likely (~78% combined). The outcome landed right in that zone—just not where our traders specified.
+The distribution showed \$96K-\$98K as most likely (~78% combined). The outcome landed right in that zone, just not where our traders specified.
 
 ### 3. Risk/Reward Trade-offs
 | Trader | Risk Style | Odds | Outcome |
@@ -136,7 +136,7 @@ She would have won \$150 on the second bet, netting +\$50 overall.
 
 Looking at that distribution, where would you have placed your range?
 
-The beauty of continuous markets: **there's no single "right" answer—just different risk/reward profiles for different beliefs.**
+The beauty of continuous markets: **there's no single "right" answer, just different risk/reward profiles for different beliefs.**
 
 ---
 
@@ -154,5 +154,5 @@ Bitcoin markets run continuously on Skepsis. Every hour is a new opportunity.
 
 ## More Examples
 
-- [🌡️ Beach Wedding](/for-traders/examples/beach-wedding) — Weather prediction market
-- [📅 GPT-5 Launch](/for-traders/examples/gpt5-launch) — Date prediction market
+- [Beach Wedding](/for-traders/examples/beach-wedding) - Weather prediction market
+- [GPT-5 Launch](/for-traders/examples/gpt5-launch) - Date prediction market

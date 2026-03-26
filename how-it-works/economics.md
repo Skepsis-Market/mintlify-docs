@@ -56,7 +56,7 @@ Bob's 500 shares × $1 = $500 payout
 Alice: $0 (wrong range)
 Charlie: $0 (wrong range)
 
-Bob's profit: $500 - $200 = $300 ✅
+Bob's profit: $500 - $200 = $300
 ```
 
 ### Step 4: Remaining Balance
@@ -88,9 +88,9 @@ Result: Capital works across many markets simultaneously
 ```
 
 This means:
-- **LPs earn fees across all markets** — not stuck in one
-- **Markets are always funded** — no bootstrapping problem
-- **Capital efficiency** — idle USDC doesn't sit unused
+- **LPs earn fees across all markets**, not stuck in one
+- **Markets are always funded**, no bootstrapping problem
+- **Capital efficiency**: idle USDC doesn't sit unused
 
 ---
 
@@ -208,9 +208,9 @@ Total fees collected
 
 ### Why Fees Exist
 
-1. **Protocol sustainability** — Development, infrastructure, audits
-2. **Creator incentives** — Reward for creating good markets
-3. **LP incentives** — Return for providing liquidity
+1. **Protocol sustainability**: development, infrastructure, audits
+2. **Creator incentives**: reward for creating good markets
+3. **LP incentives**: return for providing liquidity
 
 ---
 
@@ -272,7 +272,7 @@ Negative EV = Bad bet
 Example:
 Market says: 25% (4x odds)
 You think: 35%
-EV = (0.35 × $400) - $100 = +$40 ✅
+EV = (0.35 × $400) - $100 = +$40
 ```
 
 ---
@@ -280,19 +280,19 @@ EV = (0.35 × $400) - $100 = +$40 ✅
 ## Economic Incentives Summary
 
 ### For Traders
-- **Bet early** → Better odds (prices haven't moved)
-- **Bet against crowd** → Higher potential returns
-- **Be right** → Profit
+- **Bet early**: better odds (prices haven't moved)
+- **Bet against crowd**: higher potential returns
+- **Be right**: profit
 
 ### For Market Creators
-- **Create interesting markets** → More volume → More fees
-- **Set appropriate ranges** → Better UX → More bets
-- **Bootstrap liquidity** → Attract early traders
+- **Create interesting markets**: more volume, more fees
+- **Set appropriate ranges**: better UX, more bets
+- **Bootstrap liquidity**: attract early traders
 
 ### For the Protocol
-- **More markets** → More fees
-- **Better UX** → More users
-- **Solvency** → Trust → Growth
+- **More markets**: more fees
+- **Better UX**: more users
+- **Solvency**: trust, growth
 
 ---
 
@@ -331,7 +331,7 @@ LPs take bounded risk for fee share
 
 ### "What if no one bets on the winning range?"
 
-The initial liquidity pays winners. This is by design—LPs take this risk in exchange for fees.
+The initial liquidity pays winners. This is by design. LPs take this risk in exchange for fees.
 
 ### "Can the market run out of money?"
 

@@ -3,7 +3,7 @@ title: "Risks & Returns"
 ---
 
 
-The honest breakdown of what LPs can expect.
+What LPs can expect.
 
 ---
 
@@ -20,12 +20,12 @@ Daily fees: ~$2,500
 LP share of fees: ~$1,000
 
 On a $100,000 Vault position, that's 1%/day
-(Hypothetical — actual volume varies)
+(Hypothetical. Actual volume varies.)
 ```
 
 ### 2. Market Maker Spread
 
-LMSR has a built-in spread that benefits LPs — but it's not what you might think.
+LMSR has a built-in spread that benefits LPs, but it's not what you might think.
 
 The marginal prices across all outcomes always sum to exactly 1.0. That's a core property. The spread comes from **convexity**: when a trader buys a chunk of shares, the price moves up *as they buy*. The average cost per share ends up higher than the starting price.
 
@@ -38,7 +38,7 @@ Average cost per share: higher than 25%
 That difference = the spread = LP's edge
 ```
 
-The bigger the trade relative to alpha, the more slippage. This is the pool's natural defense — and it's what keeps LPs solvent.
+The bigger the trade relative to alpha, the more slippage. This is the pool's natural defense, and it's what keeps LPs solvent.
 
 ### 3. Losing Trader Capital
 
@@ -67,13 +67,13 @@ BTC lands at $96,500
 Many winners, many payouts
 
 Pool can't cover it all from trader bets alone
-→ Vault-deployed capital covers the rest
-→ LP loss on this market
+Vault-deployed capital covers the rest.
+LP loss on this market.
 ```
 
 ### The Bound
 
-Here's the good news: the maximum LP loss per market is mathematically capped.
+The maximum LP loss per market is mathematically capped.
 
 ```
 Max LP loss = α × ln(bucketCount)
@@ -89,7 +89,7 @@ This is known BEFORE the market starts.
 
 ## Alpha Decay: The LP's Friend
 
-Here's where it gets interesting. Markets on Skepsis can use **alpha decay** — the liquidity parameter shrinks over time.
+Markets on Skepsis can use **alpha decay**, where the liquidity parameter shrinks over time.
 
 ### Why This Helps LPs
 
@@ -101,10 +101,10 @@ Market matures: α = 1,000
 Required reserves: $2,772
 
 Surplus released: $6,468
-→ Vault harvests this → LPs get capital back early
+Vault harvests this. LPs get capital back early.
 ```
 
-Early in a market's life, spreads are wide and the LP takes more risk — but earns more from the spread. As the market matures, spreads tighten (better for traders), and the LP's risk decreases. The excess capital gets recycled.
+Early in a market's life, spreads are wide and the LP takes more risk, but earns more from the spread. As the market matures, spreads tighten (better for traders) and the LP's risk decreases. The excess capital gets recycled.
 
 ---
 
@@ -123,7 +123,7 @@ If a trade would violate this, it reverts. No exceptions.
 
 ### Layer 2: Vault Level
 
-The Vault keeps a 20% liquid buffer — capital not deployed to any market.
+The Vault keeps a 20% liquid buffer: capital not deployed to any market.
 
 ```
 Vault total: $100,000
@@ -152,7 +152,7 @@ the Vault loses at most ~$9K, not $100K.
 
 ## Expected Returns
 
-Let's be realistic. LP returns depend on:
+LP returns depend on:
 
 | Factor | Good for LPs | Bad for LPs |
 |--------|-------------|-------------|

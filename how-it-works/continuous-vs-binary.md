@@ -3,7 +3,7 @@ title: "Continuous vs Binary Markets"
 ---
 
 
-A deep dive into why predicting distributions beats predicting yes/no.
+Why predicting distributions beats predicting yes/no.
 
 ---
 
@@ -71,10 +71,10 @@ A single binary market at 45% "Yes" tells you:
 
 A continuous distribution tells you:
 - **Expected value:** Where the market thinks it'll land
-- **Confidence:** Is the distribution narrow (confident) or wide (uncertain)?
-- **Skew:** Is the market more bullish or bearish?
-- **Tail risk:** What's the chance of extreme outcomes?
-- **Mode vs Mean:** Most likely outcome vs average expected outcome
+- **Confidence:** is the distribution narrow (confident) or wide (uncertain)?
+- **Skew:** is the market more bullish or bearish?
+- **Tail risk:** what's the chance of extreme outcomes?
+- **Mode vs Mean:** most likely outcome vs average expected outcome
 
 ---
 
@@ -86,8 +86,8 @@ A continuous distribution tells you:
 
 | Scenario | BTC Price | Bet | Result |
 |----------|-----------|-----|--------|
-| A | $99,999 | Yes | ❌ LOSE |
-| B | $100,001 | Yes | ✅ WIN |
+| A | $99,999 | Yes | LOSE |
+| B | $100,001 | Yes | WIN |
 
 You were right about BTC being "around $100K" in both cases. Binary punishes you in Scenario A.
 
@@ -95,8 +95,8 @@ You were right about BTC being "around $100K" in both cases. Binary punishes you
 
 | Scenario | BTC Price | Range Bet | Result |
 |----------|-----------|-----------|--------|
-| A | $99,999 | $98K-$102K | ✅ WIN |
-| B | $100,001 | $98K-$102K | ✅ WIN |
+| A | $99,999 | $98K-$102K | WIN |
+| B | $100,001 | $98K-$102K | WIN |
 
 Your actual belief (around $100K) is captured and rewarded.
 
@@ -124,7 +124,7 @@ If GPT-5 launches June 15:
 
 Your bet: April-August 2025 range
 GPT-5 launches June 15
-Result: ✅ WIN (exactly as you predicted)
+Result: WIN (exactly as you predicted)
 ```
 
 ---

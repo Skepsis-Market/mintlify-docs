@@ -111,15 +111,15 @@ This is a +EV bet! The market is mispricing this range.
 
 | Your Belief vs Market | Action |
 |----------------------|--------|
-| Your prob > Market prob | ✅ Bet (you have edge) |
-| Your prob = Market prob | ⚖️ Neutral (no edge) |
-| Your prob < Market prob | ❌ Don't bet (negative edge) |
+| Your prob > Market prob | Bet (you have edge) |
+| Your prob = Market prob | Neutral (no edge) |
+| Your prob < Market prob | Don't bet (negative edge) |
 
 ---
 
 ## How Odds Change
 
-Skepsis uses **LMSR (Logarithmic Market Scoring Rule)** which means:
+Skepsis uses **LMSR (Logarithmic Market Scoring Rule)**, which means:
 
 ### After Someone Bets on a Range:
 
@@ -142,9 +142,9 @@ After Alice's bet:
 
 ### What This Means for You
 
-- **Bet early** if you have a view — you get better odds
-- **Bet against the crowd** — unpopular ranges have better odds
-- **Watch for overreaction** — big bets can create value elsewhere
+- **Bet early** if you have a view. You get better odds.
+- **Bet against the crowd.** Unpopular ranges have better odds.
+- **Watch for overreaction.** Big bets can create value elsewhere.
 
 ---
 
@@ -191,10 +191,10 @@ Bad bet: EV < 0
 
 | Bet | Odds | Your Est. Prob | EV per \$100 |
 |-----|------|----------------|-------------|
-| A | 2x | 60% | +\$20 ✅ |
-| B | 10x | 8% | -\$20 ❌ |
-| C | 5x | 25% | +\$25 ✅ |
-| D | 20x | 5% | \$0 ⚖️ |
+| A | 2x | 60% | +\$20 |
+| B | 10x | 8% | -\$20 |
+| C | 5x | 25% | +\$25 |
+| D | 20x | 5% | \$0 |
 
 **Bet C is best** despite lower odds than B or D because your edge is highest.
 

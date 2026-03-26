@@ -1,5 +1,5 @@
 ---
-title: "📅 GPT-5 Launch"
+title: "GPT-5 Launch"
 ---
 
 
@@ -35,7 +35,7 @@ Four AI watchers have different theories.
 
 ## The Players
 
-### 🔬 Dr. Chen: The Researcher
+### Dr. Chen: The Researcher
 
 Dr. Chen follows AI papers closely. She's noticed a pattern: OpenAI's release cycles are accelerating.
 
@@ -49,7 +49,7 @@ Dr. Chen follows AI papers closely. She's noticed a pattern: OpenAI's release cy
 
 ---
 
-### 📰 Alex: The News Junkie
+### Alex: The News Junkie
 
 Alex reads every AI newsletter and follows all the insiders on Twitter. He's seen leaked roadmaps suggesting a Q4 2025 release.
 
@@ -63,7 +63,7 @@ Alex reads every AI newsletter and follows all the insiders on Twitter. He's see
 
 ---
 
-### 🤔 Sarah: The Skeptic
+### Sarah: The Skeptic
 
 Sarah works at a competing AI lab. She knows how hard scaling is.
 
@@ -77,7 +77,7 @@ Sarah works at a competing AI lab. She knows how hard scaling is.
 
 ---
 
-### 🚀 Marcus: The Hype Believer
+### Marcus: The Hype Believer
 
 Marcus follows Sam Altman's every tweet. He interprets recent cryptic posts as hints at an imminent release.
 
@@ -94,7 +94,7 @@ Marcus follows Sam Altman's every tweet. He interprets recent cryptic posts as h
 ## Time Passes...
 
 ### March 2025
-OpenAI announces "GPT-4.5"—an incremental update. Not GPT-5. Marcus's hopes dim.
+OpenAI announces "GPT-4.5," an incremental update. Not GPT-5. Marcus's hopes dim.
 
 **Market update:**
 ```
@@ -123,12 +123,12 @@ Official release date: **November 15, 2025**
 
 | Player | Range | Result | Outcome |
 |--------|-------|--------|---------|
-| Dr. Chen | Jun-Sep 2025 | ❌ LOSE | 2 months too early |
-| Alex | Oct-Dec 2025 | ✅ WIN | Nailed it! |
-| Sarah | Jan-Jun 2026 | ❌ LOSE | Too pessimistic |
-| Marcus | Jan-Mar 2025 | ❌ LOSE | Way too optimistic |
+| Dr. Chen | Jun-Sep 2025 | LOSE | 2 months too early |
+| Alex | Oct-Dec 2025 | WIN | Nailed it |
+| Sarah | Jan-Jun 2026 | LOSE | Too pessimistic |
+| Marcus | Jan-Mar 2025 | LOSE | Way too optimistic |
 
-**Alex wins \$990!** His news sources and insider knowledge paid off.
+**Alex wins \$990.** His news sources and insider knowledge paid off.
 
 ---
 
@@ -139,14 +139,14 @@ Dr. Chen's analysis was solid, but she didn't leave buffer room for delays. A ra
 
 | Strategy | Range | Odds | Outcome |
 |----------|-------|------|---------|
-| Precise | Jun-Sep 2025 | 2.8x | ❌ |
-| Buffered | Jun-Dec 2025 | 1.8x | ✅ |
+| Precise | Jun-Sep 2025 | 2.8x | Miss |
+| Buffered | Jun-Dec 2025 | 1.8x | Hit |
 
 ### 2. Leaks Are Signal, Not Noise
 Alex's "news junkie" approach worked because he triangulated multiple sources. When several independent sources point to the same timeframe, that's valuable alpha.
 
 ### 3. Expert Knowledge Cuts Both Ways
-Sarah's insider knowledge made her *too* pessimistic. She knew all the reasons things could go wrong—but didn't account for OpenAI's competitive pressure to ship.
+Sarah's insider knowledge made her *too* pessimistic. She knew all the reasons things could go wrong but didn't account for OpenAI's competitive pressure to ship.
 
 ### 4. Hype Cycles Are Predictable
 Marcus fell for the classic hype trap: interpreting ambiguous signals as confirmation of what he wanted to believe. In prediction markets, **wishful thinking is expensive.**
@@ -175,10 +175,10 @@ Markets often overprice round dates:
 ## Build Your AI Release Watchlist
 
 Skepsis markets you might find interesting:
-- 📱 Apple AI features release dates
-- 🚗 Tesla FSD v13 wide release
-- 🎮 GTA 6 launch date
-- 🔬 Next major model from Anthropic, Google, Meta
+- Apple AI features release dates
+- Tesla FSD v13 wide release
+- GTA 6 launch date
+- Next major model from Anthropic, Google, Meta
 
 <Note>
 **Try it free on testnet.** Sign in with Google, claim test USDC, and bet on your AI predictions. No real money, no gas fees.
@@ -190,5 +190,5 @@ Skepsis markets you might find interesting:
 
 ## More Examples
 
-- [📈 The Bitcoin Hour](/for-traders/examples/bitcoin-hour) — Price prediction market
-- [🌡️ Beach Wedding](/for-traders/examples/beach-wedding) — Weather prediction market
+- [The Bitcoin Hour](/for-traders/examples/bitcoin-hour) - Price prediction market
+- [Beach Wedding](/for-traders/examples/beach-wedding) - Weather prediction market

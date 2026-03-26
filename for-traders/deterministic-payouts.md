@@ -3,7 +3,7 @@ title: "Deterministic Payouts Explained"
 ---
 
 
-One of Skepsis's most powerful features: **you know exactly what you'll win before you bet.**
+On Skepsis, **you know exactly what you'll win before you bet.**
 
 ---
 
@@ -50,10 +50,10 @@ Quote shows: 3.2x odds, $320 payout
 
 | Feature | Parimutuel | Skepsis |
 |---------|------------|---------|
-| Payout known at bet time | ❌ No | ✅ Yes |
-| Payout changes with more bets | ✅ Yes | ❌ No |
-| Can calculate exact profit | ❌ No | ✅ Yes |
-| Position is transferable | ❌ No | ✅ Yes |
+| Payout known at bet time | No | Yes |
+| Payout changes with more bets | Yes | No |
+| Can calculate exact profit | No | Yes |
+| Position is transferable | No | Yes |
 
 ---
 
@@ -98,33 +98,33 @@ After: $96K-$97K at 28% probability, 3.57x odds
 ```
 You locked in: 4x odds, $400 payout
 New bettors get: 3.57x odds, $357 payout per $100
-Your payout: Still $400 ✅
+Your payout: Still $400
 ```
 
 ### 3. Future Bets Don't Affect You
 ```
 10 more people bet $1000 each on your range
 New odds: 2.5x
-Your payout: Still $400 ✅
+Your payout: Still $400
 ```
 
 ---
 
 ## The Trade-Off: Early vs Late Betting
 
-Deterministic payouts create interesting dynamics:
+Deterministic payouts create a tradeoff between information and price:
 
 ### Early Bettors
-- ✅ Get better odds (prices haven't moved yet)
-- ❌ Take more risk (less information)
-- ✅ Payout is locked regardless of future activity
+- Get better odds (prices haven't moved yet)
+- Take more risk (less information)
+- Payout is locked regardless of future activity
 
 ### Late Bettors
-- ❌ Get worse odds (prices already moved)
-- ✅ Have more information
-- ✅ Still get deterministic payout at their price
+- Get worse odds (prices already moved)
+- Have more information
+- Still get deterministic payout at their price
 
-**This is fair:** Early bettors are rewarded for taking risk earlier.
+Early bettors are rewarded for taking risk with less information.
 
 ---
 
@@ -175,9 +175,9 @@ Guaranteed payout: $560
 ```
 Winner: $96K-$97K range
 
-Alice: Bet $200, wins $800 (4x) ✅
-Bob: Bet $200, wins $0 ❌
-Charlie: Bet $200, wins $560 (2.8x) ✅
+Alice: Bet $200, wins $800 (4x)
+Bob: Bet $200, wins $0
+Charlie: Bet $200, wins $560 (2.8x)
 
 Alice got better odds because she bet first!
 ```
@@ -225,7 +225,7 @@ This amount won't change after you confirm
 | Market resolves in your range | You get guaranteed payout |
 | Market resolves outside your range | You get $0 |
 
-**Your payout is determined the moment you bet. That's the power of deterministic payouts.**
+**Your payout is determined the moment you bet.**
 
 ---
 
@@ -238,7 +238,7 @@ Once you bet, you can close the app. Your payout is locked.
 You know exactly how much you could win across all positions.
 
 ### 3. Fair Early Bird Rewards
-Getting in early matters—you get better odds for taking risk with less information.
+Getting in early matters. You get better odds for taking risk with less information.
 
 ### 4. True Position Ownership
 Your shares are yours. They can even be transferred or traded.

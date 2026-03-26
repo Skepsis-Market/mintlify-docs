@@ -21,29 +21,29 @@ But real predictions are rarely binary.
   <img src="/images/binary-vs-continuous.svg" alt="Binary vs Continuous Outcome Resolution" />
 </Frame>
 
-### The Binary Way (Frustrating)
+### The Binary Way
 
 **Question:** "Will Bitcoin hit $100,000 by December 31st?"
 
 | Scenario | Actual BTC Price | Your Bet | Result |
 |----------|------------------|----------|--------|
-| A | $99,800 | Yes | ❌ LOSE |
-| B | $100,001 | Yes | ✅ WIN |
-| C | $150,000 | Yes | ✅ WIN |
+| A | $99,800 | Yes | LOSE |
+| B | $100,001 | Yes | WIN |
+| C | $150,000 | Yes | WIN |
 
-**The problem:** Scenario A and B are almost identical prices, but completely opposite outcomes. Your prediction of "around $100K" was essentially correct, but the binary framing punished you.
+Scenario A and B are almost identical prices but produce opposite outcomes. Your prediction of "around $100K" was correct; the binary framing punished you.
 
-### The Skepsis Way (Intuitive)
+### The Skepsis Way
 
 **Question:** "Where will Bitcoin be on December 31st?"
 
 | Your Range | Actual BTC Price | Result |
 |------------|------------------|--------|
-| $95K - $105K | $99,800 | ✅ WIN |
-| $95K - $105K | $100,001 | ✅ WIN |
-| $95K - $105K | $150,000 | ❌ LOSE |
+| $95K - $105K | $99,800 | WIN |
+| $95K - $105K | $100,001 | WIN |
+| $95K - $105K | $150,000 | LOSE |
 
-**The solution:** You bet on what you actually believed — "Bitcoin will be around $100K" — and you were rewarded for being right.
+You bet on what you actually believed, "Bitcoin will be around $100K," and were rewarded for being right.
 
 ---
 
@@ -71,9 +71,9 @@ $110K - $120K: 8%   ░░░
 $120K+:        2%   ░
 ```
 
-**You see:**
+This tells you:
 - Where the crowd thinks BTC will land
-- How confident they are (narrow vs wide distribution)
+- How confident they are (narrow vs. wide distribution)
 - Where the contrarian opportunities are (underpriced tails)
 
 ---
@@ -96,43 +96,43 @@ On Skepsis:
 2. Place one bet
 3. Done.
 
-**Same belief. One transaction. Lower fees. Simpler tracking.**
+Same belief, one transaction, lower fees.
 
 ---
 
 ## Real-World Examples
 
-### 🗓️ Release Date Predictions
+### Release Date Predictions
 
-**Binary (Clunky):**
+**Binary:**
 - "Will GPT-5 launch before April 2025?" → Yes/No
 - "Will GPT-5 launch before July 2025?" → Yes/No
 - "Will GPT-5 launch before October 2025?" → Yes/No
 - *(Need to bet on multiple markets)*
 
-**Continuous (Elegant):**
+**Continuous:**
 - "When will GPT-5 launch?" → Select: May - August 2025
 - *(One market captures your full belief)*
 
 ---
 
-### 🌡️ Weather Forecasting
+### Weather Forecasting
 
-**Binary (Limited):**
+**Binary:**
 - "Will NYC hit 90°F tomorrow?" → Yes/No
 
-**Continuous (Useful):**
+**Continuous:**
 - "What will NYC's high be?" → Select: 85°F - 92°F
 - *(Actually matches how meteorologists think)*
 
 ---
 
-### 📊 Economic Indicators
+### Economic Indicators
 
-**Binary (Noisy):**
+**Binary:**
 - "Will unemployment be below 4%?" → Yes/No
 
-**Continuous (Informative):**
+**Continuous:**
 - "What will unemployment be?" → See full distribution from 3.5% to 5.5%
 - *(Captures market uncertainty, not just a threshold)*
 
@@ -149,7 +149,7 @@ Continuous markets using LMSR (our pricing algorithm) have proven properties:
 | **Path Independence** | Fair pricing regardless of trade order |
 | **Proper Scoring** | Rewards honest probability estimates |
 
-These properties mean **fair, efficient, and trustworthy** markets.
+Together these properties produce fair, efficient markets.
 
 ---
 
@@ -165,9 +165,7 @@ These properties mean **fair, efficient, and trustworthy** markets.
 
 ---
 
-## Ready to Try It?
-
-Experience the difference yourself.
+## Try It
 
 <Note>
 **Your first continuous prediction:** [Launch Skepsis →](https://alpha.skepsis.live/markets)

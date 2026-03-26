@@ -3,7 +3,7 @@ title: "Alpha Decay"
 ---
 
 
-Why spreads get tighter over time — and why that's good for everyone.
+Why spreads get tighter over time, and why that matters.
 
 ---
 
@@ -59,7 +59,7 @@ No one should dominate the price with one bet.
 
 Same $500 bet now moves price 0.5%
 Market is starting to form real opinions
-Spreads are tighter — better deals for traders
+Spreads are tighter, better deals for traders
 ```
 
 ### Evening: Market Matures
@@ -68,13 +68,13 @@ Spreads are tighter — better deals for traders
 α = 1,000
 
 The probability distribution is well-formed
-Prices are responsive — good info gets rewarded
-Spreads are tight — fair pricing for everyone
+Prices are responsive. Good info gets rewarded.
+Spreads are tight. Fair pricing for everyone.
 ```
 
 ### The Result
 
-Early bettors got paid a premium for betting with less information (wider spreads = better odds for contrarians). Late bettors get efficient prices that reflect the crowd's wisdom. Everyone wins.
+Early bettors got paid a premium for betting with less information (wider spreads = better odds for contrarians). Late bettors get efficient prices that reflect the crowd's wisdom.
 
 ---
 
@@ -145,7 +145,7 @@ Duration: 6 hours
 
 ## The Bottom Line
 
-Alpha decay is the difference between a dumb market and a smart one. It starts cautious and ends precise — just like a good prediction should.
+Alpha decay is the difference between a dumb market and a smart one. It starts cautious and ends precise.
 
 ---
 

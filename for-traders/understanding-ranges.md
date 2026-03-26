@@ -41,9 +41,9 @@ This is the most important concept in Skepsis trading: **Width = Probability**.
 
 | Range Type | Width | Win Probability | Odds | Risk |
 |------------|-------|-----------------|------|------|
-| **Narrow** | \$500 | ~12% (Low) | **8.0x** | 🔴 High |
-| **Medium** | \$2,000 | ~45% (Medium) | **2.2x** | 🟡 Medium |
-| **Wide** | \$5,000 | ~78% (High) | **1.3x** | 🟢 Low |
+| **Narrow** | \$500 | ~12% (Low) | **8.0x** | High |
+| **Medium** | \$2,000 | ~45% (Medium) | **2.2x** | Medium |
+| **Wide** | \$5,000 | ~78% (High) | **1.3x** | Low |
 
 <Tip>
 **The Golden Rule:** Narrower ranges pay more because they are harder to hit. Wider ranges pay less because they are "safer".
@@ -54,29 +54,29 @@ This is the most important concept in Skepsis trading: **Width = Probability**.
 ## Strategic Range Selection
 
 <CardGroup cols={3}>
-  <Card title="The Sniper 🎯" icon="crosshairs">
+  <Card title="The Sniper" icon="crosshairs">
     **Approach:** Very narrow range, high conviction.
-    
+
     **Best for:** Expert analysis, insider edge.
-    
-    **Risk:** 🔴 High
-    **Reward:** 🚀 Very High (10x+)
+
+    **Risk:** High
+    **Reward:** Very High (10x+)
   </Card>
-  <Card title="The Zone Player 🎲" icon="dice">
+  <Card title="The Zone Player" icon="dice">
     **Approach:** Medium range, balanced view.
-    
+
     **Best for:** General directional bets.
-    
-    **Risk:** 🟡 Medium
-    **Reward:** ⚖️ Balanced (3-5x)
+
+    **Risk:** Medium
+    **Reward:** Balanced (3-5x)
   </Card>
-  <Card title="The Safe Player 🛡️" icon="shield">
+  <Card title="The Safe Player" icon="shield">
     **Approach:** Wide range, high probability.
-    
+
     **Best for:** Bankroll building, hedging.
-    
-    **Risk:** 🟢 Low
-    **Reward:** 🐢 Steady (1.2-2x)
+
+    **Risk:** Low
+    **Reward:** Steady (1.2-2x)
   </Card>
 </CardGroup>
 
@@ -124,11 +124,11 @@ Assuming Current BTC Price: **\$97,000**
 
 "Tail bets" are wagers on unlikely, extreme outcomes.
 
-- **Left Tail (\$90k - \$93k):** The "Crash Bet". Pays huge (20x+) if the market collapses.
-- **Right Tail (\$102k - \$105k):** The "Moon Bet". Pays huge (25x+) if the market rallies hard.
+- **Left Tail (\$90k - \$93k):** The "Crash Bet." Pays 20x+ if the market collapses.
+- **Right Tail (\$102k - \$105k):** The "Moon Bet." Pays 25x+ if the market rallies hard.
 
 <Info>
-**Tail bets** are high-risk, high-reward. They're like buying lottery tickets—fun money only!
+**Tail bets** are high-risk, high-reward. Treat them like lottery tickets: fun money only.
 </Info>
 
 ---
@@ -159,7 +159,7 @@ This creates **asymmetric payoffs** where your most likely outcome pays the most
 
 ## Common Mistakes
 
-### ❌ Range Too Narrow
+### Range Too Narrow
 
 **Problem:** "I'll bet on exactly \$97,000 - \$97,100"
 
@@ -169,17 +169,17 @@ This creates **asymmetric payoffs** where your most likely outcome pays the most
 
 ---
 
-### ❌ Ignoring the Distribution
+### Ignoring the Distribution
 
 **Problem:** Selecting a range without looking at current probabilities.
 
-**Reality:** A range with 3% market probability might be there for a reason—or it might be a golden opportunity.
+**Reality:** A range with 3% market probability might be there for a reason, or it might be a genuine opportunity.
 
 **Fix:** Always check the distribution chart. Ask: "Why is this range priced this way?"
 
 ---
 
-### ❌ Chasing High Odds
+### Chasing High Odds
 
 **Problem:** "25x odds! I'll be rich!"
 
@@ -189,7 +189,7 @@ This creates **asymmetric payoffs** where your most likely outcome pays the most
 
 ---
 
-### ❌ Over-Hedging
+### Over-Hedging
 
 **Problem:** Betting on too many ranges to "cover everything."
 

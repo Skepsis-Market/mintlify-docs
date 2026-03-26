@@ -9,7 +9,7 @@ How continuous markets compare to the platforms you already know.
 
 ## The Core Difference
 
-Every major prediction platform today — Polymarket, Kalshi, sportsbooks — forces you into binary choices. "Will X happen?" Yes or No.
+Every major prediction platform today (Polymarket, Kalshi, sportsbooks) forces you into binary choices. "Will X happen?" Yes or No.
 
 Skepsis asks a different question: **"Where will X be?"**
 
@@ -32,7 +32,7 @@ You've done the research. You're confident BTC will be around \$99K by Friday.
 "Will BTC > $100K by Friday?"
 BTC on Friday: $99,500
 
-Result: You LOSE ❌
+Result: You LOSE
 Reality: You were basically right
 ```
 
@@ -43,7 +43,7 @@ Reality: You were basically right
 Your range: $98K - $101K
 BTC on Friday: $99,500
 
-Result: You WIN ✅
+Result: You WIN
 Reality: Your prediction was accurate, and you got paid for it
 ```
 
@@ -76,7 +76,7 @@ $100K-$105K:  30%  ← Most likely
 $105K-$110K:  18%
 $110K+:       10%
 
-Expected value, confidence interval, tail risk — all visible.
+Expected value, confidence interval, tail risk: all visible.
 ```
 
 **One Skepsis market replaces dozens of binary questions.**
@@ -135,8 +135,8 @@ Better than sportsbooks, but still extractive
 
 ```
 Trading fee: 0.3%-1% (varies by risk category)
-LMSR guarantees liquidity — always
-No house edge — prices set by market participants
+LMSR guarantees liquidity, always
+No house edge. Prices set by market participants
 Your edge = your information advantage
 ```
 
@@ -151,7 +151,7 @@ If you're right more than the market expects, you profit. Period.
 ```
 You bet $100 on Horse A at "5x odds"
 1,000 others also bet Horse A
-Final odds: 2.5x — your payout got cut in half!
+Final odds: 2.5x. Your payout got cut in half.
 ```
 
 ### Binary Markets
@@ -168,7 +168,7 @@ But your final payout depends on when you act
 ```
 You buy shares at 5x odds
 1,000 others bet the same range after you
-Your payout: Still 5x ✅
+Your payout: Still 5x
 
 Locked in at bet time. No surprises. Ever.
 ```
@@ -208,7 +208,7 @@ Locked in at bet time. No surprises. Ever.
 
 Binary markets are blunt instruments. Great for elections and yes/no questions.
 
-But if you have a specific, high-conviction thesis about **where** something will land — not just whether it crosses a line — you're leaving money on the table every time you use them.
+But if you have a specific, high-conviction thesis about **where** something will land, not just whether it crosses a line, you're leaving money on the table every time you use them.
 
 Skepsis pays you for precision.
 

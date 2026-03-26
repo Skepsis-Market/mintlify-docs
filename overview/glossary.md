@@ -3,7 +3,7 @@ title: "Glossary"
 ---
 
 
-Quick reference for terms you'll encounter on Skepsis.
+Quick reference for terms used on Skepsis.
 
 ---
 
@@ -130,10 +130,10 @@ Self-executing code on the blockchain that manages markets, positions, and payou
 An ERC-4626 pool where LPs deposit USDC to seed markets. Capital is deployed across multiple markets and recycled as markets resolve. LPs earn fees from trading activity.
 
 ### Alpha Decay
-A mechanism where the liquidity parameter (alpha) gradually decreases over a market's lifetime. This makes spreads tighter as the market matures — early bettors get a premium for taking risk with less information.
+A mechanism where the liquidity parameter (alpha) gradually decreases over a market's lifetime. This makes spreads tighter as the market matures. Early bettors get a premium for taking risk with less information.
 
 ### Position NFT
-Your bet is represented as an ERC-1155 token. This means positions are transferable, composable, and truly owned by you — not locked in a platform account.
+Your bet is represented as an ERC-1155 token. This means positions are transferable, composable, and owned by you, not locked in a platform account.
 
 ---
 
@@ -152,8 +152,8 @@ Your bet is represented as an ERC-1155 token. This means positions are transfera
 
 ---
 
-## Still Confused?
+## See Also
 
-- Check our [FAQ](/faq) for common questions
-- Join [Telegram](https://t.me/skepsis_market) to ask the community
-- Follow [@skepsis_market](https://x.com/skepsis_market) for updates
+- [FAQ](/faq)
+- [Telegram](https://t.me/skepsis_market)
+- [@skepsis_market](https://x.com/skepsis_market)
