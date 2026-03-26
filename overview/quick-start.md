@@ -11,22 +11,9 @@ Go from zero to your first prediction, free on testnet.
 
 ## Prerequisites
 
-<CardGroup cols={2}>
-  <Card title="New to Crypto?" icon="envelope">
-    **Just need an email or social account.**
+**New to crypto?** Just need an email or social account. Sign in with Privy (email, Google, Twitter) and an embedded wallet is created for you. Claim free test USDC from the faucet.
 
-    - Sign in with Privy (email, Google, Twitter)
-    - Embedded wallet created for you
-    - Free test USDC from faucet
-  </Card>
-  <Card title="Have a Wallet?" icon="wallet">
-    **Connect your existing EVM wallet.**
-
-    - MetaMask, Rabby, or any EVM wallet
-    - Get test AVAX from [Avalanche Fuji Faucet](https://faucet.avax.network/)
-    - Then claim free test USDC
-  </Card>
-</CardGroup>
+**Have a wallet?** Connect MetaMask, Rabby, or any EVM wallet. Get test AVAX from the [Avalanche Fuji Faucet](https://faucet.avax.network/), then claim free test USDC.
 
 ---
 
