@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 280" width="720" role="img" aria-label="A tighter range pays more; payoff equals N over k at uniform prior.">
+  <rect width="480" height="280" rx="6" fill="#1b2027"/>
+  <line x1="48" y1="230" x2="440" y2="230" stroke="#4a5462" stroke-width="1"/>
+  <text x="60" y="44" font-family="ui-monospace,monospace" font-size="13" fill="#e8ecf1">payoff = N / k</text>
+  <text x="60" y="62" font-family="ui-monospace,monospace" font-size="10" fill="#6f7884">at uniform prior</text>
+  <rect x="214" y="60" width="54" height="170" fill="#fb6a30" opacity="0.14"/>
+  <path d="M48 224 C150 220 200 96 244 96 C288 96 338 220 440 224" fill="none" stroke="#fb6a30" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="212" y="86" width="6" height="22" rx="2" fill="#fb6a30"/>
+  <rect x="264" y="86" width="6" height="22" rx="2" fill="#fb6a30"/>
+  <text x="241" y="250" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#97a0ac">1 of 8 &#183; pays 8.0&#215;</text>
+  <text x="120" y="250" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#6f7884">60k</text>
+  <text x="400" y="250" text-anchor="middle" font-family="ui-monospace,monospace" font-size="10" fill="#6f7884">90k</text>
+</svg>

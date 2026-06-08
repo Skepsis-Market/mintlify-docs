@@ -2,108 +2,34 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Skepsis",
   "logo": {
-    "dark": "/logo/skepsis-dark.png",
-    "light": "/logo/skepsis-light.png",
+    "dark": "/logo/skepsis-dark.svg",
+    "light": "/logo/skepsis-light.svg",
     "href": "https://skepsis.live"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#6366f1",
-    "light": "#818cf8",
-    "dark": "#4f46e5",
-    "anchors": {
-      "from": "#6366f1",
-      "to": "#8b5cf6"
-    }
+    "primary": "#E85C28",
+    "light": "#FB6A30",
+    "dark": "#D64514",
+    "anchors": { "from": "#E85C28", "to": "#FB6A30" }
   },
-  "topbarLinks": [
-    {
-      "name": "Launch App",
-      "url": "https://alpha.skepsis.live/markets"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Start Trading",
-    "url": "https://alpha.skepsis.live/markets"
-  },
-  "tabs": [
-    {
-      "name": "Documentation",
-      "url": "/"
-    }
-  ],
+  "topbarCtaButton": { "name": "Open the app", "url": "https://alpha.skepsis.live/markets" },
+  "tabs": [ { "name": "Documentation", "url": "/" } ],
   "anchors": [
-    {
-      "name": "X",
-      "icon": "x-twitter",
-      "url": "https://x.com/skepsis_market"
-    },
-    {
-      "name": "Telegram",
-      "icon": "telegram",
-      "url": "https://t.me/skepsis_market"
-    }
+    { "name": "GitHub", "icon": "github", "url": "https://github.com/skepsis-market" },
+    { "name": "X", "icon": "x-twitter", "url": "https://x.com/skepsis_market" },
+    { "name": "Telegram", "icon": "telegram", "url": "https://t.me/skepsis_market" }
   ],
   "navigation": [
-    {
-      "group": "Overview",
-      "pages": [
-        "introduction",
-        "overview/why-continuous-markets",
-        "overview/quick-start",
-        "overview/glossary"
-      ]
-    },
-    {
-      "group": "For Traders",
-      "pages": [
-        "for-traders/how-to-place-a-bet",
-        "for-traders/understanding-ranges",
-        "for-traders/reading-odds",
-        "for-traders/deterministic-payouts",
-        "for-traders/market-types",
-        "for-traders/strategies",
-        {
-          "group": "Examples",
-          "pages": [
-            "for-traders/examples/bitcoin-hour",
-            "for-traders/examples/beach-wedding",
-            "for-traders/examples/gpt5-launch"
-          ]
-        }
-      ]
-    },
-    {
-      "group": "For LPs",
-      "pages": [
-        "for-lps/vault-overview",
-        "for-lps/risks-and-returns"
-      ]
-    },
-    {
-      "group": "How It Works",
-      "pages": [
-        "how-it-works/lmsr-for-humans",
-        "how-it-works/continuous-vs-binary",
-        "how-it-works/alpha-decay",
-        "how-it-works/economics",
-        "how-it-works/trust-and-resolution"
-      ]
-    },
-    {
-      "group": "Comparisons",
-      "pages": [
-        "comparisons/vs-binary-markets"
-      ]
-    },
-    {
-      "group": "Support",
-      "pages": [
-        "faq"
-      ]
-    }
+    { "group": "Overview", "pages": ["introduction", "overview/why-continuous-markets", "overview/quick-start", "overview/glossary"] },
+    { "group": "Trade", "pages": ["for-traders/placing-a-trade", "for-traders/market-types", "for-traders/understanding-ranges", "for-traders/deterministic-payouts", "for-traders/reading-the-curve", "for-traders/strategies", { "group": "Examples", "pages": ["for-traders/examples/bitcoin-hour", "for-traders/examples/cpi-print", "for-traders/examples/steth-yield"] }] },
+    { "group": "The vault", "pages": ["for-lps/vault-overview", "for-lps/risks-and-returns"] },
+    { "group": "How it works", "pages": ["how-it-works/lmsr-for-humans", "how-it-works/continuous-vs-binary", "how-it-works/alpha-decay", "how-it-works/economics", "how-it-works/trust-and-resolution"] },
+    { "group": "Comparisons", "pages": ["comparisons/vs-binary-markets"] },
+    { "group": "Support", "pages": ["faq"] }
   ],
   "footerSocials": {
+    "github": "https://github.com/skepsis-market",
     "x": "https://x.com/skepsis_market",
     "telegram": "https://t.me/skepsis_market"
   }
