@@ -1,76 +1,30 @@
 ---
-title: "The Vault"
+title: "The vault"
+description: "One ERC-4626 vault seeds every market and recycles capital on resolution."
 ---
 
+## One vault, every market
 
-The Vault is a single pool of USDC that backs every prediction market on Skepsis. Deposit once, LP across all markets, and capital automatically recycles as markets resolve.
+Most prediction markets fragment liquidity. Each market has its own pool, and a new market opens dead until someone seeds it. Skepsis pools all liquidity in a single ERC-4626 vault. The vault seeds every market the moment it is created, so a market is tradable on day one.
 
----
+When a market resolves, its capital returns to the vault and redeploys to live markets. No pool sits idle. No market launches empty.
 
-## Why a Vault Instead of Per-Market LPing
-
-On order-book prediction markets, tail ranges have no liquidity because nobody's willing to make a market there. LMSR doesn't need a counterparty — it prices every outcome algorithmically — but it does need capital behind it. The Vault provides that capital across all ranges and all markets from a single pool, so LPs don't have to pick individual markets or manually redeploy after resolution.
-
----
-
-## How It Works
-
-### Deposit
-
-Deposit USDC, receive vault shares representing your pro-rata slice of the pool. Your share entitles you to a proportional cut of all fee revenue and market P&L.
-
-### Capital Deployment
-
-The Vault seeds each new market with enough USDC to power its LMSR pricing. No single market gets more than 20% of the Vault. When a market resolves, deployed capital (minus payouts to winners) returns to the pool automatically.
-
-### Revenue
-
-LPs earn from three sources: trading fees (0.3%-1% per trade, split between protocol and Vault), LMSR convexity spread, and residual pool balance after winners are paid. See [Risks & Returns](/for-lps/risks-and-returns) for details.
-
-### Withdrawal
-
-Withdrawals are queue-based (FIFO). Because capital is deployed in active markets, pulling it mid-trade would break solvency guarantees. As markets resolve and capital returns, the queue processes in order.
-
----
-
-## Risks
-
-Per-market LP loss is bounded at `α * ln(bucketCount)`. For a typical market (alpha = 3,333 USDC, 16 buckets), that's ~$9,240 max. The 20% per-market cap limits concentration risk — even correlated losses across several markets won't drain the Vault.
-
-Withdrawals are not instant. If capital is fully deployed, you wait until markets resolve. During volatile periods this could take days.
-
----
-
-## Who Should LP?
-
-LPs who want passive, diversified exposure to prediction market fee flow without picking individual markets. You need a time horizon longer than a single market cycle, and you need to be comfortable with bounded but real downside risk. Not suitable if you need instant liquidity.
-
----
-
-## Quick Start
-
-<Steps>
-  <Step title="Connect Wallet">
-    Go to [alpha.skepsis.live](https://alpha.skepsis.live) and connect via Privy or your EVM wallet.
-  </Step>
-  <Step title="Navigate to Vault">
-    Find the Vault section in the app.
-  </Step>
-  <Step title="Deposit USDC">
-    Enter the amount you want to deposit. Receive vault shares.
-  </Step>
-  <Step title="Earn">
-    Your capital is now deployed across every market on Skepsis.
-  </Step>
-</Steps>
-
-<Frame>
-  <img src="/images/vault-overview.png" alt="Vault overview showing deposit interface and earnings" />
+<Frame caption="One vault seeds every market and recycles capital on resolution.">
+  <img src="/images/vault-recycle.svg" alt="LP deposits into one vault, which funds every market and recycles on resolution" />
 </Frame>
-*The Vault dashboard: deposit, track shares, and monitor earnings*
 
-<Frame>
-  <img src="/images/seed-overview.png" alt="Seed overview showing capital deployed across markets" />
-</Frame>
-*See how your capital is deployed across active markets*
+## What liquidity providers get
 
+- One deposit, exposure across every market, not one.
+- Fees earned across all markets the vault backs.
+- Capital that recycles on resolution instead of locking up.
+
+## Bounded risk, guaranteed solvency
+
+LMSR keeps the vault's exposure bounded and known. The pool balance is always at least the maximum possible payout, so every market is solvent on every trade. The alpha parameter sets the depth and bounds the worst-case loss on a market to a known fraction of the liquidity committed. See [risks and returns](/for-lps/risks-and-returns) and [economics](/how-it-works/economics).
+
+[Alpha decay](/how-it-works/alpha-decay) adds a second layer: as a market nears resolution its liquidity thins, defending the vault against traders acting on late information.
+
+<Note>
+Liquidity is bootstrapped on testnet. Depth is limited and slippage is real on thin markets. Mainnet contracts exist; they are not deployed.
+</Note>

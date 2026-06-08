@@ -1,156 +1,29 @@
 ---
-title: "Quick Start Guide"
+title: "Quick start"
+description: "Claim test USDC and take your first position on Arbitrum Sepolia."
 ---
 
+Skepsis runs on Arbitrum Sepolia. Trading uses test USDC. No real funds.
 
-**Time needed: 2 minutes**
+<Steps>
+  <Step title="Open the app">
+    Go to [alpha.skepsis.live/markets](https://alpha.skepsis.live/markets).
+  </Step>
+  <Step title="Sign in">
+    Sign in with email or Google. A wallet is created for you, or connect your own.
+  </Step>
+  <Step title="Claim test USDC">
+    Claim test USDC from the faucet in the app.
+  </Step>
+  <Step title="Take a position">
+    Open a market, choose the range you expect, set your size, and confirm. Your payoff is shown before you commit.
+  </Step>
+</Steps>
 
-Go from zero to your first prediction, free on testnet.
+## Access
 
----
+Skepsis is in private beta. Access opens in waves. If you have a code, enter it in the app. If not, request access at [skepsis.live](https://skepsis.live).
 
-## Prerequisites
-
-**New to crypto?** Just need an email or social account. Sign in with Privy (email, Google, Twitter) and an embedded wallet is created for you. Claim free test USDC from the faucet.
-
-**Have a wallet?** Connect MetaMask, Rabby, or any EVM wallet. Get test AVAX from the [Avalanche Fuji Faucet](https://faucet.avax.network/), then claim free test USDC.
-
----
-
-## Step 1: Connect & Get Test USDC
-
-1. Go to [alpha.skepsis.live](https://alpha.skepsis.live/markets)
-2. Click **"Connect Wallet"** in the top right
-3. Choose your method:
-   - **Sign in with Privy:** Email, Google, or social login
-   - **MetaMask / Rabby / WalletConnect:** For EVM wallet users
-4. **Claim test USDC** from the faucet (button appears after connecting)
-
-<Frame>
-  <img src="/images/connect-wallet.png" alt="Connect wallet with Google Login" />
-</Frame>
-*Sign in with Privy for instant access, or connect your EVM wallet*
-
----
-
-## Step 2: Browse Markets
-
-Explore active markets across categories — crypto, politics, sports, weather, tech.
-
-<Frame>
-  <img src="/images/browse-markets.png" alt="Active market cards" />
-</Frame>
-*Browse active markets like AVAX and BTC price predictions*
-
-**Click any market card** to see details and place a bet.
-
----
-
-## Step 3: Understand the Market
-
-When you open a market, you'll see:
-
-### The Probability Distribution
-A chart showing where the crowd thinks the outcome will land. Peaks = high probability. Valleys = potential opportunities.
-
-### Current Range Odds
-Example for a BTC market:
-```
-$94,000 - $95,000  →  12x odds (8% probability)
-$95,000 - $96,000  →  6x odds (17% probability)
-$96,000 - $97,000  →  4x odds (25% probability)  ← Most popular
-$97,000 - $98,000  →  5x odds (20% probability)
-$98,000 - $99,000  →  8x odds (12% probability)
-```
-
-Higher odds = lower probability but bigger payout. Look for ranges where you disagree with the crowd.
-
----
-
-## Step 4: Place Your Bet
-
-1. **Select your range.** Click and drag on the chart to highlight your target range.
-2. **Enter your amount.** How much USDC to risk.
-3. **Review your quote:**
-   - **Cost:** What you pay
-   - **Potential payout:** What you win if correct
-   - **Odds:** Your multiplier (e.g., 5.2x)
-4. **Click "Place Bet"**
-5. **Confirm in your wallet**
-
-<Frame>
-  <img src="/images/range-selection.gif" alt="Selecting a range and placing a bet" />
-</Frame>
-*Select range, enter amount, see your guaranteed payout*
-
-### Example Bet
-
-> **Market:** BTC 1-hour price
-> **Your range:** $96,500 - $97,000
-> **Your bet:** $50 USDC
-> **Your odds:** 4.2x
-> **If you win:** $210 USDC (guaranteed)
-> **If you lose:** $0 (you lose your $50)
-
----
-
-## Step 5: Track & Claim
-
-### While the Market is Open
-- View your position in **"My Positions"**
-- See real-time probability changes
-- Optionally sell your position before resolution
-
-### After Resolution
-1. The oracle reports the actual outcome
-2. Check if it landed in your range
-3. If you won: Click **"Claim Winnings"** to receive your payout
-4. If you lost: Your stake is forfeited
-
-### Your Portfolio
-
-Track active positions, sold positions, claimable winnings, and overall stats (PNL, win rate, realized gains) from the **Portfolio** page.
-
-<Frame>
-  <img src="/images/portfolio.png" alt="Portfolio page showing positions, PNL, win rate, and realized gains" />
-</Frame>
-*Track active bets, claim winnings, and monitor performance*
-
----
-
-## Step 6: Provide Liquidity (Optional)
-
-The Vault lets you earn passive yield by funding every market on Skepsis.
-
-1. Navigate to the **Vault** page
-2. Deposit USDC into the shared liquidity pool
-3. Receive vault shares representing your slice
-4. Earn fees from every trade across every market
-
-<Frame>
-  <img src="/images/vault-overview.png" alt="Vault overview showing deposit, shares, and earnings" />
-</Frame>
-*The Vault: deposit once, earn from every market*
-
-<Frame>
-  <img src="/images/seed-overview.png" alt="LP seed overview showing capital deployment across markets" />
-</Frame>
-*Capital is automatically deployed across all active markets*
-
-The Vault spreads capital across all markets automatically. When markets resolve, capital returns and redeploys to new markets. See the [Vault deep dive](/for-lps/vault-overview) for details.
-
----
-
-## Done
-
-You've placed your first continuous outcome prediction on testnet. All USDC on testnet is test currency.
-
-**Next:** [Understanding Ranges](/for-traders/understanding-ranges) · [Strategies](/for-traders/strategies) · [Bitcoin Hour example](/for-traders/examples/bitcoin-hour)
-
----
-
-## Need Help?
-
-- **Telegram:** [Join our community](https://t.me/skepsis_market)
-- **X:** [@skepsis_market](https://x.com/skepsis_market)
-- **FAQ:** [Common questions answered](/faq)
+<Note>
+Liquidity is bootstrapped on testnet. Slippage is real on thin markets.
+</Note>

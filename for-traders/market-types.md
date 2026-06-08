@@ -1,39 +1,28 @@
 ---
-title: "Market Types"
+title: "Market types"
+description: "Range, time, and options. Every number you have a view on is tradable."
 ---
 
-## Price Prediction Markets
+Skepsis prices three shapes of outcome. All three use the same engine: LMSR over a bucket tree, one continuous curve, one shared pool of liquidity.
 
-Markets that resolve based on the price of an asset at a specific time — BTC/USD in 1 hour, ETH at midnight UTC, etc. Typically short duration (minutes to days), resolved by oracle price feeds, with ranges spanning ±5-20% from spot.
+<CardGroup cols={3}>
+  <Card title="Range" icon="chart-column">
+    Where a number lands. BTC monthly close, CPI print, ETH/BTC ratio, stETH yield. You pick the band.
+  </Card>
+  <Card title="Time" icon="clock">
+    When a level is reached. The first time a price tags a threshold, settled on a Chainlink feed with a time gate.
+  </Card>
+  <Card title="Options" icon="list">
+    One of N named outcomes. All options sit on one curve with shared depth, not N separate yes/no books.
+  </Card>
+</CardGroup>
 
-1-hour markets are good for learning since you get fast feedback. Watch for scheduled catalysts (Fed, earnings) and size your range width to the asset's volatility.
+## Why one curve matters
 
----
+Stack ten binary markets to approximate a range and you fragment the liquidity ten ways. Each book is thin; each spread is wide. Skepsis prices the whole range on a single curve, so depth is shared across every bucket. The same holds for options: N choices, one market, one pool, instead of N separate contracts competing for the same capital.
 
-## Date Prediction Markets
+That is what makes **every range tradable**: you are not waiting for a counterparty on your exact strike. The curve always quotes a price.
 
-Markets that resolve based on *when* something happens — GPT-5 release, GTA 6 launch, next iPhone announcement. These run weeks to months, resolved by official announcements.
+## What is not listed
 
-Credible leakers are alpha here. Companies have release cadences worth studying, and round dates (Jan 1, Q1 start) tend to be overpriced due to anchoring.
-
----
-
-## Measurement Markets
-
-Markets that resolve on a measured quantity — tomorrow's high temperature in NYC, Super Bowl final score, box office opening weekend. Duration varies (hours to weeks), resolved by official sources (NOAA, Vegas, Box Office Mojo).
-
-Historical data is your edge. Weather services disagree with each other, and local knowledge sometimes beats models.
-
-## Resolution
-
-All market types follow the same flow: the measurement period ends, an authoritative source reports the value, the value maps to a winning bucket, and winners claim.
-
-**Price markets** use oracle feeds (Pyth, Chainlink, exchange APIs) and resolve automatically. **Date markets** require clear resolution criteria — "public release" vs "beta release" matters, and the market description specifies which counts. **Measurement markets** use official reporting bodies as their source of truth.
-
-## Picking a Market
-
-If you do TA, start with short-duration price markets. If you follow industry news, date markets reward that research. Domain expertise (weather, sports, entertainment) maps directly to measurement markets. When in doubt, 1-hour price markets give the fastest feedback loop for learning the platform.
-
-## Coming Soon
-
-**Conditional markets:** "If [Event A], what will [Outcome B] be?"
+Skepsis is curated and numerical. Markets resolve from a named oracle feed. Subjective, attribution, and sports-outcome markets are out of scope by design.

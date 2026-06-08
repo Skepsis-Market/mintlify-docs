@@ -1,74 +1,27 @@
 ---
-title: "Alpha Decay"
+title: "Alpha decay"
+description: "Liquidity thins toward resolution to defend LPs against late-information snipers."
 ---
 
+Alpha is the LMSR liquidity parameter. Higher alpha means deeper liquidity and smaller price impact per trade. Skepsis decays alpha over a market's life.
 
-Spreads start wide and tighten over time, protecting early markets from whale manipulation while converging toward efficient pricing.
+## How it works
 
----
-
-## How It Works
-
-Alpha (α) is the liquidity parameter that controls price impact per trade. A high α means prices barely move; a low α means each trade has more impact.
-
-With alpha decay, markets start at a high α and linearly decrease it:
+Alpha decays linearly from an initial value to a floor over a configured window. The floor is at least ten percent of the initial value, so the market never goes fully illiquid. Decay is applied in epochs and checkpointed on-chain.
 
 ```
-Day 1:  α = 3,333  (wide spreads, whale-resistant)
-Day 3:  α = 2,500  (moderate spreads)
-Day 5:  α = 1,667  (tighter)
-Day 7:  α = 1,000  (tight spreads, efficient pricing)
+Start of life:  alpha = high   (deep book, small price impact)
+Toward end:     alpha = floor  (shallow book, large price impact)
 ```
 
-Early bettors pay wider spreads — effectively a premium for acting on less information. As α decays, prices tighten and the market becomes more responsive to informed trading.
+## Why it decays down
 
----
+Near resolution, information asymmetry is at its worst. A trader with a late read on the outcome can pick off liquidity providers, and a deep book would let them size up. Thinning the book as resolution approaches limits how much a late-information trader can extract. The contract calls this sniper defense.
 
-## Impact on Traders
+The cost lands where it belongs. Early, when information is even, the book is deep and trading is cheap. Late, when information is lopsided, the book is shallow and large trades pay for the asymmetry they carry.
 
-At high α, a $500 bet might move the price 0.3%. By the time α has decayed to its floor, that same bet moves the price significantly more. This creates an early-bird premium:
+## What it means for you
 
-```
-Alice bets at α = 3,333: Gets 6x odds on her range
-Bob bets same range at α = 1,000: Gets 3.5x odds
-
-Same prediction. Alice got paid more for betting first.
-```
-
-If you have an edge, bet early.
-
----
-
-## Impact on LPs
-
-Alpha decay releases surplus reserves back to the Vault as spreads tighten:
-
-```
-Market opens: α = 3,333 → Required reserves: $9,240
-Market matures: α = 1,000 → Required reserves: $2,772
-
-Surplus released: $6,468 → Vault harvests, LPs get capital back early
-```
-
-The Vault doesn't have to wait for resolution to start recouping capital.
-
----
-
-## Configuration
-
-Market creators set alpha decay parameters at creation:
-
-- **Initial α** — Starting liquidity depth
-- **Final α** — Floor value (spreads never go tighter than this)
-- **Decay start** — When decay begins (e.g., 2 hours after open)
-- **Duration** — How long until α reaches the floor
-
-```
-Example:
-Initial α = 3,333
-Final α = 1,000 (can't go below 30% of initial)
-Start: 1 hour after market opens
-Duration: 6 hours
-
-→ Spreads narrow linearly over 6 hours
-```
+- Trading early is cheaper: deeper book, smaller impact.
+- Trading late costs more price impact, by design.
+- Liquidity providers hold a bounded, defended position through resolution. See [the vault](/for-lps/vault-overview).

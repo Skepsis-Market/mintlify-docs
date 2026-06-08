@@ -1,117 +1,51 @@
 ---
 title: "Introduction"
-description: "A continuous outcome prediction market. Bet on exact ranges, not binary yes/no."
+description: "Skepsis is a continuous-outcome prediction market. Price the range a number lands in, not a yes or no."
 ---
 
-<img
-  className="block dark:hidden"
-  src="/logo/skepsis-light.png"
-  alt="Skepsis Logo"
-  width="200"
-/>
+## What Skepsis is
 
-## What Is Skepsis
+Skepsis is a continuous-outcome prediction market. Instead of yes or no, you price the range a number lands in. A tighter range pays more, because it is harder to hit.
 
-Skepsis is a **continuous outcome market**. Instead of binary Yes/No positions, you bet on the exact range where an outcome will land. Narrower conviction means better odds.
+Binary markets price direction. They pay nothing when the number lands a tick off the strike. Skepsis prices magnitude, so the payoff scales with how close you are. That gap, between the outcome you priced and the outcome that paid, is basis risk. Skepsis closes it.
 
-### The Precision Premium
+> Price the number, not the direction.
 
-<Frame caption="Same market move, higher payout for predicting a specific range.">
-  <img src="/images/precision-chart-v2.svg" alt="Precision Premium Chart Comparison" />
-</Frame>
+## One worked example
 
-Bitcoin is at **\$95,000**. You're confident it ends the week between **\$98,000 and \$99,000**.
+Bitcoin is at $95,000. You expect it to close the month between $98,000 and $99,000.
 
-Binary bet vs. Skepsis bet:
-
-| | Binary Market (Polymarket) | Skepsis |
+| | Binary market | Skepsis |
 |---|---|---|
-| **The Question** | "Will BTC > \$97k?" | "Price of BTC?" |
-| **Your Bet** | YES | Range: \$98k - \$99k |
-| **The Crowd** | 50/50 split | Spread across \$90k-\$110k |
-| **The Odds** | ~2.0x (Double your money) | **~10.0x (Ten times your money)** |
-| **The Result** | BTC hits \$98.5k. You win. | BTC hits \$98.5k. You win. |
+| The question | Will BTC close above $97k? | Where does BTC close? |
+| Your position | Yes | Range: $98k to $99k |
+| Outcome $120k | You win the same | You do not win |
+| Outcome $98.5k | You win | You win, and precision paid |
 
-On the binary market, "it stops at \$99k" is priced the same as "it goes up." Skepsis pays for precision.
+On the binary, "stops at $98.5k" is priced the same as "runs to $120k". Skepsis pays for being right about how much.
 
----
-
-## Range Betting vs. Binary
-
-<Frame caption="Binary markets spread capital across a wide outcome space. Range markets concentrate it.">
-  <img src="/images/outcome-ui.svg" alt="Outcome Resolution Comparison" />
+<Frame caption="Binary pays a step. Skepsis pays a continuous curve.">
+  <img src="/images/basis-risk.svg" alt="Binary step payoff versus Skepsis continuous payoff" />
 </Frame>
 
-*   **Binary markets** cover broad targets ("Up", "Down", "Yes", "No"). Low miss rate, but low reward for accuracy.
-*   **Range markets** are for traders with a specific thesis. Narrower range = higher payout when correct.
-
----
-
-## Key Properties
+## Two ideas to take away
 
 <CardGroup cols={2}>
-  <Card title="Every Range, Always Tradeable" icon="water">
-    No thin order books. The Vault backs every market with protocol-owned liquidity, so every range has depth.
+  <Card title="Every range is tradable" icon="chart-line" href="/for-traders/market-types">
+    Range, time, and one-of-N options markets, priced on one continuous curve. Any number you have a view on.
   </Card>
-  <Card title="Continuous Outcomes" icon="brain">
-    Bet on "stable", "extreme volatility", or "slow bleed" -- not just "up/down".
-  </Card>
-  <Card title="Deterministic Payouts" icon="calculator">
-    Payout is locked at trade time. No parimutuel pools, no post-trade odds drift.
-  </Card>
-  <Card title="Built on Avalanche" icon="bolt">
-    Fast finality and low fees. Trade on news in real-time.
+  <Card title="One vault behind every market" icon="building-columns" href="/for-lps/vault-overview">
+    A single ERC-4626 vault seeds every market and recycles capital on resolution. No dead pools.
   </Card>
 </CardGroup>
 
----
+## The essentials
 
-## Try It Risk-Free
+- Chain: Arbitrum Sepolia. Resolution: Chainlink, numerical and time-gated.
+- Pricing: LMSR over a bucket tree. Positions: ERC-1155. Liquidity: one ERC-4626 vault.
+- Curated, not permissionless. Numerical outcomes only.
+- Private beta. Access opens in waves.
 
-<Info>
-**Skepsis is currently on Testnet.** This means:
-
-- **No real money required.** Claim free test USDC from our faucet.
-- **Easy onboarding.** Sign in with Privy (email, social, or wallet).
-- **EOA wallets welcome.** MetaMask, Rabby, or any EVM wallet.
-
-Try strategies, learn the mechanics, and provide feedback, all without risking a cent.
-</Info>
-
----
-
-## How It Works
-
-<Steps>
-  <Step title="Pick a Market">
-    Choose a market (Price, Date, or Data).
-  </Step>
-  <Step title="Define Your Range">
-    Select the specific bounds (e.g., "\$98k - \$99k").
-  </Step>
-  <Step title="Lock In Odds">
-    See your multiplier immediately.
-  </Step>
-  <Step title="Place Your Bet">
-    Confirm in USDC.
-  </Step>
-</Steps>
-
----
-
-## Explore the Docs
-
-<CardGroup cols={2}>
-  <Card title="Quick Start" icon="rocket" href="/overview/quick-start">
-    Place your first bet in 5 minutes
-  </Card>
-  <Card title="Understanding Ranges" icon="bullseye" href="/for-traders/understanding-ranges">
-    How range betting works
-  </Card>
-  <Card title="Skepsis vs. Binary Markets" icon="scale-balanced" href="/comparisons/vs-binary-markets">
-    Structural differences from yes/no markets
-  </Card>
-  <Card title="LMSR Explained" icon="flask" href="/how-it-works/lmsr-for-humans">
-    The pricing algorithm behind market liquidity
-  </Card>
-</CardGroup>
+<Card title="Start trading" icon="arrow-right" href="/overview/quick-start">
+  Claim test USDC and take your first position.
+</Card>
