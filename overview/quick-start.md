@@ -3,7 +3,7 @@ title: "Quick start"
 description: "Claim test USDC and take your first position on Arbitrum Sepolia."
 ---
 
-Skepsis runs on Arbitrum Sepolia. Trading uses test USDC. No real funds.
+Skepsis runs on Arbitrum Sepolia. Trading uses test USDC, so you can learn the mechanism with nothing at risk.
 
 <Steps>
   <Step title="Open the app">
@@ -16,7 +16,7 @@ Skepsis runs on Arbitrum Sepolia. Trading uses test USDC. No real funds.
     Claim test USDC from the faucet in the app.
   </Step>
   <Step title="Take a position">
-    Open a market, choose the range you expect, set your size, and confirm. Your payoff is shown before you commit.
+    Pick a market that fits your view, a crypto price, a macro print, or a yield. Choose the range you expect, set your size, and confirm. Your payoff is shown before you commit.
   </Step>
 </Steps>
 
